@@ -7,6 +7,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <p> <p>	: "¶"	paragraph # PILCROW SIGN
 
+<Multi_key> <underscore> <a>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
+<Multi_key> <a> <underscore>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
+<Multi_key> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
+<Multi_key> <o> <underscore>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
+
 
 # Latin Extended-A
 
@@ -191,8 +196,114 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Phonetic Extensions
 
+<Multi_key> <asciicircum> <underscore> <A>	: "ᴬ"	U1D2C # MODIFIER LETTER CAPITAL A
+<Multi_key> <asciicircum> <underscore> <AE>	: "ᴭ"	U1D2D # MODIFIER LETTER CAPITAL AE
+<Multi_key> <asciicircum> <underscore> <B>	: "ᴮ"	U1D2E # MODIFIER LETTER CAPITAL B
+
+<Multi_key> <asciicircum> <underscore> <D>	: "ᴰ"	U1D30 # MODIFIER LETTER CAPITAL D
+<Multi_key> <asciicircum> <underscore> <E>	: "ᴱ"	U1D31 # MODIFIER LETTER CAPITAL E
+<Multi_key> <asciicircum> <underscore> <U018E>	: "ᴲ"	U1D32 # MODIFIER LETTER CAPITAL REVERSED E
+<Multi_key> <asciicircum> <underscore> <G>	: "ᴳ"	U1D33 # MODIFIER LETTER CAPITAL G
+<Multi_key> <asciicircum> <underscore> <H>	: "ᴴ"	U1D34 # MODIFIER LETTER CAPITAL H
+<Multi_key> <asciicircum> <underscore> <I>	: "ᴵ"	U1D35 # MODIFIER LETTER CAPITAL I
+<Multi_key> <asciicircum> <underscore> <J>	: "ᴶ"	U1D36 # MODIFIER LETTER CAPITAL J
+<Multi_key> <asciicircum> <underscore> <K>	: "ᴷ"	U1D37 # MODIFIER LETTER CAPITAL K
+<Multi_key> <asciicircum> <underscore> <L>	: "ᴸ"	U1D38 # MODIFIER LETTER CAPITAL L
+<Multi_key> <asciicircum> <underscore> <M>	: "ᴹ"	U1D39 # MODIFIER LETTER CAPITAL M
+<Multi_key> <asciicircum> <underscore> <N>	: "ᴺ"	U1D3A # MODIFIER LETTER CAPITAL N
+
+<Multi_key> <asciicircum> <underscore> <O>	: "ᴼ"	U1D3C # MODIFIER LETTER CAPITAL O
+<Multi_key> <asciicircum> <underscore> <U0222>	: "ᴽ"	U1D3D # MODIFIER LETTER CAPITAL OU
+<Multi_key> <asciicircum> <underscore> <P>	: "ᴾ"	U1D3E # MODIFIER LETTER CAPITAL P
+<Multi_key> <asciicircum> <underscore> <R>	: "ᴿ"	U1D3F # MODIFIER LETTER CAPITAL R
+<Multi_key> <asciicircum> <underscore> <T>	: "ᵀ"	U1D40 # MODIFIER LETTER CAPITAL T
+<Multi_key> <asciicircum> <underscore> <U>	: "ᵁ"	U1D41 # MODIFIER LETTER CAPITAL U
+<Multi_key> <asciicircum> <underscore> <W>	: "ᵂ"	U1D42 # MODIFIER LETTER CAPITAL W
+<Multi_key> <asciicircum> <underscore> <a>	: "ᵃ"	U1D43 # MODIFIER LETTER SMALL A
+<Multi_key> <asciicircum> <underscore> <U0250>	: "ᵄ"	U1D44 # MODIFIER LETTER SMALL TURNED A
+<Multi_key> <asciicircum> <underscore> <U0251>	: "ᵅ"	U1D45 # MODIFIER LETTER SMALL ALPHA
+<Multi_key> <asciicircum> <underscore> <U1D02>	: "ᵆ"	U1D46 # MODIFIER LETTER SMALL TURNED AE
+<Multi_key> <asciicircum> <underscore> <b>	: "ᵇ"	U1D47 # MODIFIER LETTER SMALL B
+<Multi_key> <asciicircum> <underscore> <d>	: "ᵈ"	U1D48 # MODIFIER LETTER SMALL D
+<Multi_key> <asciicircum> <underscore> <e>	: "ᵉ"	U1D49 # MODIFIER LETTER SMALL E
+<Multi_key> <asciicircum> <underscore> <schwa>	: "ᵊ"	U1D4A # MODIFIER LETTER SMALL SCHWA
+<Multi_key> <asciicircum> <underscore> <U025B>	: "ᵋ"	U1D4B # MODIFIER LETTER SMALL OPEN E
+<Multi_key> <asciicircum> <underscore> <U1D08>	: "ᵌ"	U1D4C # MODIFIER LETTER SMALL TURNED OPEN E
+<Multi_key> <asciicircum> <underscore> <g>	: "ᵍ"	U1D4D # MODIFIER LETTER SMALL G
+<Multi_key> <asciicircum> <underscore> <U1D09>	: "ᵎ"	U1D4E # MODIFIER LETTER SMALL TURNED I
+<Multi_key> <asciicircum> <underscore> <k>	: "ᵏ"	U1D4F # MODIFIER LETTER SMALL K
+<Multi_key> <asciicircum> <underscore> <m>	: "ᵐ"	U1D50 # MODIFIER LETTER SMALL M
+<Multi_key> <asciicircum> <underscore> <eng>	: "ᵑ"	U1D51 # MODIFIER LETTER SMALL ENG
+<Multi_key> <asciicircum> <underscore> <o>	: "ᵒ"	U1D52 # MODIFIER LETTER SMALL O
+<Multi_key> <asciicircum> <underscore> <U0254>	: "ᵓ"	U1D53 # MODIFIER LETTER SMALL OPEN O
+<Multi_key> <asciicircum> <underscore> <U1D16>	: "ᵔ"	U1D54 # MODIFIER LETTER SMALL TOP HALF O
+<Multi_key> <asciicircum> <underscore> <U1D17>	: "ᵕ"	U1D55 # MODIFIER LETTER SMALL BOTTOM HALF O
+<Multi_key> <asciicircum> <underscore> <p>	: "ᵖ"	U1D56 # MODIFIER LETTER SMALL P
+<Multi_key> <asciicircum> <underscore> <t>	: "ᵗ"	U1D57 # MODIFIER LETTER SMALL T
+<Multi_key> <asciicircum> <underscore> <u>	: "ᵘ"	U1D58 # MODIFIER LETTER SMALL U
+<Multi_key> <asciicircum> <underscore> <U1D1D>	: "ᵙ"	U1D59 # MODIFIER LETTER SMALL SIDEWAYS U
+<Multi_key> <asciicircum> <underscore> <U026F>	: "ᵚ"	U1D5A # MODIFIER LETTER SMALL TURNED M
+<Multi_key> <asciicircum> <underscore> <v>	: "ᵛ"	U1D5B # MODIFIER LETTER SMALL V
+<Multi_key> <asciicircum> <underscore> <U1D25>	: "ᵜ"	U1D5C # MODIFIER LETTER SMALL AIN
+<Multi_key> <asciicircum> <underscore> <Greek_beta>	: "ᵝ"	U1D5D # MODIFIER LETTER SMALL BETA
+<Multi_key> <asciicircum> <underscore> <Greek_gamma>	: "ᵞ"	U1D5E # MODIFIER LETTER SMALL GREEK GAMMA
+<Multi_key> <asciicircum> <underscore> <Greek_delta>	: "ᵟ"	U1D5F # MODIFIER LETTER SMALL DELTA
+<Multi_key> <asciicircum> <underscore> <Greek_phi>	: "ᵠ"	U1D60 # MODIFIER LETTER SMALL GREEK PHI
+<Multi_key> <asciicircum> <underscore> <Greek_chi>	: "ᵡ"	U1D61 # MODIFIER LETTER SMALL CHI
+
+<Multi_key> <asciicircum> <underscore> <Cyrillic_en>	: "ᵸ"	U1D78 # MODIFIER LETTER CYRILLIC EN
+
+<Multi_key> <slash> <U026A>	: "ᵻ"	U1D7B # LATIN SMALL CAPITAL LETTER I WITH STROKE
+<Multi_key> <U026A> <slash>	: "ᵻ"	U1D7B # LATIN SMALL CAPITAL LETTER I WITH STROKE
+<Multi_key> <slash> <U0269>	: "ᵼ"	U1D7C # LATIN SMALL LETTER IOTA WITH STROKE
+<Multi_key> <U0269> <slash>	: "ᵼ"	U1D7C # LATIN SMALL LETTER IOTA WITH STROKE
 <Multi_key> <slash> <p>	: "ᵽ"	U1D7D # LATIN SMALL LETTER P WITH STROKE
 <Multi_key> <p> <slash>	: "ᵽ"	U1D7D # LATIN SMALL LETTER P WITH STROKE
+<Multi_key> <slash> <U1D1C>	: "ᵾ"	U1D7E # LATIN SMALL CAPITAL LETTER U WITH STROKE
+<Multi_key> <U1D1C> <slash>	: "ᵾ"	U1D7E # LATIN SMALL CAPITAL LETTER U WITH STROKE
+<Multi_key> <slash> <U028A>	: "ᵿ"	U1D7F # LATIN SMALL LETTER UPSILON WITH STROKE
+<Multi_key> <U028A> <slash>	: "ᵿ"	U1D7F # LATIN SMALL LETTER UPSILON WITH STROKE
+
+
+# Phonetic Extensions Supplement
+
+<Multi_key> <asciicircum> <underscore> <U0252>	: "ᶛ"	U1D9B # MODIFIER LETTER SMALL TURNED ALPHA
+<Multi_key> <asciicircum> <underscore> <c>	: "ᶜ"	U1D9C # MODIFIER LETTER SMALL C
+<Multi_key> <asciicircum> <underscore> <U0255>	: "ᶝ"	U1D9D # MODIFIER LETTER SMALL C WITH CURL
+<Multi_key> <asciicircum> <underscore> <eth>	: "ᶞ"	U1D9E # MODIFIER LETTER SMALL ETH
+<Multi_key> <asciicircum> <underscore> <U025C>	: "ᶟ"	U1D9F # MODIFIER LETTER SMALL REVERSED OPEN E
+<Multi_key> <asciicircum> <underscore> <f>	: "ᶠ"	U1DA0 # MODIFIER LETTER SMALL F
+<Multi_key> <asciicircum> <underscore> <U025F>	: "ᶡ"	U1DA1 # MODIFIER LETTER SMALL DOTLESS J WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U0261>	: "ᶢ"	U1DA2 # MODIFIER LETTER SMALL SCRIPT G
+<Multi_key> <asciicircum> <underscore> <U0265>	: "ᶣ"	U1DA3 # MODIFIER LETTER SMALL TURNED H
+<Multi_key> <asciicircum> <underscore> <U0268>	: "ᶤ"	U1DA4 # MODIFIER LETTER SMALL I WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U0269>	: "ᶥ"	U1DA5 # MODIFIER LETTER SMALL IOTA
+<Multi_key> <asciicircum> <underscore> <U026A>	: "ᶦ"	U1DA6 # MODIFIER LETTER SMALL CAPITAL I
+<Multi_key> <asciicircum> <underscore> <U1D7B>	: "ᶧ"	U1DA7 # MODIFIER LETTER SMALL CAPITAL LETTER I WIH STROKE
+<Multi_key> <asciicircum> <underscore> <U029D>	: "ᶨ"	U1DA8 # MODIFIER LETTER SMALL J WITH CROSSED-TAIL
+<Multi_key> <asciicircum> <underscore> <U026D>	: "ᶩ"	U1DA9 # MODIFIER LETTER SMALL L WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U1D85>	: "ᶪ"	U1DAA # MODIFIER LETTER SMALL L WITH PALATAL HOOK
+<Multi_key> <asciicircum> <underscore> <U029F>	: "ᶫ"	U1DAB # MODIFIER LETTER SMALL CAPITAL L
+<Multi_key> <asciicircum> <underscore> <U0271>	: "ᶬ"	U1DAC # MODIFIER LETTER SMALL M WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U0270>	: "ᶭ"	U1DAD # MODIFIER LETTER SMALL TURNED M WITH LONG LEG
+<Multi_key> <asciicircum> <underscore> <U0272>	: "ᶮ"	U1DAE # MODIFIER LETTER SMALL N WITH LEFT HOOK
+<Multi_key> <asciicircum> <underscore> <U0273>	: "ᶯ"	U1DAF # MODIFIER LETTER SMALL N WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U0274>	: "ᶰ"	U1DB0 # MODIFIER LETTER SMALL CAPITAL N
+<Multi_key> <asciicircum> <underscore> <U0275>	: "ᶱ"	U1DB1 # MODIFIER LETTER SMALL BARRED O
+<Multi_key> <asciicircum> <underscore> <U0278>	: "ᶲ"	U1DB2 # MODIFIER LETTER SMALL PHI
+<Multi_key> <asciicircum> <underscore> <U0282>	: "ᶳ"	U1DB3 # MODIFIER LETTER SMALL S WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U0283>	: "ᶴ"	U1DB4 # MODIFIER LETTER SMALL ESH
+<Multi_key> <asciicircum> <underscore> <U01AB>	: "ᶵ"	U1DB5 # MODIFIER LETTER SMALL T WITH PALATAL HOOK
+<Multi_key> <asciicircum> <underscore> <U0289>	: "ᶶ"	U1DB6 # MODIFIER LETTER SMALL U BAR
+<Multi_key> <asciicircum> <underscore> <U028A>	: "ᶷ"	U1DB7 # MODIFIER LETTER SMALL UPSILON
+<Multi_key> <asciicircum> <underscore> <U1D1C>	: "ᶸ"	U1DB8 # MODIFIER LETTER SMALL CAPITAL U
+<Multi_key> <asciicircum> <underscore> <U028B>	: "ᶹ"	U1DB9 # MODIFIER LETTER SMALL V WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U028C>	: "ᶺ"	U1DBA # MODIFIER LETTER SMALL TURNED V
+<Multi_key> <asciicircum> <underscore> <z>	: "ᶻ"	U1DBB # MODIFIER LETTER SMALL Z
+<Multi_key> <asciicircum> <underscore> <U0290>	: "ᶼ"	U1DBC # MODIFIER LETTER SMALL Z WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U0291>	: "ᶽ"	U1DBD # MODIFIER LETTER SMALL Z WITH CURL
+<Multi_key> <asciicircum> <underscore> <ezh>	: "ᶾ"	U1DBE # MODIFIER LETTER SMALL EZH
+<Multi_key> <asciicircum> <underscore> <Greek_theta>	: "ᶿ"	U1DBF # MODIFIER LETTER SMALL THETA
 
 
 # Greek Extended
@@ -616,9 +727,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <slash> <P>	: "Ᵽ"	U2C63 # LATIN CAPITAL LETTER P WITH STROKE
 <Multi_key> <P> <slash>	: "Ᵽ"	U2C63 # LATIN CAPITAL LETTER P WITH STROKE
+
 <Multi_key> <slash> <a>	: "ⱥ"	U2C65 # LATIN SMALL LETTER A WITH STROKE
 <Multi_key> <a> <slash>	: "ⱥ"	U2C65 # LATIN SMALL LETTER A WITH STROKE
 
+<Multi_key> <asciicircum> <underscore> <V>	: "ⱽ"	U2C7D # MODIFIER LETTER CAPITAL V
 
 # Supplemental Punctuation
 
@@ -652,12 +765,90 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <u>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
 <Multi_key> <u> <slash>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
 
+<Multi_key> <asciicircum> <underscore> <C>	: "ꟲ"	UA7F2 # MODIFIER LETTER CAPITAL C
+<Multi_key> <asciicircum> <underscore> <F>	: "ꟳ"	UA7F3 # MODIFIER LETTER CAPITAL F
+<Multi_key> <asciicircum> <underscore> <Q>	: "ꟴ"	UA7F4 # MODIFIER LETTER CAPITAL Q
+<Multi_key> <asciicircum> <underscore> <Hstroke>	: "ꟸ"	UA7F8 # MODIFIER LETTER CAPITAL H WITH STROKE
+<Multi_key> <asciicircum> <underscore> <oe>	: "ꟹ"	UA7F9 # MODIFIER LETTER SMALL LIGATURE OE
+
+
+# Latin Extended-E
+
+<Multi_key> <slash> <U0254>	: "ꬿ"	UAB3F # LATIN SMALL LETTER OPEN O WITH STROKE
+
+<Multi_key> <asciicircum> <underscore> <UA727>	: "ꭜ"	UAB5C # MODIFIER LETTER SMALL HENG
+<Multi_key> <asciicircum> <underscore> <UAB37>	: "ꭝ"	UAB5D # MODIFIER LETTER SMALL L WITH INVERTED LAZY S
+<Multi_key> <asciicircum> <underscore> <U026B>	: "ꭞ"	UAB5E # MODIFIER LETTER SMALL L WITH MIDDLE TILDE
+<Multi_key> <asciicircum> <underscore> <UAB52>	: "ꭟ"	UAB5F # MODIFIER LETTER SMALL U WITH LEFT HOOK
+
+<Multi_key> <asciicircum> <underscore> <U028D>	: "ꭩ"	UAB69 # MODIFIER LETTER SMALL TURNED W
+
 
 # Alphabetic Presentation Forms
 
 <Multi_key> <f> <t>	: "ﬅ"	Ufb05 # LATIN SMALL LIGATURE LONG S T
 <Multi_key> <U017F> <t>	: "ﬅ"	Ufb05 # LATIN SMALL LIGATURE LONG S T
 <Multi_key> <s> <t>	: "ﬆ"	Ufb06 # LATIN SMALL LIGATURE ST
+
+
+# Latin Extended-F
+
+<Multi_key> <asciicircum> <underscore> <U02D0>	: "𐞁"	U10781 # MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON
+<Multi_key> <asciicircum> <underscore> <U02D1>	: "𐞂"	U10782 # MODIFIER LETTER SUPERSCRIPT HALF TRIANGULAR COLON
+<Multi_key> <asciicircum> <underscore> <ae>	: "𐞃"	U10783 # MODIFIER LETTER SMALL AE
+<Multi_key> <asciicircum> <underscore> <U0299>	: "𐞄"	U10784 # MODIFIER LETTER SMALL CAPITAL B
+<Multi_key> <asciicircum> <underscore> <U0253>	: "𐞅"	U10785 # MODIFIER LETTER SMALL B WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U02A3>	: "𐞇"	U10787 # MODIFIER LETTER SMALL DZ DIGRAPH
+<Multi_key> <asciicircum> <underscore> <UAB66>	: "𐞈"	U10788 # MODIFIER LETTER SMALL DZ DIGRAPH WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U02A5>	: "𐞉"	U10789 # MODIFIER LETTER SMALL DZ DIGRAPH WITH CURL
+<Multi_key> <asciicircum> <underscore> <U02A4>	: "𐞊"	U1078A # MODIFIER LETTER SMALL DEZH DIGRAPH
+<Multi_key> <asciicircum> <underscore> <U0256>	: "𐞋"	U1078B # MODIFIER LETTER SMALL D WITH TAIL
+<Multi_key> <asciicircum> <underscore> <U0257>	: "𐞌"	U1078C # MODIFIER LETTER SMALL D WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U1D91>	: "𐞍"	U1078D # MODIFIER LETTER SMALL D WITH HOOK AND TAIL
+<Multi_key> <asciicircum> <underscore> <U0258>	: "𐞎"	U1078E # MODIFIER LETTER SMALL REVERSED E
+<Multi_key> <asciicircum> <underscore> <U025E>	: "𐞏"	U1078F # MODIFIER LETTER SMALL CLOSED REVERSED OPEN E
+<Multi_key> <asciicircum> <underscore> <U02A9>	: "𐞐"	U10790 # MODIFIER LETTER SMALL FENG DIGRAPH
+<Multi_key> <asciicircum> <underscore> <U0264>	: "𐞑"	U10791 # MODIFIER LETTER SMALL RAMS HORN
+<Multi_key> <asciicircum> <underscore> <U0262>	: "𐞒"	U10792 # MODIFIER LETTER SMALL CAPITAL G
+<Multi_key> <asciicircum> <underscore> <U0260>	: "𐞓"	U10793 # MODIFIER LETTER SMALL G WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U029B>	: "𐞔"	U10794 # MODIFIER LETTER SMALL CAPITAL G WITH HOOK
+<Multi_key> <asciicircum> <underscore> <hstroke>	: "𐞕"	U10795 # MODIFIER LETTER SMALL H WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U029C>	: "𐞖"	U10796 # MODIFIER LETTER SMALL CAPITAL H
+<Multi_key> <asciicircum> <underscore> <U0267>	: "𐞗"	U10797 # MODIFIER LETTER SMALL HENG WITH HOOK
+<Multi_key> <asciicircum> <underscore> <U0284>	: "𐞘"	U10798 # MODIFIER LETTER SMALL DOTLESS J WITH STROKE AND HOOK
+<Multi_key> <asciicircum> <underscore> <U02AA>	: "𐞙"	U10799 # MODIFIER LETTER SMALL LS DIGRAPH
+<Multi_key> <asciicircum> <underscore> <U02AB>	: "𐞚"	U1079A # MODIFIER LETTER SMALL LZ DIGRAPH
+<Multi_key> <asciicircum> <underscore> <U026C>	: "𐞛"	U1079B # MODIFIER LETTER SMALL L WITH BELT
+<Multi_key> <asciicircum> <underscore> <U1DF04>	: "𐞜"	U1079C # MODIFIER LETTER SMALL CAPITAL L WITH BELT
+<Multi_key> <asciicircum> <underscore> <UA78E>	: "𐞝"	U1079D # MODIFIER LETTER SMALL L WITH RETROFLEX HOOK AND BELT
+<Multi_key> <asciicircum> <underscore> <U026E>	: "𐞞"	U1079E # MODIFIER LETTER SMALL LEZH
+<Multi_key> <asciicircum> <underscore> <U1DF05>	: "𐞟"	U1079F # MODIFIER LETTER SMALL LEZH WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U028E>	: "𐞠"	U107A0 # MODIFIER LETTER SMALL TURNED Y
+<Multi_key> <asciicircum> <underscore> <U1DF06>	: "𐞡"	U107A1 # MODIFIER LETTER SMALL TURNED Y WITH BELT
+<Multi_key> <asciicircum> <underscore> <oslash>	: "𐞢"	U107A2 # MODIFIER LETTER SMALL O WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U0276>	: "𐞣"	U107A3 # MODIFIER LETTER SMALL CAPITAL OE
+<Multi_key> <asciicircum> <underscore> <U0277>	: "𐞤"	U107A4 # MODIFIER LETTER SMALL CLOSED OMEGA
+<Multi_key> <asciicircum> <underscore> <q>	: "𐞥"	U107A5 # MODIFIER LETTER SMALL Q
+<Multi_key> <asciicircum> <underscore> <U027A>	: "𐞦"	U107A6 # MODIFIER LETTER SMALL TURNED R WITH LONG LEG
+<Multi_key> <asciicircum> <underscore> <U1DF08>	: "𐞧"	U107A7 # MODIFIER LETTER SMALL R WITH LONG LEG AND RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U027D>	: "𐞨"	U107A8 # MODIFIER LETTER SMALL R WITH TAIL
+<Multi_key> <asciicircum> <underscore> <U027E>	: "𐞩"	U107A9 # MODIFIER LETTER SMALL R WITH FISHHOOK
+<Multi_key> <asciicircum> <underscore> <U0280>	: "𐞪"	U107AA # MODIFIER LETTER SMALL CAPITAL R
+<Multi_key> <asciicircum> <underscore> <U02A8>	: "𐞫"	U107AB # MODIFIER LETTER SMALL TC DIGRAPH WITH CURL
+<Multi_key> <asciicircum> <underscore> <U02A6>	: "𐞬"	U107AC # MODIFIER LETTER SMALL TS DIGRAPH
+<Multi_key> <asciicircum> <underscore> <UAB67>	: "𐞭"	U107AD # MODIFIER LETTER SMALL TS DIGRAPH WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U02A7>	: "𐞮"	U107AE # MODIFIER LETTER SMALL TESH DIGRAPH
+<Multi_key> <asciicircum> <underscore> <U0288>	: "𐞯"	U107AF # MODIFIER LETTER SMALL T WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U2C71>	: "𐞰"	U107B0 # MODIFIER LETTER SMALL V WITH RIGHT HOOK
+<Multi_key> <asciicircum> <underscore> <U028F>	: "𐞲"	U107B2 # MODIFIER LETTER SMALL CAPITAL Y
+<Multi_key> <asciicircum> <underscore> <U02A1>	: "𐞳"	U107B3 # MODIFIER LETTER GLOTTAL STOP WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U02A2>	: "𐞴"	U107B4 # MODIFIER LETTER REVERSED GLOTTAL STOP WITH STROKE
+<Multi_key> <asciicircum> <underscore> <U0298>	: "𐞵"	U107B5 # MODIFIER LETTER BILABIAL CLICK
+<Multi_key> <asciicircum> <underscore> <U01C0>	: "𐞶"	U107B6 # MODIFIER LETTER DENTAL CLICK
+<Multi_key> <asciicircum> <underscore> <U01C1>	: "𐞷"	U107B7 # MODIFIER LETTER LATERAL CLICK
+<Multi_key> <asciicircum> <underscore> <U01C2>	: "𐞸"	U107B8 # MODIFIER LETTER ALVEOLAR CLICK
+<Multi_key> <asciicircum> <underscore> <U1DF0A>	: "𐞹"	U107B9 # MODIFIER LETTER RETROFLEX CLICK WITH RETROFLEX HOOK
+<Multi_key> <asciicircum> <underscore> <U1DF1E>	: "𐞺"	U107BA # MODIFIER LETTER SMALL S WITH CURL
 
 
 # Musical Symbols
