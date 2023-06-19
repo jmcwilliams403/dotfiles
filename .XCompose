@@ -1,5 +1,17 @@
 include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
+# Basic Latin
+
+<Multi_key> <V> <V>	: "W"	W # LATIN CAPITAL LETTER W
+
+<Multi_key> <period> <U0131>	: "i"	i # LATIN SMALL LETTER I
+<Multi_key> <U0131> <period>	: "i"	i # LATIN SMALL LETTER I
+<Multi_key> <period> <U0237>	: "j"	j # LATIN SMALL LETTER J
+<Multi_key> <U0237> <period>	: "j"	j # LATIN SMALL LETTER J
+
+<Multi_key> <v> <v>	: "w"	w # LATIN SMALL LETTER W
+
+
 # Latin 1 Supplement
 
 <Multi_key> <asterisk> <space>	: "°"	degree # DEGREE SIGN
@@ -948,10 +960,36 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin Extended-D
 
+<Multi_key> <H> <G>	: "Ꜧ"	UA726 # LATIN CAPITAL LETTER HENG
+<Multi_key> <h> <g>	: "ꜧ"	UA727 # LATIN SMALL LETTER HENG
+<Multi_key> <T> <Z>	: "Ꜩ"	UA728 # LATIN CAPITAL LETTER TZ
+<Multi_key> <t> <z>	: "ꜩ"	UA729 # LATIN SMALL LETTER TZ
+
+<Multi_key> <A> <A>	: "Ꜳ"	UA732 # LATIN CAPITAL LETTER AA
+<Multi_key> <a> <a>	: "ꜳ"	UA733 # LATIN SMALL LETTER AA
+<Multi_key> <A> <O>	: "Ꜵ"	UA734 # LATIN CAPITAL LETTER AO
+<Multi_key> <a> <o>	: "ꜵ"	UA735 # LATIN SMALL LETTER AO
+<Multi_key> <A> <U>	: "Ꜷ"	UA736 # LATIN CAPITAL LETTER AU
+<Multi_key> <a> <u>	: "ꜷ"	UA737 # LATIN SMALL LETTER AU
+<Multi_key> <A> <V>	: "Ꜹ"	UA738 # LATIN CAPITAL LETTER AV
+<Multi_key> <a> <v>	: "ꜹ"	UA739 # LATIN SMALL LETTER AV
+<Multi_key> <A> <Y>	: "Ꜽ"	UA73C # LATIN CAPITAL LETTER AY
+<Multi_key> <a> <y>	: "ꜽ"	UA73D # LATIN SMALL LETTER AY
+
 <Multi_key> <slash> <K>	: "Ꝁ"	UA740 # LATIN CAPITAL LETTER K WITH STROKE
 <Multi_key> <K> <slash>	: "Ꝁ"	UA740 # LATIN CAPITAL LETTER K WITH STROKE
 <Multi_key> <slash> <k>	: "ꝁ"	UA741 # LATIN SMALL LETTER K WITH STROKE
 <Multi_key> <k> <slash>	: "ꝁ"	UA741 # LATIN SMALL LETTER K WITH STROKE
+<Multi_key> <slash> <UA742>	: "Ꝅ"	UA744 # LATIN CAPITAL LETTER K WITH STROKE AND DIAGONAL STROKE
+<Multi_key> <UA742> <slash>	: "Ꝅ"	UA744 # LATIN CAPITAL LETTER K WITH STROKE AND DIAGONAL STROKE
+<Multi_key> <slash> <UA743>	: "ꝅ"	UA745 # LATIN SMALL LETTER K WITH STROKE AND DIAGONAL STROKE
+<Multi_key> <UA743> <slash>	: "ꝅ"	UA745 # LATIN SMALL LETTER K WITH STROKE AND DIAGONAL STROKE
+
+<Multi_key> <O> <O>	: "Ꝏ"	UA74E # LATIN CAPITAL LETTER OO
+<Multi_key> <o> <o>	: "ꝏ"	UA74F # LATIN SMALL LETTER OO
+
+<Multi_key> <V> <Y>	: "Ꝡ"	UA760 # LATIN CAPITAL LETTER VY
+<Multi_key> <v> <y>	: "ꝡ"	UA761 # LATIN SMALL LETTER VY
 
 <Multi_key> <slash> <THORN>	: "Ꝥ"	UA764 # LATIN CAPITAL LETTER THORN WITH STROKE
 <Multi_key> <THORN> <slash>	: "Ꝥ"	UA764 # LATIN CAPITAL LETTER THORN WITH STROKE
@@ -968,6 +1006,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <u>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
 <Multi_key> <u> <slash>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
 
+<Multi_key> <thorn> <thorn>	: "ꟓ"	UA7D3 # LATIN SMALL LETTER DOUBLE THORN
+<Multi_key> <U01BF> <U01BF>	: "ꟕ"	UA7D5 # LATIN SMALL LETTER DOUBLE WYNN
+
 <Multi_key> <asciicircum> <underscore> <C>	: "ꟲ"	UA7F2 # MODIFIER LETTER CAPITAL C
 <Multi_key> <asciicircum> <underscore> <F>	: "ꟳ"	UA7F3 # MODIFIER LETTER CAPITAL F
 <Multi_key> <asciicircum> <underscore> <Q>	: "ꟴ"	UA7F4 # MODIFIER LETTER CAPITAL Q
@@ -979,6 +1020,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <slash> <U0254>	: "ꬿ"	UAB3F # LATIN SMALL LETTER OPEN O WITH STROKE
 
+<Multi_key> <r> <r>	: "ꭈ"	UAB48 # LATIN SMALL LETTER DOUBLE R
+
+<Multi_key> <parenleft> <parenright> <space>	: "꭛"	UAB5B # MODIFIER BREVE WITH INVERTED BREVE
 <Multi_key> <asciicircum> <underscore> <UA727>	: "ꭜ"	UAB5C # MODIFIER LETTER SMALL HENG
 <Multi_key> <asciicircum> <underscore> <UAB37>	: "ꭝ"	UAB5D # MODIFIER LETTER SMALL L WITH INVERTED LAZY S
 <Multi_key> <asciicircum> <underscore> <U026B>	: "ꭞ"	UAB5E # MODIFIER LETTER SMALL L WITH MIDDLE TILDE
