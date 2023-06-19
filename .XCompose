@@ -858,13 +858,59 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <1> <space>	: "⅟"	U215F # FRACTION NUMERATOR ONE
 <Multi_key> <1> <slash>	: "⅟"	U215F # FRACTION NUMERATOR ONE
 
+<Multi_key> <2> <2>	: "↊"	U218A # TURNED DIGIT TWO
+<Multi_key> <3> <3>	: "↋"	U218B # TURNED DIGIT THREE
+
 
 # Mathematical Operators
 
 <Multi_key> <mu> <eth>	: "∂"	U2202 # PARTIAL DIFFERENTIAL
+<Multi_key> <slash> <U2203>	: "∄"	U2204 # THERE DOES NOT EXIST
 <Multi_key> <mu> <ETH>	: "∇"	U2207 # NABLA
-
+<Multi_key> <slash> <U2208>	: "∉"	U2209 # NOT AN ELEMENT OF
+<Multi_key> <slash> <U220B>	: "∌"	U220C # DOES NOT CONTAIN AS MEMBER
 <Multi_key> <minus> <plus>	: "∓"	U2213 # MINUS-OR-PLUS SIGN
+<Multi_key> <slash> <U2223>	: "∤"	U2224 # DOES NOT DIVIDE
+<Multi_key> <slash> <U2225>	: "∦"	U2226 # NOT PARALLEL TO
+<Multi_key> <slash> <U223C>	: "≁"	U2241 # NOT TILDE
+<Multi_key> <slash> <U2243>	: "≄"	U2244 # NOT ASYMPTOTICALLY EQUAL TO
+<Multi_key> <slash> <U2245>	: "≇"	U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
+<Multi_key> <slash> <U2248>	: "≉"	U2249 # NOT ALMOST EQUAL TO
+<Multi_key> <slash> <U2261>	: "≢"	U2262 # NOT IDENTICAL TO
+<Multi_key> <slash> <U224D>	: "≭"	U226D # NOT EQUIVALENT TO
+<Multi_key> <slash> <less>	: "≮"	U226E # NOT LESS-THAN
+<Multi_key> <slash> <greater>	: "≯"	U226F # NOT GREATER-THAN
+<Multi_key> <slash> <U2264>	: "≰"	U2270 # NEITHER LESS-THAN NOR EQUAL TO
+<Multi_key> <slash> <U2265>	: "≱"	U2271 # NEITHER GREATER-THAN NOR EQUAL TO
+<Multi_key> <slash> <U2272>	: "≴"	U2274 # NEITHER LESS-THAN NOR EQUIVALENT TO
+<Multi_key> <slash> <U2273>	: "≵"	U2275 # NEITHER GREATER-THAN NOR EQUIVALENT TO
+<Multi_key> <slash> <U2276>	: "≸"	U2278 # NEITHER LESS-THAN NOR GREATER-THAN
+<Multi_key> <slash> <U2277>	: "≹"	U2279 # NEITHER GREATER-THAN NOR LESS-THAN
+<Multi_key> <slash> <U227A>	: "⊀"	U2280 # DOES NOT PRECEDE
+<Multi_key> <slash> <U227B>	: "⊁"	U2281 # DOES NOT SUCCEED
+<Multi_key> <slash> <U2282>	: "⊄"	U2284 # NOT A SUBSET OF
+<Multi_key> <slash> <U2283>	: "⊅"	U2285 # NOT A SUPERSET OF
+<Multi_key> <slash> <U2286>	: "⊈"	U2288 # NEITHER A SUBSET OF NOR EQUAL TO
+<Multi_key> <slash> <U2287>	: "⊉"	U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
+<Multi_key> <slash> <U22A2>	: "⊬"	U22AC # DOES NOT PROVE
+<Multi_key> <slash> <U22A8>	: "⊭"	U22AD # NOT TRUE
+<Multi_key> <slash> <U22A9>	: "⊮"	U22AE # DOES NOT FORCE
+<Multi_key> <slash> <U22AB>	: "⊯"	U22AF # NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
+<Multi_key> <slash> <U227C>	: "⋠"	U22E0 # DOES NOT PRECEDE OR EQUAL
+<Multi_key> <slash> <U227D>	: "⋡"	U22E1 # DOES NOT SUCCEED OR EQUAL
+<Multi_key> <slash> <U2291>	: "⋢"	U22E2 # NOT SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <slash> <U2292>	: "⋣"	U22E3 # NOT SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <slash> <U22B2>	: "⋪"	U22EA # NOT NORMAL SUBGROUP OF
+<Multi_key> <slash> <U22B3>	: "⋫"	U22EB # DOES NOT CONTAIN AS NORMAL SUBGROUP
+<Multi_key> <slash> <U22B4>	: "⋬"	U22EC # NOT NORMAL SUBGROUP OF OR EQUAL TO
+<Multi_key> <slash> <U22B5>	: "⋭"	U22ED # DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
+
+
+# Supplemental Mathematical Operators
+
+<Multi_key> <slash> <U2ADD>	: "⫝̸"	U2ADC # FORKING
+<Multi_key> <backslash> <U2223>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+<Multi_key> <U2223> <backslash>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
 
 
 # Miscellaneous Technical
