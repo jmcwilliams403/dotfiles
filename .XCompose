@@ -72,6 +72,10 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin Extended-B
 
+<Multi_key> <t> <U0321>	: "ƫ"	U01AB # LATIN SMALL LETTER T WITH PALATAL HOOK
+
+<Multi_key> <T> <U0322>	: "Ʈ"	U01AE # LATIN CAPITAL LETTER T WITH RETROFLEX HOOK
+
 <Multi_key> <Z> <H>	: "Ʒ"	U01B7 # LATIN CAPITAL LETTER EZH
 
 <Multi_key> <slash> <2>	: "ƻ"	U01BB # LATIN LETTER TWO WITH STROKE
@@ -166,6 +170,20 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 
 # IPA Extensions
+
+<Multi_key> <schwa> <U02DE>	: "ɚ"	U025A # LATIN SMALL LETTER SCHWA WITH HOOK
+
+<Multi_key> <U025C> <U02DE>	: "ɝ"	U025D # LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
+
+<Multi_key> <l> <U0322>	: "ɭ"	U026D # LATIN SMALL LETTER L WITH RETROFLEX HOOK
+
+<Multi_key> <n> <U0322>	: "ɳ"	U0273 # LATIN SMALL LETTER N WITH RETROFLEX HOOK
+
+<Multi_key> <U0279> <U0322>	: "ɻ"	U027B # LATIN SMALL LETTER TURNED R WITH RETROFLEX HOOK
+
+<Multi_key> <t> <U0322>	: "ʈ"	U0288 # LATIN SMALL LETTER T WITH RETROFLEX HOOK
+
+<Multi_key> <z> <U0322>	: "ʐ"	U0290 # LATIN SMALL LETTER Z WITH RETROFLEX HOOK
 
 <Multi_key> <slash> <period> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
 <Multi_key> <period> <slash> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
@@ -328,6 +346,18 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asciicircum> <underscore> <Greek_phi>	: "ᵠ"	U1D60 # MODIFIER LETTER SMALL GREEK PHI
 <Multi_key> <asciicircum> <underscore> <Greek_chi>	: "ᵡ"	U1D61 # MODIFIER LETTER SMALL CHI
 
+<Multi_key> <b> <U0334>	: "ᵬ"	U1D6C # LATIN SMALL LETTER B WITH MIDDLE TILDE
+<Multi_key> <d> <U0334>	: "ᵭ"	U1D6D # LATIN SMALL LETTER D WITH MIDDLE TILDE
+<Multi_key> <f> <U0334>	: "ᵮ"	U1D6E # LATIN SMALL LETTER F WITH MIDDLE TILDE
+<Multi_key> <m> <U0334>	: "ᵯ"	U1D6F # LATIN SMALL LETTER M WITH MIDDLE TILDE
+<Multi_key> <n> <U0334>	: "ᵰ"	U1D70 # LATIN SMALL LETTER N WITH MIDDLE TILDE
+<Multi_key> <p> <U0334>	: "ᵱ"	U1D71 # LATIN SMALL LETTER P WITH MIDDLE TILDE
+<Multi_key> <r> <U0334>	: "ᵲ"	U1D72 # LATIN SMALL LETTER R WITH MIDDLE TILDE
+<Multi_key> <U027E> <U0334>	: "ᵳ"	U1D73 # LATIN SMALL LETTER R WITH FISHHOOK AND MIDDLE TILDE
+<Multi_key> <s> <U0334>	: "ᵴ"	U1D74 # LATIN SMALL LETTER S WITH MIDDLE TILDE
+<Multi_key> <t> <U0334>	: "ᵵ"	U1D75 # LATIN SMALL LETTER T WITH MIDDLE TILDE
+<Multi_key> <z> <U0334>	: "ᵶ"	U1D76 # LATIN SMALL LETTER Z WITH MIDDLE TILDE
+
 <Multi_key> <asciicircum> <underscore> <Cyrillic_en>	: "ᵸ"	U1D78 # MODIFIER LETTER CYRILLIC EN
 
 <Multi_key> <slash> <U026A>	: "ᵻ"	U1D7B # LATIN SMALL CAPITAL LETTER I WITH STROKE
@@ -344,6 +374,33 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Phonetic Extensions Supplement
 
+<Multi_key> <b> <U0321>	: "ᶀ"	U1D80 # LATIN SMALL LETTER B WITH PALATAL HOOK
+<Multi_key> <d> <U0321>	: "ᶁ"	U1D81 # LATIN SMALL LETTER D WITH PALATAL HOOK
+<Multi_key> <f> <U0321>	: "ᶂ"	U1D82 # LATIN SMALL LETTER F WITH PALATAL HOOK
+<Multi_key> <g> <U0321>	: "ᶃ"	U1D83 # LATIN SMALL LETTER G WITH PALATAL HOOK
+<Multi_key> <k> <U0321>	: "ᶄ"	U1D84 # LATIN SMALL LETTER K WITH PALATAL HOOK
+<Multi_key> <l> <U0321>	: "ᶅ"	U1D85 # LATIN SMALL LETTER L WITH PALATAL HOOK
+<Multi_key> <m> <U0321>	: "ᶆ"	U1D86 # LATIN SMALL LETTER M WITH PALATAL HOOK
+<Multi_key> <n> <U0321>	: "ᶇ"	U1D87 # LATIN SMALL LETTER N WITH PALATAL HOOK
+<Multi_key> <p> <U0321>	: "ᶈ"	U1D88 # LATIN SMALL LETTER P WITH PALATAL HOOK
+<Multi_key> <r> <U0321>	: "ᶉ"	U1D89 # LATIN SMALL LETTER R WITH PALATAL HOOK
+<Multi_key> <s> <U0321>	: "ᶊ"	U1D8A # LATIN SMALL LETTER S WITH PALATAL HOOK
+<Multi_key> <U0283> <U0321>	: "ᶋ"	U1D8B # LATIN SMALL LETTER ESH WITH PALATAL HOOK
+<Multi_key> <v> <U0321>	: "ᶌ"	U1D8C # LATIN SMALL LETTER V WITH PALATAL HOOK
+<Multi_key> <x> <U0321>	: "ᶍ"	U1D8D # LATIN SMALL LETTER X WITH PALATAL HOOK
+<Multi_key> <z> <U0321>	: "ᶎ"	U1D8E # LATIN SMALL LETTER Z WITH PALATAL HOOK
+<Multi_key> <a> <U0322>	: "ᶏ"	U1D8F # LATIN SMALL LETTER A WITH RETROFLEX HOOK
+<Multi_key> <U0251> <U0322>	: "ᶐ"	U1D90 # LATIN SMALL LETTER ALPHA WITH RETROFLEX HOOK
+
+<Multi_key> <e> <U0322>	: "ᶒ"	U1D92 # LATIN SMALL LETTER E WITH RETROFLEX HOOK
+<Multi_key> <U025B> <U0322>	: "ᶓ"	U1D93 # LATIN SMALL LETTER OPEN E WITH RETROFLEX HOOK
+<Multi_key> <U025C> <U0322>	: "ᶔ"	U1D94 # LATIN SMALL LETTER REVERSED OPEN E WITH RETROFLEX HOOK
+<Multi_key> <schwa> <U0322>	: "ᶕ"	U1D95 # LATIN SMALL LETTER SCHWA WITH RETROFLEX HOOK
+<Multi_key> <i> <U0322>	: "ᶖ"	U1D96 # LATIN SMALL LETTER I WITH RETROFLEX HOOK
+<Multi_key> <U0254> <U0322>	: "ᶗ"	U1D97 # LATIN SMALL LETTER OPEN O WITH RETROFLEX HOOK
+<Multi_key> <U0283> <U0322>	: "ᶘ"	U1D98 # LATIN SMALL LETTER ESH WITH RETROFLEX HOOK
+<Multi_key> <u> <U0322>	: "ᶙ"	U1D99 # LATIN SMALL LETTER U WITH RETROFLEX HOOK
+<Multi_key> <ezh> <U0322>	: "ᶚ"	U1D9A # LATIN SMALL LETTER EZH WITH RETROFLEX HOOK
 <Multi_key> <asciicircum> <underscore> <U0252>	: "ᶛ"	U1D9B # MODIFIER LETTER SMALL TURNED ALPHA
 <Multi_key> <asciicircum> <underscore> <c>	: "ᶜ"	U1D9C # MODIFIER LETTER SMALL C
 <Multi_key> <asciicircum> <underscore> <U0255>	: "ᶝ"	U1D9D # MODIFIER LETTER SMALL C WITH CURL
@@ -985,8 +1042,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <UA743>	: "ꝅ"	UA745 # LATIN SMALL LETTER K WITH STROKE AND DIAGONAL STROKE
 <Multi_key> <UA743> <slash>	: "ꝅ"	UA745 # LATIN SMALL LETTER K WITH STROKE AND DIAGONAL STROKE
 
-<Multi_key> <O> <O>	: "Ꝏ"	UA74E # LATIN CAPITAL LETTER OO
-<Multi_key> <o> <o>	: "ꝏ"	UA74F # LATIN SMALL LETTER OO
+<Multi_key> <O> <U0336>	: "Ꝋ"	UA74A # LATIN CAPITAL LETTER OO
+<Multi_key> <o> <U0336>	: "ꝋ"	UA74B # LATIN SMALL LETTER OO
+
+<Multi_key> <O> <O>	: "Ꝏ"	UA74E # LATIN CAPITAL LETTER O WITH LONG STROKE OVERLAY
+<Multi_key> <o> <o>	: "ꝏ"	UA74F # LATIN SMALL LETTER O WITH LONG STROKE OVERLAY
 
 <Multi_key> <V> <Y>	: "Ꝡ"	UA760 # LATIN CAPITAL LETTER VY
 <Multi_key> <v> <y>	: "ꝡ"	UA761 # LATIN SMALL LETTER VY
@@ -995,6 +1055,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <THORN> <slash>	: "Ꝥ"	UA764 # LATIN CAPITAL LETTER THORN WITH STROKE
 <Multi_key> <slash> <thorn>	: "ꝥ"	UA765 # LATIN SMALL LETTER THORN WITH STROKE
 <Multi_key> <thorn> <slash>	: "ꝥ"	UA765 # LATIN SMALL LETTER THORN WITH STROKE
+
+<Multi_key> <c> <U0321>	: "ꞔ"	UA794 # LATIN SMALL LETTER C WITH PALATAL HOOK
+<Multi_key> <h> <U0321>	: "ꞕ"	UA795 # LATIN SMALL LETTER H WITH PALATAL HOOK
 
 <Multi_key> <slash> <F>	: "Ꞙ"	UA798 # LATIN CAPITAL LETTER F WITH STROKE
 <Multi_key> <F> <slash>	: "Ꞙ"	UA798 # LATIN CAPITAL LETTER F WITH STROKE
@@ -1005,6 +1068,14 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <U> <slash>	: "Ꞹ"	UA7B8 # LATIN CAPITAL LETTER U WITH STROKE
 <Multi_key> <slash> <u>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
 <Multi_key> <u> <slash>	: "ꞹ"	UA7B9 # LATIN SMALL LETTER U WITH STROKE
+
+<Multi_key> <C> <U0321>	: "Ꞔ"	UA7C4 # LATIN CAPITAL LETTER C WITH PALATAL HOOK
+
+<Multi_key> <Z> <U0321>	: "Ᶎ"	UA7C6 # LATIN CAPITAL LETTER Z WITH PALATAL HOOK
+<Multi_key> <D> <U0335>	: "Ꟈ"	UA7C7 # LATIN CAPITAL LETTER D WITH SHORT STROKE OVERLAY
+<Multi_key> <d> <U0335>	: "ꟈ"	UA7C8 # LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY
+<Multi_key> <S> <U0335>	: "Ꟊ"	UA7C9 # LATIN CAPITAL LETTER S WITH SHORT STROKE OVERLAY
+<Multi_key> <s> <U0335>	: "ꟊ"	UA7CA # LATIN SMALL LETTER S WITH SHORT STROKE OVERLAY
 
 <Multi_key> <thorn> <thorn>	: "ꟓ"	UA7D3 # LATIN SMALL LETTER DOUBLE THORN
 <Multi_key> <U01BF> <U01BF>	: "ꟕ"	UA7D5 # LATIN SMALL LETTER DOUBLE WYNN
@@ -1028,6 +1099,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asciicircum> <underscore> <U026B>	: "ꭞ"	UAB5E # MODIFIER LETTER SMALL L WITH MIDDLE TILDE
 <Multi_key> <asciicircum> <underscore> <UAB52>	: "ꭟ"	UAB5F # MODIFIER LETTER SMALL U WITH LEFT HOOK
 
+<Multi_key> <U0279> <U0334>	: "ꭨ"	UAB68 # LATIN SMALL LETTER TURNED R WITH MIDDLE TILDE
 <Multi_key> <asciicircum> <underscore> <U028D>	: "ꭩ"	UAB69 # MODIFIER LETTER SMALL TURNED W
 
 
@@ -1114,7 +1186,14 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <numbersign> <d>		: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
 
 
-/* Enclosed Alphanumeric Supplement */
+# Latin Extended-G
+
+<Multi_key> <U027A> <U0322>	: "𝼈"	U1DF08 # LATIN SMALL LETTER TURNED R WITH LONG LEG AND RETROFLEX HOOK
+<Multi_key> <U01AD> <U0322>	: "𝼉"	U1DF09 # LATIN SMALL LETTER TURNED T WITH HOOK AND RETROFLEX HOOK
+<Multi_key> <U01C3> <U0322>	: "𝼊"	U1DF0A # LATIN SMALL LETTER RETROFLEX CLICK WITH RETROFLEX HOOK
+
+
+# Enclosed Alphanumeric Supplement
 <Multi_key> <parenleft> <C> <D> <parenright>	: "🄭"	U1F12D # CIRCLED CD
 <Multi_key> <parenleft> <c> <d> <parenright>	: "🄭"	U1F12D # CIRCLED CD
 <Multi_key> <parenleft> <W> <z> <parenright>	: "🄮"	U1F12E # CIRCLED WZ
