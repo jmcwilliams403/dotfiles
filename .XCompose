@@ -99,9 +99,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <acute> <asterisk> <A>	: "Ǻ"	U01FA # LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
 <Multi_key> <apostrophe> <asterisk> <A>	: "Ǻ"	U01FA # LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
+<Multi_key> <apostrophe> <space> <o> <A>	: "Ǻ"	U01FA # LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
 <Multi_key> <acute> <asterisk> <a>	: "ǻ"	U01FB # LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE
 <Multi_key> <apostrophe> <asterisk> <a>	: "ǻ"	U01FB # LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE
-
+<Multi_key> <apostrophe> <space> <o> <a>	: "ǻ"	U01FB # LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE
+<Multi_key> <apostrophe> <space> <A> <E>	: "Ǽ"	U01FC # LATIN CAPITAL LETTER AE WITH ACUTE
+<Multi_key> <apostrophe> <space> <a> <e>	: "ǽ"	U01FD # LATIN SMALL LETTER AE WITH ACUTE
 <Multi_key> <slash> <Oacute>	: "Ǿ"	U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <Oacute> <slash>	: "Ǿ"	U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <slash> <oacute>	: "ǿ"	U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
@@ -446,6 +449,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <underscore> <b>	: "ḇ"   U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
 <Multi_key> <b> <underscore>	: "ḇ"   U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
 
+<Multi_key> <apostrophe> <space> <comma> <C>	: "Ḉ"	U1E08 # LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE
+<Multi_key> <apostrophe> <space> <comma> <c>	: "ḉ"	U1E09 # LATIN SMALL LETTER C WITH CEDILLA AND ACUTE
+
 <Multi_key> <underscore> <D>	: "Ḏ"   U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
 <Multi_key> <D> <underscore>	: "Ḏ"   U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
 <Multi_key> <underscore> <d>	: "ḏ"   U1E0F # LATIN SMALL LETTER D WITH LINE BELOW
@@ -493,6 +499,15 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asterisk> <y>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <y> <asterisk>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <a> <parenright>	: "ẚ"	U1E9A # LATIN SMALL LETTER A WITH RIGHT HALF RING
+
+<Multi_key> <apostrophe> <space> <U> <A>	: "Ắ"	U1EAE # LATIN CAPITAL LETTER A WITH BREVE AND ACUTE
+<Multi_key> <apostrophe> <space> <U> <a>	: "ắ"	U1EAF # LATIN SMALL LETTER A WITH BREVE AND ACUTE
+<Multi_key> <grave> <space> <U> <A>	: "Ằ"	U1EB0 # LATIN CAPITAL LETTER A WITH BREVE AND GRAVE
+<Multi_key> <grave> <space> <U> <a>	: "ằ"	U1EB1 # LATIN SMALL LETTER A WITH BREVE AND GRAVE
+<Multi_key> <question> <space> <U> <A>	: "Ẳ"	U1EB2 # LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE
+<Multi_key> <question> <space> <U> <a>	: "ẳ"	U1EB3 # LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE
+<Multi_key> <tilde> <space> <U> <A>	: "Ẵ"	U1EB4 # LATIN CAPITAL LETTER A WITH BREVE AND TILDE
+<Multi_key> <tilde> <space> <U> <a>	: "ẵ"	U1EB5 # LATIN SMALL LETTER A WITH BREVE AND TILDE
 
 
 # Greek Extended
