@@ -1018,10 +1018,15 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <F> <A> <X>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <f> <a> <x>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <Greek_pi> <Greek_pi>	: "ℼ"	U213C # DOUBLE-STRUCK SMALL PI
+<Multi_key> <eth> <B> <mu> <p> : "ℼ" U213C
 <Multi_key> <Greek_gamma> <Greek_gamma>	: "ℽ"	U213D # DOUBLE-STRUCK SMALL GAMMA
+<Multi_key> <eth> <B> <mu> <g> : "ℽ" U213D
 <Multi_key> <Greek_GAMMA> <Greek_GAMMA>	: "ℾ"	U213E # DOUBLE-STRUCK CAPITAL GAMMA
+<Multi_key> <eth> <B> <mu> <G> : "ℾ" U213E
 <Multi_key> <Greek_PI> <Greek_PI>	: "ℿ"	U213F # DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <eth> <B> <mu> <P> : "ℿ" U213F
 <Multi_key> <U2211> <U2211>	: "⅀"	U2140 # DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <eth> <B> <mu> <S> : "⅀" U2140
 
 <Multi_key> <ampersand> <ampersand>	: "⅋"	U214B # TURNED AMPERSAND
 
@@ -1287,6 +1292,641 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <numbersign> <B>		: "𝄫"	U1D12B # MUSICAL SYMBOL DOUBLE FLAT
 <Multi_key> <numbersign> <t>		: "𝄲"	U1D132 # MUSICAL SYMBOL QUARTER TONE SHARP
 <Multi_key> <numbersign> <d>		: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
+
+
+# Mathematical Alphanumeric Symbols
+
+<Multi_key> <eth> <b> <A> : "𝐀" U1D400
+<Multi_key> <eth> <b> <B> : "𝐁" U1D401
+<Multi_key> <eth> <b> <C> : "𝐂" U1D402
+<Multi_key> <eth> <b> <D> : "𝐃" U1D403
+<Multi_key> <eth> <b> <E> : "𝐄" U1D404
+<Multi_key> <eth> <b> <F> : "𝐅" U1D405
+<Multi_key> <eth> <b> <G> : "𝐆" U1D406
+<Multi_key> <eth> <b> <H> : "𝐇" U1D407
+<Multi_key> <eth> <b> <I> : "𝐈" U1D408
+<Multi_key> <eth> <b> <J> : "𝐉" U1D409
+<Multi_key> <eth> <b> <K> : "𝐊" U1D40A
+<Multi_key> <eth> <b> <L> : "𝐋" U1D40B
+<Multi_key> <eth> <b> <M> : "𝐌" U1D40C
+<Multi_key> <eth> <b> <N> : "𝐍" U1D40D
+<Multi_key> <eth> <b> <O> : "𝐎" U1D40E
+<Multi_key> <eth> <b> <P> : "𝐏" U1D40F
+<Multi_key> <eth> <b> <Q> : "𝐐" U1D410
+<Multi_key> <eth> <b> <R> : "𝐑" U1D411
+<Multi_key> <eth> <b> <S> : "𝐒" U1D412
+<Multi_key> <eth> <b> <T> : "𝐓" U1D413
+<Multi_key> <eth> <b> <U> : "𝐔" U1D414
+<Multi_key> <eth> <b> <V> : "𝐕" U1D415
+<Multi_key> <eth> <b> <W> : "𝐖" U1D416
+<Multi_key> <eth> <b> <X> : "𝐗" U1D417
+<Multi_key> <eth> <b> <Y> : "𝐘" U1D418
+<Multi_key> <eth> <b> <Z> : "𝐙" U1D419
+<Multi_key> <eth> <b> <a> : "𝐚" U1D41A
+<Multi_key> <eth> <b> <b> : "𝐛" U1D41B
+<Multi_key> <eth> <b> <c> : "𝐜" U1D41C
+<Multi_key> <eth> <b> <d> : "𝐝" U1D41D
+<Multi_key> <eth> <b> <e> : "𝐞" U1D41E
+<Multi_key> <eth> <b> <f> : "𝐟" U1D41F
+<Multi_key> <eth> <b> <g> : "𝐠" U1D420
+<Multi_key> <eth> <b> <h> : "𝐡" U1D421
+<Multi_key> <eth> <b> <i> : "𝐢" U1D422
+<Multi_key> <eth> <b> <j> : "𝐣" U1D423
+<Multi_key> <eth> <b> <k> : "𝐤" U1D424
+<Multi_key> <eth> <b> <l> : "𝐥" U1D425
+<Multi_key> <eth> <b> <m> : "𝐦" U1D426
+<Multi_key> <eth> <b> <n> : "𝐧" U1D427
+<Multi_key> <eth> <b> <o> : "𝐨" U1D428
+<Multi_key> <eth> <b> <p> : "𝐩" U1D429
+<Multi_key> <eth> <b> <q> : "𝐪" U1D42A
+<Multi_key> <eth> <b> <r> : "𝐫" U1D42B
+<Multi_key> <eth> <b> <s> : "𝐬" U1D42C
+<Multi_key> <eth> <b> <t> : "𝐭" U1D42D
+<Multi_key> <eth> <b> <u> : "𝐮" U1D42E
+<Multi_key> <eth> <b> <v> : "𝐯" U1D42F
+<Multi_key> <eth> <b> <w> : "𝐰" U1D430
+<Multi_key> <eth> <b> <x> : "𝐱" U1D431
+<Multi_key> <eth> <b> <y> : "𝐲" U1D432
+<Multi_key> <eth> <b> <z> : "𝐳" U1D433
+
+<Multi_key> <eth> <i> <a> : "𝑎" U1D44E
+<Multi_key> <eth> <i> <b> : "𝑏" U1D44F
+<Multi_key> <eth> <i> <c> : "𝑐" U1D450
+<Multi_key> <eth> <i> <d> : "𝑑" U1D451
+<Multi_key> <eth> <i> <e> : "𝑒" U1D452
+<Multi_key> <eth> <i> <f> : "𝑓" U1D453
+<Multi_key> <eth> <i> <g> : "𝑔" U1D454
+<Multi_key> <eth> <i> <h> : "ℎ" U210E
+<Multi_key> <eth> <i> <i> : "𝑖" U1D456
+<Multi_key> <eth> <i> <j> : "𝑗" U1D457
+<Multi_key> <eth> <i> <k> : "𝑘" U1D458
+<Multi_key> <eth> <i> <l> : "𝑙" U1D459
+<Multi_key> <eth> <i> <m> : "𝑚" U1D45A
+<Multi_key> <eth> <i> <n> : "𝑛" U1D45B
+<Multi_key> <eth> <i> <o> : "𝑜" U1D45C
+<Multi_key> <eth> <i> <p> : "𝑝" U1D45D
+<Multi_key> <eth> <i> <q> : "𝑞" U1D45E
+<Multi_key> <eth> <i> <r> : "𝑟" U1D45F
+<Multi_key> <eth> <i> <s> : "𝑠" U1D460
+<Multi_key> <eth> <i> <t> : "𝑡" U1D461
+<Multi_key> <eth> <i> <u> : "𝑢" U1D462
+<Multi_key> <eth> <i> <v> : "𝑣" U1D463
+<Multi_key> <eth> <i> <w> : "𝑤" U1D464
+<Multi_key> <eth> <i> <x> : "𝑥" U1D465
+<Multi_key> <eth> <i> <y> : "𝑦" U1D466
+<Multi_key> <eth> <i> <z> : "𝑧" U1D467
+<Multi_key> <eth> <i> <A> : "𝐴" U1D434
+<Multi_key> <eth> <i> <B> : "𝐵" U1D435
+<Multi_key> <eth> <i> <C> : "𝐶" U1D436
+<Multi_key> <eth> <i> <D> : "𝐷" U1D437
+<Multi_key> <eth> <i> <E> : "𝐸" U1D438
+<Multi_key> <eth> <i> <F> : "𝐹" U1D439
+<Multi_key> <eth> <i> <G> : "𝐺" U1D43A
+<Multi_key> <eth> <i> <H> : "𝐻" U1D43B
+<Multi_key> <eth> <i> <I> : "𝐼" U1D43C
+<Multi_key> <eth> <i> <J> : "𝐽" U1D43D
+<Multi_key> <eth> <i> <K> : "𝐾" U1D43E
+<Multi_key> <eth> <i> <L> : "𝐿" U1D43F
+<Multi_key> <eth> <i> <M> : "𝑀" U1D440
+<Multi_key> <eth> <i> <N> : "𝑁" U1D441
+<Multi_key> <eth> <i> <O> : "𝑂" U1D442
+<Multi_key> <eth> <i> <P> : "𝑃" U1D443
+<Multi_key> <eth> <i> <Q> : "𝑄" U1D444
+<Multi_key> <eth> <i> <R> : "𝑅" U1D445
+<Multi_key> <eth> <i> <S> : "𝑆" U1D446
+<Multi_key> <eth> <i> <T> : "𝑇" U1D447
+<Multi_key> <eth> <i> <U> : "𝑈" U1D448
+<Multi_key> <eth> <i> <V> : "𝑉" U1D449
+<Multi_key> <eth> <i> <W> : "𝑊" U1D44A
+<Multi_key> <eth> <i> <X> : "𝑋" U1D44B
+<Multi_key> <eth> <i> <Y> : "𝑌" U1D44C
+<Multi_key> <eth> <i> <Z> : "𝑍" U1D44D
+
+<Multi_key> <eth> <I> <A> : "𝑨" U1D468
+<Multi_key> <eth> <I> <B> : "𝑩" U1D469
+<Multi_key> <eth> <I> <C> : "𝑪" U1D46A
+<Multi_key> <eth> <I> <D> : "𝑫" U1D46B
+<Multi_key> <eth> <I> <E> : "𝑬" U1D46C
+<Multi_key> <eth> <I> <F> : "𝑭" U1D46D
+<Multi_key> <eth> <I> <G> : "𝑮" U1D46E
+<Multi_key> <eth> <I> <H> : "𝑯" U1D46F
+<Multi_key> <eth> <I> <I> : "𝑰" U1D470
+<Multi_key> <eth> <I> <J> : "𝑱" U1D471
+<Multi_key> <eth> <I> <K> : "𝑲" U1D472
+<Multi_key> <eth> <I> <L> : "𝑳" U1D473
+<Multi_key> <eth> <I> <M> : "𝑴" U1D474
+<Multi_key> <eth> <I> <N> : "𝑵" U1D475
+<Multi_key> <eth> <I> <O> : "𝑶" U1D476
+<Multi_key> <eth> <I> <P> : "𝑷" U1D477
+<Multi_key> <eth> <I> <Q> : "𝑸" U1D478
+<Multi_key> <eth> <I> <R> : "𝑹" U1D479
+<Multi_key> <eth> <I> <S> : "𝑺" U1D47A
+<Multi_key> <eth> <I> <T> : "𝑻" U1D47B
+<Multi_key> <eth> <I> <U> : "𝑼" U1D47C
+<Multi_key> <eth> <I> <V> : "𝑽" U1D47D
+<Multi_key> <eth> <I> <W> : "𝑾" U1D47E
+<Multi_key> <eth> <I> <X> : "𝑿" U1D47F
+<Multi_key> <eth> <I> <Y> : "𝒀" U1D480
+<Multi_key> <eth> <I> <Z> : "𝒁" U1D481
+<Multi_key> <eth> <I> <a> : "𝒂" U1D482
+<Multi_key> <eth> <I> <b> : "𝒃" U1D483
+<Multi_key> <eth> <I> <c> : "𝒄" U1D484
+<Multi_key> <eth> <I> <d> : "𝒅" U1D485
+<Multi_key> <eth> <I> <e> : "𝒆" U1D486
+<Multi_key> <eth> <I> <f> : "𝒇" U1D487
+<Multi_key> <eth> <I> <g> : "𝒈" U1D488
+<Multi_key> <eth> <I> <h> : "𝒉" U1D489
+<Multi_key> <eth> <I> <i> : "𝒊" U1D48A
+<Multi_key> <eth> <I> <j> : "𝒋" U1D48B
+<Multi_key> <eth> <I> <k> : "𝒌" U1D48C
+<Multi_key> <eth> <I> <l> : "𝒍" U1D48D
+<Multi_key> <eth> <I> <m> : "𝒎" U1D48E
+<Multi_key> <eth> <I> <n> : "𝒏" U1D48F
+<Multi_key> <eth> <I> <o> : "𝒐" U1D490
+<Multi_key> <eth> <I> <p> : "𝒑" U1D491
+<Multi_key> <eth> <I> <q> : "𝒒" U1D492
+<Multi_key> <eth> <I> <r> : "𝒓" U1D493
+<Multi_key> <eth> <I> <s> : "𝒔" U1D494
+<Multi_key> <eth> <I> <t> : "𝒕" U1D495
+<Multi_key> <eth> <I> <u> : "𝒖" U1D496
+<Multi_key> <eth> <I> <v> : "𝒗" U1D497
+<Multi_key> <eth> <I> <w> : "𝒘" U1D498
+<Multi_key> <eth> <I> <x> : "𝒙" U1D499
+<Multi_key> <eth> <I> <y> : "𝒚" U1D49A
+<Multi_key> <eth> <I> <z> : "𝒛" U1D49B
+
+<Multi_key> <eth> <c> <A> : "𝒜" U1D49C
+<Multi_key> <eth> <c> <B> : "ℬ" U212C
+<Multi_key> <eth> <c> <C> : "𝒞" U1D49E
+<Multi_key> <eth> <c> <D> : "𝒟" U1D49F
+<Multi_key> <eth> <c> <E> : "ℰ" U2130
+<Multi_key> <eth> <c> <F> : "ℱ" U2131
+<Multi_key> <eth> <c> <G> : "𝒢" U1D4A2
+<Multi_key> <eth> <c> <H> : "ℋ" U210B
+<Multi_key> <eth> <c> <I> : "ℐ" U2110
+<Multi_key> <eth> <c> <J> : "𝒥" U1D4A5
+<Multi_key> <eth> <c> <K> : "𝒦" U1D4A6
+<Multi_key> <eth> <c> <L> : "ℒ" U2112
+<Multi_key> <eth> <c> <M> : "ℳ" U2133
+<Multi_key> <eth> <c> <N> : "𝒩" U1D4A9
+<Multi_key> <eth> <c> <O> : "𝒪" U1D4AA
+<Multi_key> <eth> <c> <P> : "𝒫" U1D4AB
+<Multi_key> <eth> <c> <Q> : "𝒬" U1D4AC
+<Multi_key> <eth> <c> <R> : "ℛ" U211B
+<Multi_key> <eth> <c> <S> : "𝒮" U1D4AE
+<Multi_key> <eth> <c> <T> : "𝒯" U1D4AF
+<Multi_key> <eth> <c> <U> : "𝒰" U1D4B0
+<Multi_key> <eth> <c> <V> : "𝒱" U1D4B1
+<Multi_key> <eth> <c> <W> : "𝒲" U1D4B2
+<Multi_key> <eth> <c> <X> : "𝒳" U1D4B3
+<Multi_key> <eth> <c> <Y> : "𝒴" U1D4B4
+<Multi_key> <eth> <c> <Z> : "𝒵" U1D4B5
+<Multi_key> <eth> <c> <a> : "𝒶" U1D4B6
+<Multi_key> <eth> <c> <b> : "𝒷" U1D4B7
+<Multi_key> <eth> <c> <c> : "𝒸" U1D4B8
+<Multi_key> <eth> <c> <d> : "𝒹" U1D4B9
+<Multi_key> <eth> <c> <e> : "ℯ" U212F
+<Multi_key> <eth> <c> <f> : "𝒻" U1D4BB
+<Multi_key> <eth> <c> <g> : "ℊ" U210A
+<Multi_key> <eth> <c> <h> : "𝒽" U1D4BD
+<Multi_key> <eth> <c> <i> : "𝒾" U1D4BE
+<Multi_key> <eth> <c> <j> : "𝒿" U1D4BF
+<Multi_key> <eth> <c> <k> : "𝓀" U1D4C0
+<Multi_key> <eth> <c> <l> : "𝓁" U1D4C1
+<Multi_key> <eth> <c> <m> : "𝓂" U1D4C2
+<Multi_key> <eth> <c> <n> : "𝓃" U1D4C3
+<Multi_key> <eth> <c> <o> : "ℴ" U2134
+<Multi_key> <eth> <c> <p> : "𝓅" U1D4C5
+<Multi_key> <eth> <c> <q> : "𝓆" U1D4C6
+<Multi_key> <eth> <c> <r> : "𝓇" U1D4C7
+<Multi_key> <eth> <c> <s> : "𝓈" U1D4C8
+<Multi_key> <eth> <c> <t> : "𝓉" U1D4C9
+<Multi_key> <eth> <c> <u> : "𝓊" U1D4CA
+<Multi_key> <eth> <c> <v> : "𝓋" U1D4CB
+<Multi_key> <eth> <c> <w> : "𝓌" U1D4CC
+<Multi_key> <eth> <c> <x> : "𝓍" U1D4CD
+<Multi_key> <eth> <c> <y> : "𝓎" U1D4CE
+<Multi_key> <eth> <c> <z> : "𝓏" U1D4CF
+
+<Multi_key> <eth> <C> <A> : "𝓐" U1D4D0
+<Multi_key> <eth> <C> <B> : "𝓑" U1D4D1
+<Multi_key> <eth> <C> <C> : "𝓒" U1D4D2
+<Multi_key> <eth> <C> <D> : "𝓓" U1D4D3
+<Multi_key> <eth> <C> <E> : "𝓔" U1D4D4
+<Multi_key> <eth> <C> <F> : "𝓕" U1D4D5
+<Multi_key> <eth> <C> <G> : "𝓖" U1D4D6
+<Multi_key> <eth> <C> <H> : "𝓗" U1D4D7
+<Multi_key> <eth> <C> <I> : "𝓘" U1D4D8
+<Multi_key> <eth> <C> <J> : "𝓙" U1D4D9
+<Multi_key> <eth> <C> <K> : "𝓚" U1D4DA
+<Multi_key> <eth> <C> <L> : "𝓛" U1D4DB
+<Multi_key> <eth> <C> <M> : "𝓜" U1D4DC
+<Multi_key> <eth> <C> <N> : "𝓝" U1D4DD
+<Multi_key> <eth> <C> <O> : "𝓞" U1D4DE
+<Multi_key> <eth> <C> <P> : "𝓟" U1D4DF
+<Multi_key> <eth> <C> <Q> : "𝓠" U1D4E0
+<Multi_key> <eth> <C> <R> : "𝓡" U1D4E1
+<Multi_key> <eth> <C> <S> : "𝓢" U1D4E2
+<Multi_key> <eth> <C> <T> : "𝓣" U1D4E3
+<Multi_key> <eth> <C> <U> : "𝓤" U1D4E4
+<Multi_key> <eth> <C> <V> : "𝓥" U1D4E5
+<Multi_key> <eth> <C> <W> : "𝓦" U1D4E6
+<Multi_key> <eth> <C> <X> : "𝓧" U1D4E7
+<Multi_key> <eth> <C> <Y> : "𝓨" U1D4E8
+<Multi_key> <eth> <C> <Z> : "𝓩" U1D4E9
+<Multi_key> <eth> <C> <a> : "𝓪" U1D4EA
+<Multi_key> <eth> <C> <b> : "𝓫" U1D4EB
+<Multi_key> <eth> <C> <c> : "𝓬" U1D4EC
+<Multi_key> <eth> <C> <d> : "𝓭" U1D4ED
+<Multi_key> <eth> <C> <e> : "𝓮" U1D4EE
+<Multi_key> <eth> <C> <f> : "𝓯" U1D4EF
+<Multi_key> <eth> <C> <g> : "𝓰" U1D4F0
+<Multi_key> <eth> <C> <h> : "𝓱" U1D4F1
+<Multi_key> <eth> <C> <i> : "𝓲" U1D4F2
+<Multi_key> <eth> <C> <j> : "𝓳" U1D4F3
+<Multi_key> <eth> <C> <k> : "𝓴" U1D4F4
+<Multi_key> <eth> <C> <l> : "𝓵" U1D4F5
+<Multi_key> <eth> <C> <m> : "𝓶" U1D4F6
+<Multi_key> <eth> <C> <n> : "𝓷" U1D4F7
+<Multi_key> <eth> <C> <o> : "𝓸" U1D4F8
+<Multi_key> <eth> <C> <p> : "𝓹" U1D4F9
+<Multi_key> <eth> <C> <q> : "𝓺" U1D4FA
+<Multi_key> <eth> <C> <r> : "𝓻" U1D4FB
+<Multi_key> <eth> <C> <s> : "𝓼" U1D4FC
+<Multi_key> <eth> <C> <t> : "𝓽" U1D4FD
+<Multi_key> <eth> <C> <u> : "𝓾" U1D4FE
+<Multi_key> <eth> <C> <v> : "𝓿" U1D4FF
+<Multi_key> <eth> <C> <w> : "𝔀" U1D500
+<Multi_key> <eth> <C> <x> : "𝔁" U1D501
+<Multi_key> <eth> <C> <y> : "𝔂" U1D502
+<Multi_key> <eth> <C> <z> : "𝔃" U1D503
+
+<Multi_key> <eth> <f> <A> : "𝔄" U1D504
+<Multi_key> <eth> <f> <B> : "𝔅" U1D505
+<Multi_key> <eth> <f> <C> : "ℭ" U212D
+<Multi_key> <eth> <f> <D> : "𝔇" U1D507
+<Multi_key> <eth> <f> <E> : "𝔈" U1D508
+<Multi_key> <eth> <f> <F> : "𝔉" U1D509
+<Multi_key> <eth> <f> <G> : "𝔊" U1D50A
+<Multi_key> <eth> <f> <H> : "ℌ" U210C
+<Multi_key> <eth> <f> <I> : "ℑ" U2111
+<Multi_key> <eth> <f> <J> : "𝔍" U1D50D
+<Multi_key> <eth> <f> <K> : "𝔎" U1D50E
+<Multi_key> <eth> <f> <L> : "𝔏" U1D50F
+<Multi_key> <eth> <f> <M> : "𝔐" U1D510
+<Multi_key> <eth> <f> <N> : "𝔑" U1D511
+<Multi_key> <eth> <f> <O> : "𝔒" U1D512
+<Multi_key> <eth> <f> <P> : "𝔓" U1D513
+<Multi_key> <eth> <f> <Q> : "𝔔" U1D514
+<Multi_key> <eth> <f> <R> : "ℜ" U211C
+<Multi_key> <eth> <f> <S> : "𝔖" U1D516
+<Multi_key> <eth> <f> <T> : "𝔗" U1D517
+<Multi_key> <eth> <f> <U> : "𝔘" U1D518
+<Multi_key> <eth> <f> <V> : "𝔙" U1D519
+<Multi_key> <eth> <f> <W> : "𝔚" U1D51A
+<Multi_key> <eth> <f> <X> : "𝔛" U1D51B
+<Multi_key> <eth> <f> <Y> : "𝔜" U1D51C
+<Multi_key> <eth> <f> <Z> : "ℨ" U2128
+<Multi_key> <eth> <f> <a> : "𝔞" U1D51E
+<Multi_key> <eth> <f> <b> : "𝔟" U1D51F
+<Multi_key> <eth> <f> <c> : "𝔠" U1D520
+<Multi_key> <eth> <f> <d> : "𝔡" U1D521
+<Multi_key> <eth> <f> <e> : "𝔢" U1D522
+<Multi_key> <eth> <f> <f> : "𝔣" U1D523
+<Multi_key> <eth> <f> <g> : "𝔤" U1D524
+<Multi_key> <eth> <f> <h> : "𝔥" U1D525
+<Multi_key> <eth> <f> <i> : "𝔦" U1D526
+<Multi_key> <eth> <f> <j> : "𝔧" U1D527
+<Multi_key> <eth> <f> <k> : "𝔨" U1D528
+<Multi_key> <eth> <f> <l> : "𝔩" U1D529
+<Multi_key> <eth> <f> <m> : "𝔪" U1D52A
+<Multi_key> <eth> <f> <n> : "𝔫" U1D52B
+<Multi_key> <eth> <f> <o> : "𝔬" U1D52C
+<Multi_key> <eth> <f> <p> : "𝔭" U1D52D
+<Multi_key> <eth> <f> <q> : "𝔮" U1D52E
+<Multi_key> <eth> <f> <r> : "𝔯" U1D52F
+<Multi_key> <eth> <f> <s> : "𝔰" U1D530
+<Multi_key> <eth> <f> <t> : "𝔱" U1D531
+<Multi_key> <eth> <f> <u> : "𝔲" U1D532
+<Multi_key> <eth> <f> <v> : "𝔳" U1D533
+<Multi_key> <eth> <f> <w> : "𝔴" U1D534
+<Multi_key> <eth> <f> <x> : "𝔵" U1D535
+<Multi_key> <eth> <f> <y> : "𝔶" U1D536
+<Multi_key> <eth> <f> <z> : "𝔷" U1D537
+
+<Multi_key> <eth> <B> <a> : "𝕒" U1D552
+<Multi_key> <eth> <B> <b> : "𝕓" U1D553
+<Multi_key> <eth> <B> <c> : "𝕔" U1D554
+<Multi_key> <eth> <B> <d> : "𝕕" U1D555
+<Multi_key> <eth> <B> <e> : "𝕖" U1D556
+<Multi_key> <eth> <B> <f> : "𝕗" U1D557
+<Multi_key> <eth> <B> <g> : "𝕘" U1D558
+<Multi_key> <eth> <B> <h> : "𝕙" U1D559
+<Multi_key> <eth> <B> <i> : "𝕚" U1D55A
+<Multi_key> <eth> <B> <j> : "𝕛" U1D55B
+<Multi_key> <eth> <B> <k> : "𝕜" U1D55C
+<Multi_key> <eth> <B> <l> : "𝕝" U1D55D
+<Multi_key> <eth> <B> <m> : "𝕞" U1D55E
+<Multi_key> <eth> <B> <n> : "𝕟" U1D55F
+<Multi_key> <eth> <B> <o> : "𝕠" U1D560
+<Multi_key> <eth> <B> <p> : "𝕡" U1D561
+<Multi_key> <eth> <B> <q> : "𝕢" U1D562
+<Multi_key> <eth> <B> <r> : "𝕣" U1D563
+<Multi_key> <eth> <B> <s> : "𝕤" U1D564
+<Multi_key> <eth> <B> <t> : "𝕥" U1D565
+<Multi_key> <eth> <B> <u> : "𝕦" U1D566
+<Multi_key> <eth> <B> <v> : "𝕧" U1D567
+<Multi_key> <eth> <B> <w> : "𝕨" U1D568
+<Multi_key> <eth> <B> <x> : "𝕩" U1D569
+<Multi_key> <eth> <B> <y> : "𝕪" U1D56A
+<Multi_key> <eth> <B> <z> : "𝕫" U1D56B
+<Multi_key> <eth> <B> <A> : "𝔸" U1D538
+<Multi_key> <eth> <B> <B> : "𝔹" U1D539
+<Multi_key> <eth> <B> <C> : "ℂ" U2102
+<Multi_key> <eth> <B> <D> : "𝔻" U1D53B
+<Multi_key> <eth> <B> <E> : "𝔼" U1D53C
+<Multi_key> <eth> <B> <F> : "𝔽" U1D53D
+<Multi_key> <eth> <B> <G> : "𝔾" U1D53E
+<Multi_key> <eth> <B> <H> : "ℍ" U210D
+<Multi_key> <eth> <B> <I> : "𝕀" U1D540
+<Multi_key> <eth> <B> <J> : "𝕁" U1D541
+<Multi_key> <eth> <B> <K> : "𝕂" U1D542
+<Multi_key> <eth> <B> <L> : "𝕃" U1D543
+<Multi_key> <eth> <B> <M> : "𝕄" U1D544
+<Multi_key> <eth> <B> <N> : "ℕ" U2115
+<Multi_key> <eth> <B> <O> : "𝕆" U1D546
+<Multi_key> <eth> <B> <P> : "ℙ" U2119
+<Multi_key> <eth> <B> <Q> : "ℚ" U211A
+<Multi_key> <eth> <B> <R> : "ℝ" U211D
+<Multi_key> <eth> <B> <S> : "𝕊" U1D54A
+<Multi_key> <eth> <B> <T> : "𝕋" U1D54B
+<Multi_key> <eth> <B> <U> : "𝕌" U1D54C
+<Multi_key> <eth> <B> <V> : "𝕍" U1D54D
+<Multi_key> <eth> <B> <W> : "𝕎" U1D54E
+<Multi_key> <eth> <B> <X> : "𝕏" U1D54F
+<Multi_key> <eth> <B> <Y> : "𝕐" U1D550
+<Multi_key> <eth> <B> <Z> : "ℤ" U2124
+
+<Multi_key> <eth> <F> <A> : "𝕬" U1D56C
+<Multi_key> <eth> <F> <B> : "𝕭" U1D56D
+<Multi_key> <eth> <F> <C> : "𝕮" U1D56E
+<Multi_key> <eth> <F> <D> : "𝕯" U1D56F
+<Multi_key> <eth> <F> <E> : "𝕰" U1D570
+<Multi_key> <eth> <F> <F> : "𝕱" U1D571
+<Multi_key> <eth> <F> <G> : "𝕲" U1D572
+<Multi_key> <eth> <F> <H> : "𝕳" U1D573
+<Multi_key> <eth> <F> <I> : "𝕴" U1D574
+<Multi_key> <eth> <F> <J> : "𝕵" U1D575
+<Multi_key> <eth> <F> <K> : "𝕶" U1D576
+<Multi_key> <eth> <F> <L> : "𝕷" U1D577
+<Multi_key> <eth> <F> <M> : "𝕸" U1D578
+<Multi_key> <eth> <F> <N> : "𝕹" U1D579
+<Multi_key> <eth> <F> <O> : "𝕺" U1D57A
+<Multi_key> <eth> <F> <P> : "𝕻" U1D57B
+<Multi_key> <eth> <F> <Q> : "𝕼" U1D57C
+<Multi_key> <eth> <F> <R> : "𝕽" U1D57D
+<Multi_key> <eth> <F> <S> : "𝕾" U1D57E
+<Multi_key> <eth> <F> <T> : "𝕿" U1D57F
+<Multi_key> <eth> <F> <U> : "𝖀" U1D580
+<Multi_key> <eth> <F> <V> : "𝖁" U1D581
+<Multi_key> <eth> <F> <W> : "𝖂" U1D582
+<Multi_key> <eth> <F> <X> : "𝖃" U1D583
+<Multi_key> <eth> <F> <Y> : "𝖄" U1D584
+<Multi_key> <eth> <F> <Z> : "𝖅" U1D585
+<Multi_key> <eth> <F> <a> : "𝖆" U1D586
+<Multi_key> <eth> <F> <b> : "𝖇" U1D587
+<Multi_key> <eth> <F> <c> : "𝖈" U1D588
+<Multi_key> <eth> <F> <d> : "𝖉" U1D589
+<Multi_key> <eth> <F> <e> : "𝖊" U1D58A
+<Multi_key> <eth> <F> <f> : "𝖋" U1D58B
+<Multi_key> <eth> <F> <g> : "𝖌" U1D58C
+<Multi_key> <eth> <F> <h> : "𝖍" U1D58D
+<Multi_key> <eth> <F> <i> : "𝖎" U1D58E
+<Multi_key> <eth> <F> <j> : "𝖏" U1D58F
+<Multi_key> <eth> <F> <k> : "𝖐" U1D590
+<Multi_key> <eth> <F> <l> : "𝖑" U1D591
+<Multi_key> <eth> <F> <m> : "𝖒" U1D592
+<Multi_key> <eth> <F> <n> : "𝖓" U1D593
+<Multi_key> <eth> <F> <o> : "𝖔" U1D594
+<Multi_key> <eth> <F> <p> : "𝖕" U1D595
+<Multi_key> <eth> <F> <q> : "𝖖" U1D596
+<Multi_key> <eth> <F> <r> : "𝖗" U1D597
+<Multi_key> <eth> <F> <s> : "𝖘" U1D598
+<Multi_key> <eth> <F> <t> : "𝖙" U1D599
+<Multi_key> <eth> <F> <u> : "𝖚" U1D59A
+<Multi_key> <eth> <F> <v> : "𝖛" U1D59B
+<Multi_key> <eth> <F> <w> : "𝖜" U1D59C
+<Multi_key> <eth> <F> <x> : "𝖝" U1D59D
+<Multi_key> <eth> <F> <y> : "𝖞" U1D59E
+<Multi_key> <eth> <F> <z> : "𝖟" U1D59F
+
+<Multi_key> <eth> <i> <period> <i> : "𝚤" U1D6A4
+<Multi_key> <eth> <i> <period> <j> : "𝚥" U1D6A5
+
+<Multi_key> <eth> <b> <mu> <A> : "𝚨" U1D6A8
+<Multi_key> <eth> <b> <mu> <B> : "𝚩" U1D6A9
+<Multi_key> <eth> <b> <mu> <G> : "𝚪" U1D6AA
+<Multi_key> <eth> <b> <mu> <D> : "𝚫" U1D6AB
+<Multi_key> <eth> <b> <mu> <E> : "𝚬" U1D6AC
+<Multi_key> <eth> <b> <mu> <Z> : "𝚭" U1D6AD
+<Multi_key> <eth> <b> <mu> <H> : "𝚮" U1D6AE
+<Multi_key> <eth> <b> <mu> <Q> : "𝚯" U1D6AF
+<Multi_key> <eth> <b> <mu> <I> : "𝚰" U1D6B0
+<Multi_key> <eth> <b> <mu> <K> : "𝚱" U1D6B1
+<Multi_key> <eth> <b> <mu> <L> : "𝚲" U1D6B2
+<Multi_key> <eth> <b> <mu> <M> : "𝚳" U1D6B3
+<Multi_key> <eth> <b> <mu> <N> : "𝚴" U1D6B4
+<Multi_key> <eth> <b> <mu> <C> : "𝚵" U1D6B5
+<Multi_key> <eth> <b> <mu> <O> : "𝚶" U1D6B6
+<Multi_key> <eth> <b> <mu> <P> : "𝚷" U1D6B7
+<Multi_key> <eth> <b> <mu> <R> : "𝚸" U1D6B8
+<Multi_key> <eth> <b> <mu> <Adiaeresis> : "𝚹" U1D6B9
+<Multi_key> <eth> <b> <mu> <J> : "𝚺" U1D6BA
+<Multi_key> <eth> <b> <mu> <S> : "𝚺" U1D6BA
+<Multi_key> <eth> <b> <mu> <T> : "𝚻" U1D6BB
+<Multi_key> <eth> <b> <mu> <U> : "𝚼" U1D6BC
+<Multi_key> <eth> <b> <mu> <F> : "𝚽" U1D6BD
+<Multi_key> <eth> <b> <mu> <X> : "𝚾" U1D6BE
+<Multi_key> <eth> <b> <mu> <Y> : "𝚿" U1D6BF
+<Multi_key> <eth> <b> <mu> <W> : "𝛀" U1D6C0
+<Multi_key> <eth> <b> <mu> <ETH> : "𝛁" U1D6C1
+<Multi_key> <eth> <b> <mu> <a> : "𝛂" U1D6C2
+<Multi_key> <eth> <b> <mu> <b> : "𝛃" U1D6C3
+<Multi_key> <eth> <b> <mu> <g> : "𝛄" U1D6C4
+<Multi_key> <eth> <b> <mu> <d> : "𝛅" U1D6C5
+<Multi_key> <eth> <b> <mu> <e> : "𝛆" U1D6C6
+<Multi_key> <eth> <b> <mu> <z> : "𝛇" U1D6C7
+<Multi_key> <eth> <b> <mu> <h> : "𝛈" U1D6C8
+<Multi_key> <eth> <b> <mu> <q> : "𝛉" U1D6C9
+<Multi_key> <eth> <b> <mu> <i> : "𝛊" U1D6CA
+<Multi_key> <eth> <b> <mu> <k> : "𝛋" U1D6CB
+<Multi_key> <eth> <b> <mu> <l> : "𝛌" U1D6CC
+<Multi_key> <eth> <b> <mu> <m> : "𝛍" U1D6CD
+<Multi_key> <eth> <b> <mu> <n> : "𝛎" U1D6CE
+<Multi_key> <eth> <b> <mu> <c> : "𝛏" U1D6CF
+<Multi_key> <eth> <b> <mu> <o> : "𝛐" U1D6D0
+<Multi_key> <eth> <b> <mu> <p> : "𝛑" U1D6D1
+<Multi_key> <eth> <b> <mu> <r> : "𝛒" U1D6D2
+<Multi_key> <eth> <b> <mu> <j> : "𝛓" U1D6D3
+<Multi_key> <eth> <b> <mu> <s> : "𝛔" U1D6D4
+<Multi_key> <eth> <b> <mu> <t> : "𝛕" U1D6D5
+<Multi_key> <eth> <b> <mu> <u> : "𝛖" U1D6D6
+<Multi_key> <eth> <b> <mu> <f> : "𝛗" U1D6D7
+<Multi_key> <eth> <b> <mu> <x> : "𝛘" U1D6D8
+<Multi_key> <eth> <b> <mu> <y> : "𝛙" U1D6D9
+<Multi_key> <eth> <b> <mu> <w> : "𝛚" U1D6DA
+<Multi_key> <eth> <b> <mu> <eth> : "𝛛" U1D6DB
+<Multi_key> <eth> <b> <mu> <eacute> : "𝛜" U1D6DC
+<Multi_key> <eth> <b> <mu> <adiaeresis> : "𝛝" U1D6DD
+<Multi_key> <eth> <b> <mu> <oe> : "𝛞" U1D6DE
+<Multi_key> <eth> <b> <mu> <ediaeresis> : "𝛟" U1D6DF
+<Multi_key> <eth> <b> <mu> <registered> : "𝛠" U1D6E0
+<Multi_key> <eth> <b> <mu> <odiaeresis> : "𝛡" U1D6E1
+
+<Multi_key> <eth> <i> <mu> <A> : "𝛢" U1D6E2
+<Multi_key> <eth> <i> <mu> <B> : "𝛣" U1D6E3
+<Multi_key> <eth> <i> <mu> <G> : "𝛤" U1D6E4
+<Multi_key> <eth> <i> <mu> <D> : "𝛥" U1D6E5
+<Multi_key> <eth> <i> <mu> <E> : "𝛦" U1D6E6
+<Multi_key> <eth> <i> <mu> <Z> : "𝛧" U1D6E7
+<Multi_key> <eth> <i> <mu> <H> : "𝛨" U1D6E8
+<Multi_key> <eth> <i> <mu> <Q> : "𝛩" U1D6E9
+<Multi_key> <eth> <i> <mu> <I> : "𝛪" U1D6EA
+<Multi_key> <eth> <i> <mu> <K> : "𝛫" U1D6EB
+<Multi_key> <eth> <i> <mu> <L> : "𝛬" U1D6EC
+<Multi_key> <eth> <i> <mu> <M> : "𝛭" U1D6ED
+<Multi_key> <eth> <i> <mu> <N> : "𝛮" U1D6EE
+<Multi_key> <eth> <i> <mu> <C> : "𝛯" U1D6EF
+<Multi_key> <eth> <i> <mu> <O> : "𝛰" U1D6F0
+<Multi_key> <eth> <i> <mu> <P> : "𝛱" U1D6F1
+<Multi_key> <eth> <i> <mu> <R> : "𝛲" U1D6F2
+<Multi_key> <eth> <i> <mu> <Adiaeresis> : "𝛳" U1D6F3
+<Multi_key> <eth> <i> <mu> <J> : "𝛴" U1D6F4
+<Multi_key> <eth> <i> <mu> <S> : "𝛴" U1D6F4
+<Multi_key> <eth> <i> <mu> <T> : "𝛵" U1D6F5
+<Multi_key> <eth> <i> <mu> <U> : "𝛶" U1D6F6
+<Multi_key> <eth> <i> <mu> <F> : "𝛷" U1D6F7
+<Multi_key> <eth> <i> <mu> <X> : "𝛸" U1D6F8
+<Multi_key> <eth> <i> <mu> <Y> : "𝛹" U1D6F9
+<Multi_key> <eth> <i> <mu> <W> : "𝛺" U1D6FA
+<Multi_key> <eth> <i> <mu> <ETH> : "𝛻" U1D6FB
+<Multi_key> <eth> <i> <mu> <a> : "𝛼" U1D6FC
+<Multi_key> <eth> <i> <mu> <b> : "𝛽" U1D6FD
+<Multi_key> <eth> <i> <mu> <g> : "𝛾" U1D6FE
+<Multi_key> <eth> <i> <mu> <d> : "𝛿" U1D6FF
+<Multi_key> <eth> <i> <mu> <e> : "𝜀" U1D700
+<Multi_key> <eth> <i> <mu> <z> : "𝜁" U1D701
+<Multi_key> <eth> <i> <mu> <h> : "𝜂" U1D702
+<Multi_key> <eth> <i> <mu> <q> : "𝜃" U1D703
+<Multi_key> <eth> <i> <mu> <i> : "𝜄" U1D704
+<Multi_key> <eth> <i> <mu> <k> : "𝜅" U1D705
+<Multi_key> <eth> <i> <mu> <l> : "𝜆" U1D706
+<Multi_key> <eth> <i> <mu> <m> : "𝜇" U1D707
+<Multi_key> <eth> <i> <mu> <n> : "𝜈" U1D708
+<Multi_key> <eth> <i> <mu> <c> : "𝜉" U1D709
+<Multi_key> <eth> <i> <mu> <o> : "𝜊" U1D70A
+<Multi_key> <eth> <i> <mu> <p> : "𝜋" U1D70B
+<Multi_key> <eth> <i> <mu> <r> : "𝜌" U1D70C
+<Multi_key> <eth> <i> <mu> <j> : "𝜍" U1D70D
+<Multi_key> <eth> <i> <mu> <s> : "𝜎" U1D70E
+<Multi_key> <eth> <i> <mu> <t> : "𝜏" U1D70F
+<Multi_key> <eth> <i> <mu> <u> : "𝜐" U1D710
+<Multi_key> <eth> <i> <mu> <f> : "𝜑" U1D711
+<Multi_key> <eth> <i> <mu> <x> : "𝜒" U1D712
+<Multi_key> <eth> <i> <mu> <y> : "𝜓" U1D713
+<Multi_key> <eth> <i> <mu> <w> : "𝜔" U1D714
+<Multi_key> <eth> <i> <mu> <eth> : "𝜕" U1D715
+<Multi_key> <eth> <i> <mu> <eacute> : "𝜖" U1D716
+<Multi_key> <eth> <i> <mu> <adiaeresis> : "𝜗" U1D717
+<Multi_key> <eth> <i> <mu> <oe> : "𝜘" U1D718
+<Multi_key> <eth> <i> <mu> <ediaeresis> : "𝜙" U1D719
+<Multi_key> <eth> <i> <mu> <registered> : "𝜚" U1D71A
+<Multi_key> <eth> <i> <mu> <odiaeresis> : "𝜛" U1D71B
+
+<Multi_key> <eth> <I> <mu> <A> : "𝜜" U1D71C
+<Multi_key> <eth> <I> <mu> <B> : "𝜝" U1D71D
+<Multi_key> <eth> <I> <mu> <G> : "𝜞" U1D71E
+<Multi_key> <eth> <I> <mu> <D> : "𝜟" U1D71F
+<Multi_key> <eth> <I> <mu> <E> : "𝜠" U1D720
+<Multi_key> <eth> <I> <mu> <Z> : "𝜡" U1D721
+<Multi_key> <eth> <I> <mu> <H> : "𝜢" U1D722
+<Multi_key> <eth> <I> <mu> <Q> : "𝜣" U1D723
+<Multi_key> <eth> <I> <mu> <I> : "𝜤" U1D724
+<Multi_key> <eth> <I> <mu> <K> : "𝜥" U1D725
+<Multi_key> <eth> <I> <mu> <L> : "𝜦" U1D726
+<Multi_key> <eth> <I> <mu> <M> : "𝜧" U1D727
+<Multi_key> <eth> <I> <mu> <N> : "𝜨" U1D728
+<Multi_key> <eth> <I> <mu> <C> : "𝜩" U1D729
+<Multi_key> <eth> <I> <mu> <O> : "𝜪" U1D72A
+<Multi_key> <eth> <I> <mu> <P> : "𝜫" U1D72B
+<Multi_key> <eth> <I> <mu> <R> : "𝜬" U1D72C
+<Multi_key> <eth> <I> <mu> <Adiaeresis> : "𝜭" U1D72D
+<Multi_key> <eth> <I> <mu> <J> : "𝜮" U1D72E
+<Multi_key> <eth> <I> <mu> <S> : "𝜮" U1D72E
+<Multi_key> <eth> <I> <mu> <T> : "𝜯" U1D72F
+<Multi_key> <eth> <I> <mu> <U> : "𝜰" U1D730
+<Multi_key> <eth> <I> <mu> <F> : "𝜱" U1D731
+<Multi_key> <eth> <I> <mu> <X> : "𝜲" U1D732
+<Multi_key> <eth> <I> <mu> <Y> : "𝜳" U1D733
+<Multi_key> <eth> <I> <mu> <W> : "𝜴" U1D734
+<Multi_key> <eth> <I> <mu> <ETH> : "𝜵" U1D735
+<Multi_key> <eth> <I> <mu> <a> : "𝜶" U1D736
+<Multi_key> <eth> <I> <mu> <b> : "𝜷" U1D737
+<Multi_key> <eth> <I> <mu> <g> : "𝜸" U1D738
+<Multi_key> <eth> <I> <mu> <d> : "𝜹" U1D739
+<Multi_key> <eth> <I> <mu> <e> : "𝜺" U1D73A
+<Multi_key> <eth> <I> <mu> <z> : "𝜻" U1D73B
+<Multi_key> <eth> <I> <mu> <h> : "𝜼" U1D73C
+<Multi_key> <eth> <I> <mu> <q> : "𝜽" U1D73D
+<Multi_key> <eth> <I> <mu> <i> : "𝜾" U1D73E
+<Multi_key> <eth> <I> <mu> <k> : "𝜿" U1D73F
+<Multi_key> <eth> <I> <mu> <l> : "𝝀" U1D740
+<Multi_key> <eth> <I> <mu> <m> : "𝝁" U1D741
+<Multi_key> <eth> <I> <mu> <n> : "𝝂" U1D742
+<Multi_key> <eth> <I> <mu> <c> : "𝝃" U1D743
+<Multi_key> <eth> <I> <mu> <o> : "𝝄" U1D744
+<Multi_key> <eth> <I> <mu> <p> : "𝝅" U1D745
+<Multi_key> <eth> <I> <mu> <r> : "𝝆" U1D746
+<Multi_key> <eth> <I> <mu> <j> : "𝝇" U1D747
+<Multi_key> <eth> <I> <mu> <s> : "𝝈" U1D748
+<Multi_key> <eth> <I> <mu> <t> : "𝝉" U1D749
+<Multi_key> <eth> <I> <mu> <u> : "𝝊" U1D74A
+<Multi_key> <eth> <I> <mu> <f> : "𝝋" U1D74B
+<Multi_key> <eth> <I> <mu> <x> : "𝝌" U1D74C
+<Multi_key> <eth> <I> <mu> <y> : "𝝍" U1D74D
+<Multi_key> <eth> <I> <mu> <w> : "𝝎" U1D74E
+<Multi_key> <eth> <I> <mu> <eth> : "𝝏" U1D74F
+<Multi_key> <eth> <I> <mu> <eacute> : "𝝐" U1D750
+<Multi_key> <eth> <I> <mu> <adiaeresis> : "𝝑" U1D751
+<Multi_key> <eth> <I> <mu> <oe> : "𝝒" U1D752
+<Multi_key> <eth> <I> <mu> <ediaeresis> : "𝝓" U1D753
+<Multi_key> <eth> <I> <mu> <registered> : "𝝔" U1D754
+<Multi_key> <eth> <I> <mu> <odiaeresis> : "𝝕" U1D755
+
+<Multi_key> <eth> <b> <mu> <V> : "𝟊" U1D7CA
+<Multi_key> <eth> <b> <mu> <v> : "𝟋" U1D7CB
+
+<Multi_key> <eth> <b> <0> : "𝟎" U1D7CE
+<Multi_key> <eth> <b> <1> : "𝟏" U1D7CF
+<Multi_key> <eth> <b> <2> : "𝟐" U1D7D0
+<Multi_key> <eth> <b> <3> : "𝟑" U1D7D1
+<Multi_key> <eth> <b> <4> : "𝟒" U1D7D2
+<Multi_key> <eth> <b> <5> : "𝟓" U1D7D3
+<Multi_key> <eth> <b> <6> : "𝟔" U1D7D4
+<Multi_key> <eth> <b> <7> : "𝟕" U1D7D5
+<Multi_key> <eth> <b> <8> : "𝟖" U1D7D6
+<Multi_key> <eth> <b> <9> : "𝟗" U1D7D7
+
+<Multi_key> <eth> <B> <0> : "𝟘" U1D7D8
+<Multi_key> <eth> <B> <1> : "𝟙" U1D7D9
+<Multi_key> <eth> <B> <2> : "𝟚" U1D7DA
+<Multi_key> <eth> <B> <3> : "𝟛" U1D7DB
+<Multi_key> <eth> <B> <4> : "𝟜" U1D7DC
+<Multi_key> <eth> <B> <5> : "𝟝" U1D7DD
+<Multi_key> <eth> <B> <6> : "𝟞" U1D7DE
+<Multi_key> <eth> <B> <7> : "𝟟" U1D7DF
+<Multi_key> <eth> <B> <8> : "𝟠" U1D7E0
+<Multi_key> <eth> <B> <9> : "𝟡" U1D7E1
 
 
 # Latin Extended-G
