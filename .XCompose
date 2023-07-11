@@ -21,6 +21,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <p> <p>	: "¶"	paragraph # PILCROW SIGN
 <Multi_key> <asciicircum> <underscore> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
 
+<Multi_key> <1> <slash> <4>	: "¼"	onequarter # VULGAR FRACTION ONE QUARTER
+<Multi_key> <1> <slash> <2>	: "½"	onehalf # VULGAR FRACTION ONE HALF
+<Multi_key> <3> <slash> <4>	: "¾"	threequarters # VULGAR FRACTION THREE QUARTERS
 
 # Latin Extended-A
 
@@ -99,7 +102,6 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <Z> <H>	: "Ʒ"	U01B7 # LATIN CAPITAL LETTER EZH
 
 <Multi_key> <slash> <2>	: "ƻ"	U01BB # LATIN LETTER TWO WITH STROKE
-<Multi_key> <2> <slash>	: "ƻ"	U01BB # LATIN LETTER TWO WITH STROKE
 
 <Multi_key> <slash> <U0296>	: "ƾ"	U01BE # LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE
 <Multi_key> <U0296> <slash>	: "ƾ"	U01BE # LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE
@@ -1032,23 +1034,39 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <F> <A> <X>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <f> <a> <x>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <Greek_pi> <Greek_pi>	: "ℼ"	U213C # DOUBLE-STRUCK SMALL PI
-<Multi_key> <eth> <B> <mu> <p> : "ℼ" U213C
+<Multi_key> <eth> <B> <mu> <p> : "ℼ" U213C # DOUBLE-STRUCK SMALL PI
 <Multi_key> <Greek_gamma> <Greek_gamma>	: "ℽ"	U213D # DOUBLE-STRUCK SMALL GAMMA
-<Multi_key> <eth> <B> <mu> <g> : "ℽ" U213D
+<Multi_key> <eth> <B> <mu> <g> : "ℽ" U213D # DOUBLE-STRUCK SMALL GAMMA
 <Multi_key> <Greek_GAMMA> <Greek_GAMMA>	: "ℾ"	U213E # DOUBLE-STRUCK CAPITAL GAMMA
-<Multi_key> <eth> <B> <mu> <G> : "ℾ" U213E
+<Multi_key> <eth> <B> <mu> <G> : "ℾ" U213E # DOUBLE-STRUCK CAPITAL GAMMA
 <Multi_key> <Greek_PI> <Greek_PI>	: "ℿ"	U213F # DOUBLE-STRUCK CAPITAL PI
-<Multi_key> <eth> <B> <mu> <P> : "ℿ" U213F
+<Multi_key> <eth> <B> <mu> <P> : "ℿ" U213F # DOUBLE-STRUCK CAPITAL PI
 <Multi_key> <U2211> <U2211>	: "⅀"	U2140 # DOUBLE-STRUCK N-ARY SUMMATION
-<Multi_key> <eth> <B> <mu> <S> : "⅀" U2140
+<Multi_key> <eth> <B> <mu> <S> : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
 
 <Multi_key> <ampersand> <ampersand>	: "⅋"	U214B # TURNED AMPERSAND
 
 # Number Forms
 
+<Multi_key> <1> <slash> <7>	: "⅐"	U2150 # VULGAR FRACTION ONE SEVENTH
+<Multi_key> <1> <slash> <9>	: "⅑"	U2151 # VULGAR FRACTION ONE NINTH
+<Multi_key> <1> <slash> <1> <0>	: "⅒"	U2152 # VULGAR FRACTION ONE TENTH
+<Multi_key> <1> <slash> <3>	: "⅓"	U2153 # VULGAR FRACTION ONE THIRD
+<Multi_key> <2> <slash> <3>	: "⅔"	U2154 # VULGAR FRACTION TWO THIRDS
+<Multi_key> <1> <slash> <5>	: "⅕"	U2155 # VULGAR FRACTION ONE FIFTH
+<Multi_key> <2> <slash> <5>	: "⅔"	U2156 # VULGAR FRACTION TWO FIFTHS
+<Multi_key> <3> <slash> <5>	: "⅗"	U2157 # VULGAR FRACTION THREE FIFTHS
+<Multi_key> <4> <slash> <5>	: "⅘"	U2158 # VULGAR FRACTION FOUR FIFTHS
+<Multi_key> <1> <slash> <6>	: "⅙"	U2159 # VULGAR FRACTION ONE SIXTH
+<Multi_key> <5> <slash> <6>	: "⅚"	U215A # VULGAR FRACTION FIVE SIXTHS
+<Multi_key> <1> <slash> <8>	: "⅛"	U215B # VULGAR FRACTION ONE EIGHTH
+<Multi_key> <3> <slash> <8>	: "⅜"	U215C # VULGAR FRACTION THREE EIGHTHS
+<Multi_key> <5> <slash> <8>	: "⅝"	U215D # VULGAR FRACTION FIVE EIGHTHS
+<Multi_key> <7> <slash> <8>	: "⅞"	U215E # VULGAR FRACTION SEVEN EIGHTHS
+<Multi_key> <1> <slash> <space>	: "⅟"	U215F # FRACTION NUMERATOR ONE
 <Multi_key> <1> <space>	: "⅟"	U215F # FRACTION NUMERATOR ONE
-<Multi_key> <1> <slash>	: "⅟"	U215F # FRACTION NUMERATOR ONE
 
+<Multi_key> <0> <slash> <3>	: "↉"	U2189 # VULGAR FRACTION ZERO THIRDS
 <Multi_key> <2> <2>	: "↊"	U218A # TURNED DIGIT TWO
 <Multi_key> <3> <3>	: "↋"	U218B # TURNED DIGIT THREE
 
