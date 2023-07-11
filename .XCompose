@@ -14,14 +14,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin 1 Supplement
 
-<Multi_key> <underscore> <a>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
-<Multi_key> <a> <underscore>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
+<Multi_key> <asciicircum> <underscore> <underscore> <a>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
 <Multi_key> <asterisk> <space>	: "°"	degree # DEGREE SIGN
 <Multi_key> <asterisk> <asterisk>	: "°"	degree # DEGREE SIGN
 
 <Multi_key> <p> <p>	: "¶"	paragraph # PILCROW SIGN
-<Multi_key> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
-<Multi_key> <o> <underscore>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
+<Multi_key> <asciicircum> <underscore> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
 
 
 # Latin Extended-A
@@ -60,6 +58,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <j> <x>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 <Multi_key> <j> <X>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 
+<Multi_key> <K> <K>	: "Kʼ"	U0135 # LATIN CAPITAL LETTER K followed by MODIFIER LETTER APOSTROPHE
+
 <Multi_key> <v> <L>	: "Ľ"	U013D # LATIN CAPITAL LETTER L WITH CARON
 <Multi_key> <L> <v>	: "Ľ"	U013D # LATIN CAPITAL LETTER L WITH CARON
 <Multi_key> <v> <l>	: "ľ"	U013E # LATIN SMALL LETTER L WITH CARON
@@ -69,6 +69,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <period> <l>	: "ŀ"	U0140 # LATIN SMALL LETTER L WITH MIDDLE DOT
 <Multi_key> <l> <period>	: "ŀ"	U0140 # LATIN SMALL LETTER L WITH MIDDLE DOT
 
+<Multi_key> <apostrophe> <space> <N>	: "ʼN"	# LATIN CAPITAL LETTER N preceded by MODIFIER LETTER APOSTROPHE
 <Multi_key> <apostrophe> <space> <n>	: "ŉ"	U0149 # LATIN SMALL LETTER N PRECEDED BY APOSTROPHE
 
 <Multi_key> <O> <parenleft>	: "Ŏ"	U014E # LATIN CAPITAL LETTER O WITH BREVE
@@ -135,6 +136,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <minus> <semicolon> <O>	: "Ǭ"	U01EC # LATIN CAPITAL LETTER O WITH OGONEK AND MACRON
 <Multi_key> <minus> <semicolon> <o>	: "ǭ"	U01ED # LATIN SMALL LETTER O WITH OGONEK AND MACRON
 
+<Multi_key> <c> <J>	: "J̌"	# LATIN CAPITAL LETTER J with COMBINING CARON
+<Multi_key> <v> <J>	: "J̌"	# LATIN CAPITAL LETTER J with COMBINING CARON
+
 <Multi_key> <D> <Z>	: "Ǳ"	U01F1 # LATIN CAPITAL LETTER DZ
 <Multi_key> <D> <z>	: "ǲ"	U01F2 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z
 <Multi_key> <d> <z>	: "ǳ"	U01F3 # LATIN SMALL LETTER DZ
@@ -192,6 +196,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <minus> <y>	: "ȳ"	U0233 # LATIN SMALL LETTER Y WITH MACRON
 <Multi_key> <y> <minus>	: "ȳ"	U0233 # LATIN SMALL LETTER Y WITH MACRON
 
+<Multi_key> <period> <J>	: "J̇"	# LATIN CAPITAL LETTER J with COMBINING DOT ABOVE
+<Multi_key> <J> <period>	: "J̇"	# LATIN CAPITAL LETTER J with COMBINING DOT ABOVE
 <Multi_key> <period> <j>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 <Multi_key> <j> <period>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 
@@ -582,13 +588,21 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <Z> <underscore>	: "Ẕ"   U1E94 # LATIN CAPITAL LETTER Z WITH LINE BELOW
 <Multi_key> <underscore> <z>	: "ẕ"   U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
 <Multi_key> <z> <underscore>	: "ẕ"   U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
+<Multi_key> <underscore> <H>	: "H̱"   # LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
+<Multi_key> <H> <underscore>	: "H̱"   # LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
 <Multi_key> <underscore> <h>	: "ẖ"   U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
 <Multi_key> <h> <underscore>	: "ẖ"   U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
+<Multi_key> <quotedbl> <T>	: "T̈"   # LATIN CAPITAL LETTER T with COMBINING DIAERESIS
 
+<Multi_key> <asterisk> <W>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
+<Multi_key> <W> <asterisk>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
 <Multi_key> <asterisk> <w>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
 <Multi_key> <w> <asterisk>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
+<Multi_key> <asterisk> <Y>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
+<Multi_key> <Y> <asterisk>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
 <Multi_key> <asterisk> <y>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <y> <asterisk>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
+<Multi_key> <A> <parenright>	: "A͗"	# LATIN SMALL LETTER A with COMBINING RIGHT HALF RING ABOVE
 <Multi_key> <a> <parenright>	: "ẚ"	U1E9A # LATIN SMALL LETTER A WITH RIGHT HALF RING
 
 <Multi_key> <apostrophe> <space> <U> <A>	: "Ắ"	U1EAE # LATIN CAPITAL LETTER A WITH BREVE AND ACUTE
