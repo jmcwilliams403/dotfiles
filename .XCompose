@@ -14,13 +14,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin 1 Supplement
 
+<Multi_key> <underscore> <a>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
+<Multi_key> <a> <underscore>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
 <Multi_key> <asterisk> <space>	: "°"	degree # DEGREE SIGN
 <Multi_key> <asterisk> <asterisk>	: "°"	degree # DEGREE SIGN
 
 <Multi_key> <p> <p>	: "¶"	paragraph # PILCROW SIGN
-
-<Multi_key> <underscore> <a>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
-<Multi_key> <a> <underscore>	: "ª"	ordfeminine # FEMININE ORDINAL INDICATOR
 <Multi_key> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
 <Multi_key> <o> <underscore>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
 
@@ -244,22 +243,22 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <mu> <E>	: "Ε"	U0395 # GREEK CAPITAL LETTER EPSILON
 <Multi_key> <mu> <Z>	: "Ζ"	U0396 # GREEK CAPITAL LETTER ZETA
 <Multi_key> <mu> <H>	: "Η"	U0397 # GREEK CAPITAL LETTER ETA
-<Multi_key> <mu> <J>	: "Θ"	U0398 # GREEK CAPITAL LETTER THETA
+<Multi_key> <mu> <Q>	: "Θ"	U0398 # GREEK CAPITAL LETTER THETA
 <Multi_key> <mu> <I>	: "Ι"	U0399 # GREEK CAPITAL LETTER IOTA
 <Multi_key> <mu> <K>	: "Κ"	U039A # GREEK CAPITAL LETTER KAPPA
 <Multi_key> <mu> <L>	: "Λ"	U039B # GREEK CAPITAL LETTER LAMDA
 <Multi_key> <mu> <M>	: "Μ"	U039C # GREEK CAPITAL LETTER MU
 <Multi_key> <mu> <N>	: "Ν"	U039D # GREEK CAPITAL LETTER NU
-<Multi_key> <mu> <X>	: "Ξ"	U039E # GREEK CAPITAL LETTER XI
+<Multi_key> <mu> <C>	: "Ξ"	U039E # GREEK CAPITAL LETTER XI
 <Multi_key> <mu> <O>	: "Ο"	U039F # GREEK CAPITAL LETTER OMICRON
 <Multi_key> <mu> <P>	: "Π"	U03A0 # GREEK CAPITAL LETTER PI
 <Multi_key> <mu> <R>	: "Ρ"	U03A1 # GREEK CAPITAL LETTER RHO
-<Multi_key> <mu> <C>	: "Σ"	U03A3 # GREEK CAPITAL LETTER SIGMA
+<Multi_key> <mu> <J>	: "Σ"	U03A3 # GREEK CAPITAL LETTER SIGMA
 <Multi_key> <mu> <S>	: "Σ"	U03A3 # GREEK CAPITAL LETTER SIGMA
 <Multi_key> <mu> <T>	: "Τ"	U03A4 # GREEK CAPITAL LETTER TAU
 <Multi_key> <mu> <U>	: "Υ"	U03A5 # GREEK CAPITAL LETTER UPSILON
 <Multi_key> <mu> <F>	: "Φ"	U03A6 # GREEK CAPITAL LETTER PHI
-<Multi_key> <mu> <Q>	: "Χ"	U03A7 # GREEK CAPITAL LETTER CHI
+<Multi_key> <mu> <X>	: "Χ"	U03A7 # GREEK CAPITAL LETTER CHI
 <Multi_key> <mu> <Y>	: "Ψ"	U03A8 # GREEK CAPITAL LETTER PSI
 <Multi_key> <mu> <W>	: "Ω"	U03A9 # GREEK CAPITAL LETTER OMEGA
 
@@ -280,34 +279,48 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <mu> <e>	: "ε"	U03B5 # GREEK SMALL LETTER EPSILON
 <Multi_key> <mu> <z>	: "ζ"	U03B6 # GREEK SMALL LETTER ZETA
 <Multi_key> <mu> <h>	: "η"	U03B7 # GREEK SMALL LETTER ETA
-<Multi_key> <mu> <j>	: "θ"	U03B8 # GREEK SMALL LETTER THETA
+<Multi_key> <mu> <q>	: "θ"	U03B8 # GREEK SMALL LETTER THETA
 <Multi_key> <mu> <i>	: "ι"	U03B9 # GREEK SMALL LETTER IOTA
 <Multi_key> <mu> <k>	: "κ"	U03BA # GREEK SMALL LETTER KAPPA
 <Multi_key> <mu> <l>	: "λ"	U03BB # GREEK SMALL LETTER LAMDA
 <Multi_key> <mu> <m>	: "μ"	U03BC # GREEK SMALL LETTER MU
 <Multi_key> <mu> <n>	: "ν"	U03BD # GREEK SMALL LETTER NU
-<Multi_key> <mu> <x>	: "ξ"	U03BE # GREEK SMALL LETTER XI
+<Multi_key> <mu> <c>	: "ξ"	U03BE # GREEK SMALL LETTER XI
 <Multi_key> <mu> <o>	: "ο"	U03BF # GREEK SMALL LETTER OMICRON
 <Multi_key> <mu> <p>	: "π"	U03C0 # GREEK SMALL LETTER PI
 <Multi_key> <mu> <r>	: "ρ"	U03C1 # GREEK SMALL LETTER RHO
-<Multi_key> <mu> <c>	: "ς"	U03C2 # GREEK SMALL LETTER FINAL SIGMA
+<Multi_key> <mu> <j>	: "ς"	U03C2 # GREEK SMALL LETTER FINAL SIGMA
 <Multi_key> <mu> <s>	: "σ"	U03C3 # GREEK SMALL LETTER SIGMA
 <Multi_key> <mu> <t>	: "τ"	U03C4 # GREEK SMALL LETTER TAU
 <Multi_key> <mu> <u>	: "υ"	U03C5 # GREEK SMALL LETTER UPSILON
 <Multi_key> <mu> <f>	: "φ"	U03C6 # GREEK SMALL LETTER PHI
-<Multi_key> <mu> <q>	: "χ"	U03C7 # GREEK SMALL LETTER CHI
+<Multi_key> <mu> <x>	: "χ"	U03C7 # GREEK SMALL LETTER CHI
 <Multi_key> <mu> <y>	: "ψ"	U03C8 # GREEK SMALL LETTER PSI
 <Multi_key> <mu> <w>	: "ω"	U03C9 # GREEK SMALL LETTER OMEGA
-
 <Multi_key> <quotedbl> <mu> <i>	: "ϊ"	U03CA # GREEK SMALL LETTER IOTA WITH DIALYTIKA
 <Multi_key> <quotedbl> <mu> <u>	: "ϋ"	U03CB # GREEK SMALL LETTER UPSILON WITH DIALYTIKA
-
 <Multi_key> <apostrophe> <mu> <o>	: "ό"	U03CC # GREEK SMALL LETTER OMICRON WITH TONOS
 <Multi_key> <apostrophe> <mu> <u>	: "ύ"	U03CD # GREEK SMALL LETTER UPSILON WITH TONOS
 <Multi_key> <apostrophe> <mu> <w>	: "ώ"	U03CE # GREEK SMALL LETTER OMEGA WITH TONOS
 
+<Multi_key> <mu> <adiaeresis>	: "ϑ"	U03D1 # GREEK THETA SYMBOL
+<Multi_key> <question> <mu> <U>	: "ϒ"	U03D2 # GREEK UPSILON WITH HOOK SYMBOL
+<Multi_key> <apostrophe> <question> <mu> <U>	: "ϓ"	U03D3 # GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
+<Multi_key> <acute> <question> <mu> <U>	: "ϓ"	U03D3 # GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
+<Multi_key> <quotedbl> <question> <mu> <U>	: "ϔ"	U03D4 # GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL
+<Multi_key> <mu> <ediaeresis>	: "ϕ"	U03D5 # GREEK PHI SYMBOL
+<Multi_key> <mu> <odiaeresis>	: "ϖ"	U03D6 # GREEK PI SYMBOL
+
 <Multi_key> <mu> <V>	: "Ϝ"	U03DC # GREEK CAPITAL LETTER DIGAMMA
 <Multi_key> <mu> <v>	: "ϝ"	U03DD # GREEK SMALL LETTER DIGAMMA
+
+<Multi_key> <mu> <oe>	: "ϰ"	U03F0 # GREEK KAPPA SYMBOL
+<Multi_key> <mu> <registered>	: "ϱ"	U03F1 # GREEK RHO SYMBOL
+
+<Multi_key> <mu> <Adiaeresis>	: "ϴ"	U03F4 # GREEK CAPITAL THETA SYMBOL
+<Multi_key> <mu> <eacute>	: "ϵ"	U03F5 # GREEK LUNATE EPSILON SYMBOL
+
+<Multi_key> <slash> <mu> <r>	: "ϼ"	U03FC # GREEK RHO WITH STROKE SYMBOL
 
 
 # Cyrillic
@@ -888,31 +901,22 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <S> <m>	: "₷"	U20B7 # SPESMILO SIGN
 
-<Multi_key> <comma> <ColonSign>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <cedilla> <ColonSign>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <comma> <currency> <C>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <cedilla> <currency> <C>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <comma> <cent>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <cedilla> <cent>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <comma> <currency> <c>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <cedilla> <currency> <c>	: "₵"	U20B5	# CEDI SIGN
-
 <Multi_key> <currency> <A>	: "₳"	U20B3	# AUSTRAL SIGN
 <Multi_key> <currency> <a>	: "؋"	U060B	# AFGHANI SIGN
-<Multi_key> <currency> <B>	: "₱"	U20B1	# PESO SIGN
-<Multi_key> <currency> <b>	: "฿"	U0E3F	# THAI CURRENCY SYMBOL BAHT
-<Multi_key> <currency> <C>	: "₡"	U20A1	# COLON SIGN
+<Multi_key> <currency> <B>	: "฿"	U0E3F	# THAI CURRENCY SYMBOL BAHT
+<Multi_key> <currency> <b>	: "₿"	U20BF	# BITCOIN SIGN
+<Multi_key> <currency> <C>	: "₵"	U20B5	# CEDI SIGN
 <Multi_key> <currency> <c>	: "¢"	cent	# CENT SIGN
-<Multi_key> <currency> <Ccedilla>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <comma> <C>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <cedilla> <C>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <ccedilla>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <comma> <c>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <cedilla> <c>	: "₵"	U20B5	# CEDI SIGN
+<Multi_key> <currency> <Ccedilla>	: "₡"	U20A1	# COLON SIGN
+<Multi_key> <currency> <comma> <C>	: "₡"	U20A1	# COLON SIGN
+<Multi_key> <currency> <cedilla> <C>	: "₡"	U20A1	# COLON SIGN
+<Multi_key> <currency> <ccedilla>	: "₢"	U20A2	# CRUZEIRO SIGN
+<Multi_key> <currency> <comma> <c>	: "₢"	U20A2	# CRUZEIRO SIGN
+<Multi_key> <currency> <cedilla> <c>	: "₢"	U20A2	# CRUZEIRO SIGN
 <Multi_key> <currency> <D>	: "₯"	U20AF	# DRACHMA SIGN
 <Multi_key> <currency> <d>	: "₫"	U20AB	# DONG SIGN
-<Multi_key> <currency> <E>	: "₠"	U20A0	# EURO-CURRENCY SIGN
-<Multi_key> <currency> <e>	: "€"	U20AC	# EURO SIGN
+<Multi_key> <currency> <E>	: "€"	U20AC	# EURO SIGN
+<Multi_key> <currency> <e>	: "₠"	U20A0	# EURO-CURRENCY SIGN
 <Multi_key> <currency> <F>	: "₣"	U20A3	# FRENCH FRANC SIGN
 <Multi_key> <currency> <f>	: "ƒ"	U0192	# LATIN SMALL LETTER F WITH HOOK
 <Multi_key> <currency> <G>	: "₲"	U20B2	# GUARANI SIGN
@@ -923,24 +927,30 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <currency> <i>	: "﷼"	UFDFC	# RIAL SIGN
 <Multi_key> <currency> <K>	: "₭"	U20AD	# KIP SIGN
 <Multi_key> <currency> <k>	: "₭"	U20AD	# KIP SIGN
-<Multi_key> <currency> <L>	: "₤"	U20a4	# LIRA SIGN
-<Multi_key> <currency> <l>	: "£"	sterling	# POUND SIGN
+<Multi_key> <currency> <L>	: "₤"	U20A4	# LIRA SIGN
+<Multi_key> <currency> <l>	: "₺"	U20BA	# TURKISH LIRA SIGN
+<Multi_key> <currency> <Oslash>	: "₶"	U20B6	# LIVRE TOURNOIS SIGN
+<Multi_key> <currency> <oslash>	: "₾"	U20BE	# LARI SIGN
 <Multi_key> <currency> <M>	: "ℳ"	U2133	# SCRIPT CAPITAL M
 <Multi_key> <currency> <m>	: "₥"	U20A5	# MILL SIGN
-<Multi_key> <currency> <N>	: "₦"	U20A6	# NAIRA SIGN
+<Multi_key> <currency> <mu>	: "₼"	U20BC	# MANAT SIGN
+<Multi_key> <currency> <N>	: "₻"	U20BB	# NORDIC MARK SIGN
 <Multi_key> <currency> <n>	: "₦"	U20A6	# NAIRA SIGN
 <Multi_key> <currency> <O>	: "૱"	U0AF1	# GUJARATI RUPEE SIGN
 <Multi_key> <currency> <o>	: "௹"	U0BF9	# TAMIL RUPEE SIGN
 <Multi_key> <currency> <P>	: "₧"	U20A7	# PESETA SIGN
-<Multi_key> <currency> <p>	: "₰"	U20B0	# GERMAN PENNY SIGN
-<Multi_key> <currency> <R>	: "₨"	U20A8	# RUPEE SIGN
-<Multi_key> <currency> <r>	: "₢"	U20A2	# CRUZEIRO SIGN
-<Multi_key> <currency> <S>	: "$"	dollar	# DOLLAR SIGN
+<Multi_key> <currency> <p>	: "₱"	U20B1	# PESO SIGN
+<Multi_key> <currency> <Odiaeresis>	: "₰"	U20B0	# GERMAN PENNY SIGN
+<Multi_key> <currency> <odiaeresis>	: "₰"	U20B0	# GERMAN PENNY SIGN
+<Multi_key> <currency> <R>	: "₹"	U20B9	# INDIAN RUPEE SIGN
+<Multi_key> <currency> <r>	: "₽"	U20BD	# RUBLE SIGN
+<Multi_key> <currency> <registered>	: "₨"	U20A8	# RUPEE SIGN
+<Multi_key> <currency> <S>	: "₷"	U20B7	# SPESMILO SIGN
 <Multi_key> <currency> <s>	: "₪"	U20AA	# NEW SHEQEL SIGN
 <Multi_key> <currency> <T>	: "₮"	U20AE	# TUGRIK SIGN
-<Multi_key> <currency> <t>	: "৳"	U09F3	# BENGALI RUPEE SIGN
+<Multi_key> <currency> <t>	: "₸"	U20B8	# TENGE SIGN
 <Multi_key> <currency> <THORN>	: "৲"	U09F2	# BENGALI RUPEE MARK
-<Multi_key> <currency> <thorn>	: "৲"	U09F2	# BENGALI RUPEE MARK
+<Multi_key> <currency> <thorn>	: "৳"	U09F3	# BENGALI RUPEE SIGN
 <Multi_key> <currency> <U>	: "圓"	U5713	# YUAN / WEN
 <Multi_key> <currency> <u>	: "元"	U5143	# YUAN / WEN
 <Multi_key> <currency> <W>	: "₩"	U20A9	# WON SIGN
