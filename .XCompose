@@ -27,41 +27,78 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin Extended-A
 
+#<Multi_key> <asciicircum> <C>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
 <Multi_key> <C> <asciicircum>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
+<Multi_key> <greater> <C>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
+<Multi_key> <C> <greater>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
 <Multi_key> <C> <x>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
 <Multi_key> <C> <X>	: "Ĉ"	U0108 # LATIN CAPITAL LETTER C WITH CIRCUMFLEX
+#<Multi_key> <asciicircum> <c>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
 <Multi_key> <c> <asciicircum>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
+<Multi_key> <greater> <c>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
+<Multi_key> <c> <greater>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
 <Multi_key> <c> <x>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
 <Multi_key> <c> <X>	: "ĉ"	U0109 # LATIN SMALL LETTER C WITH CIRCUMFLEX
 
 <Multi_key> <E> <parenleft>	: "Ĕ"	U0114 # LATIN CAPITAL LETTER E WITH BREVE
 <Multi_key> <e> <parenleft>	: "ĕ"	U0115 # LATIN SMALL LETTER E WITH BREVE
 
+#<Multi_key> <asciicircum> <G>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
 <Multi_key> <G> <asciicircum>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
+<Multi_key> <greater> <G>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
+<Multi_key> <G> <greater>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
 <Multi_key> <G> <x>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
 <Multi_key> <G> <X>	: "Ĝ"	U011C # LATIN CAPITAL LETTER G WITH CIRCUMFLEX
+#<Multi_key> <asciicircum> <g>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
 <Multi_key> <g> <asciicircum>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
+<Multi_key> <greater> <g>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
+<Multi_key> <g> <greater>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
 <Multi_key> <g> <x>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
 <Multi_key> <g> <X>	: "ĝ"	U011D # LATIN SMALL LETTER G WITH CIRCUMFLEX
 
+#<Multi_key> <asciicircum> <H>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
 <Multi_key> <H> <asciicircum>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
+<Multi_key> <greater> <H>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
+<Multi_key> <H> <greater>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
 <Multi_key> <H> <x>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
 <Multi_key> <H> <X>	: "Ĥ"	U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
+#<Multi_key> <asciicircum> <h>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <h> <asciicircum>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
+<Multi_key> <greater> <h>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
+<Multi_key> <h> <greater>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <h> <x>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <h> <X>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 
 <Multi_key> <I> <parenleft>	: "Ĭ"	U012C # LATIN CAPITAL LETTER I WITH BREVE
 <Multi_key> <i> <parenleft>	: "ĭ"	U012D # LATIN SMALL LETTER I WITH BREVE
 
+<Multi_key> <i> <i>	: "ı"	U0131 # LATIN SMALL LETTER DOTLESS I
+
+<Multi_key> <acute> <U0132>	: "ÍJ́"	# LATIN CAPITAL LETTER I WITH ACUTE followed by LATIN CAPITAL LETTER J with COMBINING ACUTE
+<Multi_key> <apostrophe> <U0132>	: "ÍJ́"	# LATIN CAPITAL LETTER I WITH ACUTE followed by LATIN CAPITAL LETTER J with COMBINING ACUTE
+<Multi_key> <U0132> <apostrophe>	: "ÍJ́"	# LATIN CAPITAL LETTER I WITH ACUTE followed by LATIN CAPITAL LETTER J with COMBINING ACUTE
+<Multi_key> <apostrophe> <space> <I> <J>	: "ÍJ́"	# LATIN CAPITAL LETTER I WITH ACUTE followed by LATIN CAPITAL LETTER J with COMBINING ACUTE
+<Multi_key> <Iacute> <J>	: "ÍJ́"	# LATIN CAPITAL LETTER I WITH ACUTE followed by LATIN CAPITAL LETTER J with COMBINING ACUTE
+<Multi_key> <acute> <U0133>	: "íj́"	# LATIN SMALL LETTER I WITH ACUTE followed by LATIN SMALL LETTER J with COMBINING ACUTE
+<Multi_key> <apostrophe> <U0133>	: "íj́"	# LATIN SMALL LETTER I WITH ACUTE followed by LATIN SMALL LETTER J with COMBINING ACUTE
+<Multi_key> <U0133> <apostrophe>	: "íj́"	# LATIN SMALL LETTER I WITH ACUTE followed by LATIN SMALL LETTER J with COMBINING ACUTE
+<Multi_key> <apostrophe> <space> <i> <j>	: "íj́"	# LATIN SMALL LETTER I WITH ACUTE followed by LATIN SMALL LETTER J with COMBINING ACUTE
+<Multi_key> <iacute> <j>	: "íj́"	# LATIN SMALL LETTER I WITH ACUTE followed by LATIN SMALL LETTER J with COMBINING ACUTE
+
+#<Multi_key> <asciicircum> <J>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
 <Multi_key> <J> <asciicircum>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
+<Multi_key> <greater> <J>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
+<Multi_key> <J> <greater>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
 <Multi_key> <J> <x>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
 <Multi_key> <J> <X>	: "Ĵ"	U0134 # LATIN CAPITAL LETTER J WITH CIRCUMFLEX
+#<Multi_key> <asciicircum> <j>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 <Multi_key> <j> <asciicircum>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
+<Multi_key> <greater> <j>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
+<Multi_key> <j> <greater>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 <Multi_key> <j> <x>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 <Multi_key> <j> <X>	: "ĵ"	U0135 # LATIN SMALL LETTER J WITH CIRCUMFLEX
 
-<Multi_key> <K> <K>	: "Kʼ"	U0135 # LATIN CAPITAL LETTER K followed by MODIFIER LETTER APOSTROPHE
+<Multi_key> <K> <K>	: "Kʻ"	# LATIN CAPITAL LETTER K followed by MODIFIER LETTER TURNED COMMA
 
 <Multi_key> <v> <L>	: "Ľ"	U013D # LATIN CAPITAL LETTER L WITH CARON
 <Multi_key> <L> <v>	: "Ľ"	U013D # LATIN CAPITAL LETTER L WITH CARON
@@ -78,10 +115,16 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <O> <parenleft>	: "Ŏ"	U014E # LATIN CAPITAL LETTER O WITH BREVE
 <Multi_key> <o> <parenleft>	: "ŏ"	U014F # LATIN SMALL LETTER O WITH BREVE
 
+#<Multi_key> <asciicircum> <S>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
 <Multi_key> <S> <asciicircum>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
+<Multi_key> <greater> <S>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
+<Multi_key> <S> <greater>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
 <Multi_key> <S> <x>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
 <Multi_key> <S> <X>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
+#<Multi_key> <asciicircum> <s>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 <Multi_key> <s> <asciicircum>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
+<Multi_key> <greater> <s>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
+<Multi_key> <s> <greater>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 <Multi_key> <s> <x>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 <Multi_key> <s> <X>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 
@@ -202,6 +245,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <J> <period>	: "J̇"	# LATIN CAPITAL LETTER J with COMBINING DOT ABOVE
 <Multi_key> <period> <j>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 <Multi_key> <j> <period>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
+<Multi_key> <j> <j>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 
 <Multi_key> <d> <b>	: "ȸ"	U0238 # LATIN SMALL LETTER DB DIGRAPH
 <Multi_key> <q> <p>	: "ȹ"	U0239 # LATIN SMALL LETTER QP DIGRAPH
@@ -296,7 +340,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <mu> <Y>	: "Ψ"	U03A8 # GREEK CAPITAL LETTER PSI
 <Multi_key> <mu> <W>	: "Ω"	U03A9 # GREEK CAPITAL LETTER OMEGA
 <Multi_key> <quotedbl> <mu> <I>	: "Ϊ"	U03AA # GREEK CAPITAL LETTER IOTA WITH DIALYTIKA
+<Multi_key> <apostrophe> <quotedbl> <mu> <I>	: "Ϊ́"	# GREEK CAPITAL LETTER IOTA with COMBINING ACUTE
 <Multi_key> <quotedbl> <mu> <U>	: "Ϋ"	U03AB # GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA
+<Multi_key> <apostrophe> <quotedbl> <mu> <U>	: "Ϋ́"	# GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA with COMBINING ACUTE
 <Multi_key> <apostrophe> <mu> <a>	: "ά"	U03AC # GREEK SMALL LETTER ALPHA WITH TONOS
 <Multi_key> <apostrophe> <mu> <e>	: "έ"	U03AD # GREEK SMALL LETTER EPSILON WITH TONOS
 <Multi_key> <apostrophe> <mu> <h>	: "ή"	U03AE # GREEK SMALL LETTER ETA WITH TONOS
@@ -339,6 +385,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <question> <mu> <U>	: "ϓ"	U03D3 # GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
 <Multi_key> <acute> <question> <mu> <U>	: "ϓ"	U03D3 # GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
 <Multi_key> <quotedbl> <question> <mu> <U>	: "ϔ"	U03D4 # GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL
+<Multi_key> <apostrophe> <quotedbl> <question> <mu> <U>	: "ϔ́"	U03D4 # GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL with COMBINING ACUTE
+<Multi_key> <acute> <quotedbl> <question> <mu> <U>	: "ϔ́"	U03D4 # GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL with COMBINING ACUTE
 <Multi_key> <mu> <ediaeresis>	: "ϕ"	U03D5 # GREEK PHI SYMBOL
 <Multi_key> <mu> <odiaeresis>	: "ϖ"	U03D6 # GREEK PI SYMBOL
 <Multi_key> <bar> <mu> <k>	: "ϗ"	U03D7 # GREEK KAI SYMBOL
@@ -515,17 +563,45 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin Extended Additional
 
-<Multi_key> <underscore> <B>	: "Ḇ"   U1E06 # LATIN CAPITAL LETTER B WITH LINE BELOW
-<Multi_key> <B> <underscore>	: "Ḇ"   U1E06 # LATIN CAPITAL LETTER B WITH LINE BELOW
-<Multi_key> <underscore> <b>	: "ḇ"   U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
-<Multi_key> <b> <underscore>	: "ḇ"   U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
+<Multi_key> <apostrophe> <Atilde>	: "Ã́"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <Atilde>	: "Ã́"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <A>	: "Ã́"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <A>	: "Ã́"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <atilde>	: "ã́"	# LATIN SMALL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <atilde>	: "ã́"	# LATIN SMALL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <a>	: "ã́"	# LATIN SMALL LETTER A WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <a>	: "ã́"	# LATIN SMALL LETTER A WITH TILDE with COMBINING ACUTE
+
+<Multi_key> <grave> <Atilde>	: "Ã̀"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <A>	: "Ã̀"	# LATIN CAPITAL LETTER A WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <atilde>	: "ã̀"	# LATIN SMALL LETTER A WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <a>	: "ã̀"	# LATIN SMALL LETTER A WITH TILDE with COMBINING GRAVE
+
+<Multi_key> <underscore> <B>	: "Ḇ"	U1E06 # LATIN CAPITAL LETTER B WITH LINE BELOW
+<Multi_key> <B> <underscore>	: "Ḇ"	U1E06 # LATIN CAPITAL LETTER B WITH LINE BELOW
+<Multi_key> <underscore> <b>	: "ḇ"	U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
+<Multi_key> <b> <underscore>	: "ḇ"	U1E07 # LATIN SMALL LETTER B WITH LINE BELOW
 <Multi_key> <apostrophe> <space> <comma> <C>	: "Ḉ"	U1E08 # LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE
 <Multi_key> <apostrophe> <space> <comma> <c>	: "ḉ"	U1E09 # LATIN SMALL LETTER C WITH CEDILLA AND ACUTE
 
-<Multi_key> <underscore> <D>	: "Ḏ"   U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
-<Multi_key> <D> <underscore>	: "Ḏ"   U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
-<Multi_key> <underscore> <d>	: "ḏ"   U1E0F # LATIN SMALL LETTER D WITH LINE BELOW
-<Multi_key> <d> <underscore>	: "ḏ"   U1E0F # LATIN SMALL LETTER D WITH LINE BELOW
+<Multi_key> <underscore> <D>	: "Ḏ"	U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
+<Multi_key> <D> <underscore>	: "Ḏ"	U1E0E # LATIN CAPITAL LETTER D WITH LINE BELOW
+<Multi_key> <underscore> <d>	: "ḏ"	U1E0F # LATIN SMALL LETTER D WITH LINE BELOW
+<Multi_key> <d> <underscore>	: "ḏ"	U1E0F # LATIN SMALL LETTER D WITH LINE BELOW
+
+<Multi_key> <apostrophe> <Etilde>	: "Ẽ́"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <Etilde>	: "Ẽ́"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <E>	: "Ẽ́"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <E>	: "Ẽ́"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <etilde>	: "ẽ́"	# LATIN SMALL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <etilde>	: "ẽ́"	# LATIN SMALL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <e>	: "ẽ́"	# LATIN SMALL LETTER E WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <e>	: "ẽ́"	# LATIN SMALL LETTER E WITH TILDE with COMBINING ACUTE
+
+<Multi_key> <grave> <Etilde>	: "Ẽ̀"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <E>	: "Ẽ̀"	# LATIN CAPITAL LETTER E WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <etilde>	: "ẽ̀"	# LATIN SMALL LETTER E WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <e>	: "ẽ̀"	# LATIN SMALL LETTER E WITH TILDE with COMBINING GRAVE
 
 <Multi_key> <grave> <minus> <E>	: "Ḕ"	U1E14 # LATIN CAPITAL LETTER E WITH MACRON AND GRAVE
 <Multi_key> <grave> <minus> <e>	: "ḕ"	U1E15 # LATIN SMALL LETTER E WITH MACRON AND GRAVE
@@ -534,32 +610,57 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <minus> <e>	: "ḗ"	U1E17 # LATIN SMALL LETTER E WITH MACRON AND ACUTE
 <Multi_key> <acute> <minus> <e>	: "ḗ"	U1E17 # LATIN SMALL LETTER E WITH MACRON AND ACUTE
 
-<Multi_key> <minus> <G>	: "Ḡ"   U1E20 # LATIN CAPITAL LETTER G WITH MACRON
-<Multi_key> <G> <minus>	: "Ḡ"   U1E20 # LATIN CAPITAL LETTER G WITH MACRON
-<Multi_key> <minus> <g>	: "ḡ"   U1E21 # LATIN SMALL LETTER G WITH MACRON
-<Multi_key> <g> <minus>	: "ḡ"   U1E21 # LATIN SMALL LETTER G WITH MACRON
+<Multi_key> <minus> <G>	: "Ḡ"	U1E20 # LATIN CAPITAL LETTER G WITH MACRON
+<Multi_key> <G> <minus>	: "Ḡ"	U1E20 # LATIN CAPITAL LETTER G WITH MACRON
+<Multi_key> <minus> <g>	: "ḡ"	U1E21 # LATIN SMALL LETTER G WITH MACRON
+<Multi_key> <g> <minus>	: "ḡ"	U1E21 # LATIN SMALL LETTER G WITH MACRON
 
 <Multi_key> <parenright> <H>	: "Ḫ"	U1E2A # LATIN CAPITAL LETTER H WITH BREVE BELOW
 <Multi_key> <H> <parenright>	: "Ḫ"	U1E2A # LATIN CAPITAL LETTER H WITH BREVE BELOW
 <Multi_key> <parenright> <h>	: "ḫ"	U1E2B # LATIN SMALL LETTER H WITH BREVE BELOW
 <Multi_key> <h> <parenright>	: "ḫ"	U1E2B # LATIN SMALL LETTER H WITH BREVE BELOW
 
-<Multi_key> <underscore> <K>	: "Ḵ"   U1E34 # LATIN CAPITAL LETTER K WITH LINE BELOW
-<Multi_key> <K> <underscore>	: "Ḵ"   U1E34 # LATIN CAPITAL LETTER K WITH LINE BELOW
-<Multi_key> <underscore> <k>	: "ḵ"   U1E35 # LATIN SMALL LETTER K WITH LINE BELOW
-<Multi_key> <k> <underscore>	: "ḵ"   U1E35 # LATIN SMALL LETTER K WITH LINE BELOW
+<Multi_key> <apostrophe> <Itilde>	: "Ĩ́"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <Itilde>	: "Ĩ́"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <I>	: "Ĩ́"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <I>	: "Ĩ́"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <itilde>	: "ĩ́"	# LATIN SMALL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <itilde>	: "ĩ́"	# LATIN SMALL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <apostrophe> <asciitilde> <i>	: "ĩ́"	# LATIN SMALL LETTER I WITH TILDE with COMBINING ACUTE
+<Multi_key> <acute> <asciitilde> <i>	: "ĩ́"	# LATIN SMALL LETTER I WITH TILDE with COMBINING ACUTE
+
+<Multi_key> <grave> <Itilde>	: "Ĩ̀"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <I>	: "Ĩ̀"	# LATIN CAPITAL LETTER I WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <itilde>	: "ĩ̀"	# LATIN SMALL LETTER I WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <i>	: "ĩ̀"	# LATIN SMALL LETTER I WITH TILDE with COMBINING GRAVE
+
+<Multi_key> <underscore> <K>	: "Ḵ"	U1E34 # LATIN CAPITAL LETTER K WITH LINE BELOW
+<Multi_key> <K> <underscore>	: "Ḵ"	U1E34 # LATIN CAPITAL LETTER K WITH LINE BELOW
+<Multi_key> <underscore> <k>	: "ḵ"	U1E35 # LATIN SMALL LETTER K WITH LINE BELOW
+<Multi_key> <k> <underscore>	: "ḵ"	U1E35 # LATIN SMALL LETTER K WITH LINE BELOW
 
 <Multi_key> <minus> <exclam> <L>	: "Ḹ"	U1E38 # LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON
 <Multi_key> <minus> <exclam> <l>	: "ḹ"	U1E39 # LATIN SMALL LETTER L WITH DOT BELOW AND MACRON
-<Multi_key> <underscore> <L>	: "Ḻ"   U1E3A # LATIN CAPITAL LETTER L WITH LINE BELOW
-<Multi_key> <L> <underscore>	: "Ḻ"   U1E3A # LATIN CAPITAL LETTER L WITH LINE BELOW
-<Multi_key> <underscore> <l>	: "ḻ"   U1E3B # LATIN SMALL LETTER L WITH LINE BELOW
-<Multi_key> <l> <underscore>	: "ḻ"   U1E3B # LATIN SMALL LETTER L WITH LINE BELOW
+<Multi_key> <underscore> <L>	: "Ḻ"	U1E3A # LATIN CAPITAL LETTER L WITH LINE BELOW
+<Multi_key> <L> <underscore>	: "Ḻ"	U1E3A # LATIN CAPITAL LETTER L WITH LINE BELOW
+<Multi_key> <underscore> <l>	: "ḻ"	U1E3B # LATIN SMALL LETTER L WITH LINE BELOW
+<Multi_key> <l> <underscore>	: "ḻ"	U1E3B # LATIN SMALL LETTER L WITH LINE BELOW
 
-<Multi_key> <underscore> <N>	: "Ṉ"   U1E48 # LATIN CAPITAL LETTER N WITH LINE BELOW
-<Multi_key> <N> <underscore>	: "Ṉ"   U1E48 # LATIN CAPITAL LETTER N WITH LINE BELOW
-<Multi_key> <underscore> <n>	: "ṉ"   U1E49 # LATIN SMALL LETTER N WITH LINE BELOW
-<Multi_key> <n> <underscore>	: "ṉ"   U1E49 # LATIN SMALL LETTER N WITH LINE BELOW
+<Multi_key> <grave> <M>	: "M̀"	# LATIN CAPITAL LETTER M with COMBINING GRAVE
+<Multi_key> <M> <grave>	: "M̀"	# LATIN CAPITAL LETTER M with COMBINING GRAVE
+<Multi_key> <grave> <m>	: "m̀"	# LATIN SMALL LETTER M with COMBINING GRAVE
+<Multi_key> <m> <grave>	: "m̀"	# LATIN SMALL LETTER M with COMBINING GRAVE
+
+<Multi_key> <underscore> <N>	: "Ṉ"	U1E48 # LATIN CAPITAL LETTER N WITH LINE BELOW
+<Multi_key> <N> <underscore>	: "Ṉ"	U1E48 # LATIN CAPITAL LETTER N WITH LINE BELOW
+<Multi_key> <underscore> <n>	: "ṉ"	U1E49 # LATIN SMALL LETTER N WITH LINE BELOW
+<Multi_key> <n> <underscore>	: "ṉ"	U1E49 # LATIN SMALL LETTER N WITH LINE BELOW
+
+<Multi_key> <grave> <Otilde>	: "Õ̀"	# LATIN CAPITAL LETTER O WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <O>	: "Õ̀"	# LATIN CAPITAL LETTER O WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <otilde>	: "õ̀"	# LATIN SMALL LETTER O WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <o>	: "õ̀"	# LATIN SMALL LETTER O WITH TILDE with COMBINING GRAVE
+
 
 <Multi_key> <grave> <minus> <O>	: "Ṑ"	U1E50 # LATIN CAPITAL LETTER O WITH MACRON AND GRAVE
 <Multi_key> <grave> <minus> <o>	: "ṑ"	U1E51 # LATIN SMALL LETTER O WITH MACRON AND GRAVE
@@ -570,31 +671,36 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <minus> <exclam> <R>	: "Ṝ"	U1E5C # LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON
 <Multi_key> <minus> <exclam> <r>	: "ṝ"	U1E5D # LATIN SMALL LETTER R WITH DOT BELOW AND MACRON
-<Multi_key> <underscore> <R>	: "Ṟ"   U1E5E # LATIN CAPITAL LETTER R WITH LINE BELOW
-<Multi_key> <R> <underscore>	: "Ṟ"   U1E5E # LATIN CAPITAL LETTER R WITH LINE BELOW
-<Multi_key> <underscore> <r>	: "ṟ"   U1E5F # LATIN SMALL LETTER R WITH LINE BELOW
-<Multi_key> <r> <underscore>	: "ṟ"   U1E5F # LATIN SMALL LETTER R WITH LINE BELOW
+<Multi_key> <underscore> <R>	: "Ṟ"	U1E5E # LATIN CAPITAL LETTER R WITH LINE BELOW
+<Multi_key> <R> <underscore>	: "Ṟ"	U1E5E # LATIN CAPITAL LETTER R WITH LINE BELOW
+<Multi_key> <underscore> <r>	: "ṟ"	U1E5F # LATIN SMALL LETTER R WITH LINE BELOW
+<Multi_key> <r> <underscore>	: "ṟ"	U1E5F # LATIN SMALL LETTER R WITH LINE BELOW
 
 <Multi_key> <period> <v> <S>	: "Ṧ"	U1E66 # LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE
 <Multi_key> <period> <v> <s>	: "ṧ"	U1E67 # LATIN SMALL LETTER S WITH CARON AND DOT ABOVE
 
-<Multi_key> <underscore> <T>	: "Ṯ"   U1E6E # LATIN CAPITAL LETTER T WITH LINE BELOW
-<Multi_key> <T> <underscore>	: "Ṯ"   U1E6E # LATIN CAPITAL LETTER T WITH LINE BELOW
-<Multi_key> <underscore> <t>	: "ṯ"   U1E6F # LATIN SMALL LETTER T WITH LINE BELOW
-<Multi_key> <t> <underscore>	: "ṯ"   U1E6F # LATIN SMALL LETTER T WITH LINE BELOW
+<Multi_key> <underscore> <T>	: "Ṯ"	U1E6E # LATIN CAPITAL LETTER T WITH LINE BELOW
+<Multi_key> <T> <underscore>	: "Ṯ"	U1E6E # LATIN CAPITAL LETTER T WITH LINE BELOW
+<Multi_key> <underscore> <t>	: "ṯ"	U1E6F # LATIN SMALL LETTER T WITH LINE BELOW
+<Multi_key> <t> <underscore>	: "ṯ"	U1E6F # LATIN SMALL LETTER T WITH LINE BELOW
+
+<Multi_key> <grave> <Utilde>	: "Ũ̀"	# LATIN CAPITAL LETTER U WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <U>	: "Ũ̀"	# LATIN CAPITAL LETTER U WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <utilde>	: "ũ̀"	# LATIN SMALL LETTER U WITH TILDE with COMBINING GRAVE
+<Multi_key> <grave> <asciitilde> <u>	: "ũ̀"	# LATIN SMALL LETTER U WITH TILDE with COMBINING GRAVE
 
 <Multi_key> <quotedbl> <minus> <U>	: "Ṻ"	U1E7A # LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS
 <Multi_key> <quotedbl> <minus> <u>	: "ṻ"	U1E7B # LATIN SMALL LETTER U WITH MACRON AND DIAERESIS
 
-<Multi_key> <underscore> <Z>	: "Ẕ"   U1E94 # LATIN CAPITAL LETTER Z WITH LINE BELOW
-<Multi_key> <Z> <underscore>	: "Ẕ"   U1E94 # LATIN CAPITAL LETTER Z WITH LINE BELOW
-<Multi_key> <underscore> <z>	: "ẕ"   U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
-<Multi_key> <z> <underscore>	: "ẕ"   U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
-<Multi_key> <underscore> <H>	: "H̱"   # LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
-<Multi_key> <H> <underscore>	: "H̱"   # LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
-<Multi_key> <underscore> <h>	: "ẖ"   U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
-<Multi_key> <h> <underscore>	: "ẖ"   U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
-<Multi_key> <quotedbl> <T>	: "T̈"   # LATIN CAPITAL LETTER T with COMBINING DIAERESIS
+<Multi_key> <underscore> <Z>	: "Ẕ"	U1E94 # LATIN CAPITAL LETTER Z WITH LINE BELOW
+<Multi_key> <Z> <underscore>	: "Ẕ"	U1E94 # LATIN CAPITAL LETTER Z WITH LINE BELOW
+<Multi_key> <underscore> <z>	: "ẕ"	U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
+<Multi_key> <z> <underscore>	: "ẕ"	U1E95 # LATIN SMALL LETTER Z WITH LINE BELOW
+<Multi_key> <underscore> <H>	: "H̱"	# LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
+<Multi_key> <H> <underscore>	: "H̱"	# LATIN CAPITAL LETTER H with COMBINING MACRON BELOW
+<Multi_key> <underscore> <h>	: "ẖ"	U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
+<Multi_key> <h> <underscore>	: "ẖ"	U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
+<Multi_key> <quotedbl> <T>	: "T̈"	# LATIN CAPITAL LETTER T with COMBINING DIAERESIS
 
 <Multi_key> <asterisk> <W>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
 <Multi_key> <W> <asterisk>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
@@ -647,6 +753,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <parenright> <mu> <e>	: "ἔ"	U1F14 # GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA
 <Multi_key> <acute> <parenleft> <mu> <e>	: "ἕ"	U1F15 # GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA
 <Multi_key> <apostrophe> <parenleft> <mu> <e>	: "ἕ"	U1F15 # GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA
+<Multi_key> <asciitilde> <parenright> <mu> <e>	: "ἐ͂"	# GREEK SMALL LETTER EPSILON WITH PSILI with COMBINING PERISPOMENI
+<Multi_key> <asciitilde> <parenleft> <mu> <e>	: "ἑ͂"	# GREEK SMALL LETTER EPSILON WITH DASIA with COMBINING PERISPOMENI
 <Multi_key> <parenright> <mu> <E>	: "Ἐ"	U1F18 # GREEK CAPITAL LETTER EPSILON WITH PSILI
 <Multi_key> <parenleft> <mu> <E>	: "Ἑ"	U1F19 # GREEK CAPITAL LETTER EPSILON WITH DASIA
 <Multi_key> <grave> <parenright> <mu> <E>	: "Ἒ"	U1F1A # GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA
@@ -655,6 +763,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <parenright> <mu> <E>	: "Ἔ"	U1F1C # GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA
 <Multi_key> <acute> <parenleft> <mu> <E>	: "Ἕ"	U1F1D # GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA
 <Multi_key> <apostrophe> <parenleft> <mu> <E>	: "Ἕ"	U1F1D # GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA
+<Multi_key> <asciitilde> <parenright> <mu> <E>	: "Ἐ͂"	# GREEK CAPITAL LETTER EPSILON WITH PSILI with COMBINING PERISPOMENI
+<Multi_key> <asciitilde> <parenleft> <mu> <E>	: "Ἑ͂"	# GREEK CAPITAL LETTER EPSILON WITH DASIA with COMBINING PERISPOMENI
 <Multi_key> <parenright> <mu> <h>	: "ἠ"	U1F20 # GREEK SMALL LETTER ETA WITH PSILI
 <Multi_key> <parenleft> <mu> <h>	: "ἡ"	U1F21 # GREEK SMALL LETTER ETA WITH DASIA
 <Multi_key> <grave> <parenright> <mu> <h>	: "ἢ"	U1F22 # GREEK SMALL LETTER ETA WITH PSILI AND VARIA
@@ -703,6 +813,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <parenright> <mu> <o>	: "ὄ"	U1F44 # GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA
 <Multi_key> <acute> <parenleft> <mu> <o>	: "ὅ"	U1F45 # GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA
 <Multi_key> <apostrophe> <parenleft> <mu> <o>	: "ὅ"	U1F45 # GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA
+<Multi_key> <asciitilde> <parenright> <mu> <o>	: "ὀ͂"	# GREEK SMALL LETTER OMICRON WITH PSILI with COMBINING PERISPOMENI
+<Multi_key> <asciitilde> <parenleft> <mu> <o>	: "ὁ͂"	# GREEK SMALL LETTER OMICRON WITH DASIA with COMBINING PERISPOMENI
 <Multi_key> <parenright> <mu> <O>	: "Ὀ"	U1F48 # GREEK CAPITAL LETTER OMICRON WITH PSILI
 <Multi_key> <parenleft> <mu> <O>	: "Ὁ"	U1F49 # GREEK CAPITAL LETTER OMICRON WITH DASIA
 <Multi_key> <grave> <parenright> <mu> <O>	: "Ὂ"	U1F4A # GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA
@@ -711,6 +823,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <parenright> <mu> <O>	: "Ὄ"	U1F4C # GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA
 <Multi_key> <acute> <parenleft> <mu> <O>	: "Ὅ"	U1F4D # GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA
 <Multi_key> <apostrophe> <parenleft> <mu> <O>	: "Ὅ"	U1F4D # GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA
+<Multi_key> <asciitilde> <parenright> <mu> <O>	: "Ὀ͂"	# GREEK CAPITAL LETTER OMICRON WITH PSILI with COMBINING PERISPOMENI
+<Multi_key> <asciitilde> <parenleft> <mu> <O>	: "Ὁ͂"	# GREEK CAPITAL LETTER OMICRON WITH DASIA with COMBINING PERISPOMENI
 <Multi_key> <parenright> <mu> <u>	: "ὐ"	U1F50 # GREEK SMALL LETTER UPSILON WITH PSILI
 <Multi_key> <parenleft> <mu> <u>	: "ὑ"	U1F51 # GREEK SMALL LETTER UPSILON WITH DASIA
 <Multi_key> <grave> <parenright> <mu> <u>	: "ὒ"	U1F52 # GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA
@@ -721,10 +835,15 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <apostrophe> <parenleft> <mu> <u>	: "ὕ"	U1F55 # GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA
 <Multi_key> <asciitilde> <parenright> <mu> <u>	: "ὖ"	U1F56 # GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI
 <Multi_key> <asciitilde> <parenleft> <mu> <u>	: "ὗ"	U1F57 # GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI
+<Multi_key> <parenright> <mu> <U>	: "Υ̓"	# GREEK CAPITAL LETTER UPSILON with COMBINING COMMA ABOVE
 <Multi_key> <parenleft> <mu> <U>	: "Ὑ"	U1F59 # GREEK CAPITAL LETTER UPSILON WITH DASIA
+<Multi_key> <grave> <parenright> <mu> <U>	: "Υ̓̀"	# GREEK CAPITAL LETTER UPSILON with COMBINING COMMA ABOVE and COMBINING GRAVE
 <Multi_key> <grave> <parenleft> <mu> <U>	: "Ὓ"	U1F5B # GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA
+<Multi_key> <acute> <parenright> <mu> <U>	: "Υ̓́"	# GREEK CAPITAL LETTER UPSILON with COMBINING COMMA ABOVE and COMBINING ACUTE
+<Multi_key> <apostrophe> <parenright> <mu> <U>	: "Υ̓́"	# GREEK CAPITAL LETTER UPSILON with COMBINING COMMA ABOVE and COMBINING ACUTE
 <Multi_key> <acute> <parenleft> <mu> <U>	: "Ὕ"	U1F5D # GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA
 <Multi_key> <apostrophe> <parenleft> <mu> <U>	: "Ὕ"	U1F5D # GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA
+<Multi_key> <asciitilde> <parenright> <mu> <U>	: "Υ̓͂"	# GREEK CAPITAL LETTER UPSILON with COMBINING COMMA ABOVE and COMBINING PERISPOMENI
 <Multi_key> <asciitilde> <parenleft> <mu> <U>	: "Ὗ"	U1F5F # GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI
 <Multi_key> <parenright> <mu> <w>	: "ὠ"	U1F60 # GREEK SMALL LETTER OMEGA WITH PSILI
 <Multi_key> <parenleft> <mu> <w>	: "ὡ"	U1F61 # GREEK SMALL LETTER OMEGA WITH DASIA
@@ -895,6 +1014,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <minus> <mu> <U>	: "Ῡ"	U1FE9 # GREEK CAPITAL LETTER UPSILON WITH MACRON
 <Multi_key> <grave> <mu> <U>	: "Ὺ"	U1FEA # GREEK CAPITAL LETTER UPSILON WITH VARIA
 <Multi_key> <acute> <mu> <U>	: "Ύ"	U1FEB # GREEK CAPITAL LETTER UPSILON WITH VARIA
+<Multi_key> <parenright> <mu> <R>	: "Ρ̓"	# GREEK CAPITAL LETTER RHO with COMBINING COMMA ABOVE
 <Multi_key> <parenleft> <mu> <R>	: "Ῥ"	U1FEC # GREEK CAPITAL LETTER RHO WITH DASIA
 <Multi_key> <quotedbl> <grave>	: "῭"	U1FED # GREEK DIALYTIKA AND VARIA
 <Multi_key> <grave> <quotedbl> <space>	: "῭"	U1FED # GREEK DIALYTIKA AND VARIA
