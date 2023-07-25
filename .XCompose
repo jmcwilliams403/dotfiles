@@ -2,14 +2,10 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Basic Latin
 
-<Multi_key> <V> <V>	: "W"	W # LATIN CAPITAL LETTER W
-
 <Multi_key> <period> <U0131>	: "i"	i # LATIN SMALL LETTER I
 <Multi_key> <U0131> <period>	: "i"	i # LATIN SMALL LETTER I
 <Multi_key> <period> <U0237>	: "j"	j # LATIN SMALL LETTER J
 <Multi_key> <U0237> <period>	: "j"	j # LATIN SMALL LETTER J
-
-<Multi_key> <v> <v>	: "w"	w # LATIN SMALL LETTER W
 
 
 # Latin 1 Supplement
@@ -18,12 +14,20 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asterisk> <space>	: "°"	degree # DEGREE SIGN
 <Multi_key> <asterisk> <asterisk>	: "°"	degree # DEGREE SIGN
 
+<Multi_key> <bar> <u>	: "µ"	mu # MICRO SIGN
 <Multi_key> <p> <p>	: "¶"	paragraph # PILCROW SIGN
 <Multi_key> <asciicircum> <underscore> <underscore> <o>	: "º"	masculine # MASCULINE ORDINAL INDICATOR
 
 <Multi_key> <1> <slash> <4>	: "¼"	onequarter # VULGAR FRACTION ONE QUARTER
 <Multi_key> <1> <slash> <2>	: "½"	onehalf # VULGAR FRACTION ONE HALF
 <Multi_key> <3> <slash> <4>	: "¾"	threequarters # VULGAR FRACTION THREE QUARTERS
+
+<Multi_key> <degree> <A>	: "Å"	Aring # LATIN CAPITAL LETTER A WITH RING
+
+<Multi_key> <s> <z>	: "ß"	ssharp # LATIN SMALL LETTER SHARP S
+
+<Multi_key> <degree> <a>	: "å"	aring # LATIN SMALL LETTER A WITH RING
+
 
 # Latin Extended-A
 
@@ -68,6 +72,10 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <h> <greater>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <h> <x>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <h> <X>	: "ĥ"	U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
+<Multi_key> <minus> <H>	: "Ħ"	U0126 # LATIN CAPITAL LETTER H WITH STROKE
+<Multi_key> <H> <minus>	: "Ħ"	U0126 # LATIN CAPITAL LETTER H WITH STROKE
+<Multi_key> <minus> <h>	: "ħ"	U0127 # LATIN SMALL LETTER H WITH STROKE
+<Multi_key> <h> <minus>	: "ħ"	U0127 # LATIN SMALL LETTER H WITH STROKE
 
 <Multi_key> <I> <parenleft>	: "Ĭ"	U012C # LATIN CAPITAL LETTER I WITH BREVE
 <Multi_key> <i> <parenleft>	: "ĭ"	U012D # LATIN SMALL LETTER I WITH BREVE
@@ -114,6 +122,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <O> <parenleft>	: "Ŏ"	U014E # LATIN CAPITAL LETTER O WITH BREVE
 <Multi_key> <o> <parenleft>	: "ŏ"	U014F # LATIN SMALL LETTER O WITH BREVE
+<Multi_key> <h> <O>	: "Ő"	U0150 # LATIN CAPITAL LETTER O WITH DOUBLE ACUTE
+<Multi_key> <h> <o>	: "ő"	U0151 # LATIN SMALL LETTER O WITH DOUBLE ACUTE
 
 #<Multi_key> <asciicircum> <S>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
 <Multi_key> <S> <asciicircum>	: "Ŝ"	U015C # LATIN CAPITAL LETTER S WITH CIRCUMFLEX
@@ -128,15 +138,42 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <s> <x>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 <Multi_key> <s> <X>	: "ŝ"	U015D # LATIN SMALL LETTER S WITH CIRCUMFLEX
 
-<Multi_key> <U> <parenleft>	: "Ŭ"   U016C # LATIN CAPITAL LETTER U WITH BREVE
-<Multi_key> <U> <x>	: "Ŭ"   U016C # LATIN CAPITAL LETTER U WITH BREVE
-<Multi_key> <U> <X>	: "Ŭ"   U016C # LATIN CAPITAL LETTER U WITH BREVE
-<Multi_key> <u> <parenleft>	: "ŭ"   U016D # LATIN SMALL LETTER U WITH BREVE
-<Multi_key> <u> <x>	: "ŭ"   U016D # LATIN SMALL LETTER U WITH BREVE
-<Multi_key> <u> <X>	: "ŭ"   U016D # LATIN SMALL LETTER U WITH BREVE
-
+<Multi_key> <U> <parenleft>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
+<Multi_key> <U> <x>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
+<Multi_key> <U> <X>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
+<Multi_key> <u> <parenleft>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
+<Multi_key> <u> <x>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
+<Multi_key> <u> <X>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
+<Multi_key> <degree> <U>	: "Ů"	U016E # LATIN CAPITAL LETTER U WITH RING
+<Multi_key> <degree> <u>	: "ů"	U016F # LATIN SMALL LETTER U WITH RING
+<Multi_key> <h> <U>	: "Ű"	U0170 # LATIN CAPITAL LETTER U WITH DOUBLE ACUTE
+<Multi_key> <h> <u>	: "ű"	U0171 # LATIN SMALL LETTER U WITH DOUBLE ACUTE
 
 # Latin Extended-B
+
+<Multi_key> <minus> <b>	: "ƀ"	U0180 # LATIN SMALL LETTER B WITH STROKE
+<Multi_key> <b> <minus>	: "ƀ"	U0180 # LATIN SMALL LETTER B WITH STROKE
+
+<Multi_key> <M> <B>	: "Ƃ"	U0182 # LATIN CAPITAL LETTER B WITH TOPBAR
+<Multi_key> <m> <b>	: "ƃ"	U0183 # LATIN SMALL LETTER B WITH TOPBAR
+
+<Multi_key> <N> <D>	: "Ƌ"	U018B # LATIN CAPITAL LETTER D WITH TOPBAR
+<Multi_key> <n> <d>	: "ƌ"	U018C # LATIN SMALL LETTER D WITH TOPBAR
+<Multi_key> <z> <z>	: "ƍ"	U018D # LATIN SMALL LETTER TURNED DELTA
+
+<Multi_key> <F> <O>	: "Ƒ"	U0191 # LATIN CAPITAL LETTER F WITH HOOK
+<Multi_key> <O> <F>	: "Ƒ"	U0191 # LATIN CAPITAL LETTER F WITH HOOK
+<Multi_key> <f> <o>	: "ƒ"	U0192 # LATIN SMALL LETTER F WITH HOOK
+<Multi_key> <o> <f>	: "ƒ"	U0192 # LATIN SMALL LETTER F WITH HOOK
+
+<Multi_key> <h> <v>	: "ƕ"	U0195 # LATIN SMALL LETTER HV
+
+<Multi_key> <Q> <H>	: "Ƣ"	U01A2 # LATIN CAPITAL LETTER GHA
+<Multi_key> <q> <h>	: "ƣ"	U01A3 # LATIN SMALL LETTER GHA
+
+<Multi_key> <Y> <R>	: "Ʀ"	U01A6 # LATIN LETTER YR
+
+<Multi_key> <S> <H>	: "Ʃ"	U01A9 # LATIN CAPITAL LETTER ESH
 
 <Multi_key> <t> <U0321>	: "ƫ"	U01AB # LATIN SMALL LETTER T WITH PALATAL HOOK
 
@@ -148,16 +185,14 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <slash> <U0296>	: "ƾ"	U01BE # LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE
 <Multi_key> <U0296> <slash>	: "ƾ"	U01BE # LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE
+<Multi_key> <w> <h>	: "ƿ"	U01BF # LATIN LETTER WYNN
 
 <Multi_key> <D> <Zcaron>	: "Ǆ"	U01C4 # LATIN CAPITAL LETTER DZ WITH CARON
-<Multi_key> <D> <v> <Z>	: "Ǆ"	U01C4 # LATIN CAPITAL LETTER DZ WITH CARON
-<Multi_key> <D> <c> <Z>	: "Ǆ"	U01C4 # LATIN CAPITAL LETTER DZ WITH CARON
+<Multi_key> <D> <caron> <Z>	: "Ǆ"	U01C4 # LATIN CAPITAL LETTER DZ WITH CARON
 <Multi_key> <D> <zcaron>	: "ǅ"	U01C5 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
-<Multi_key> <D> <v> <z>	: "ǅ"	U01C5 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
-<Multi_key> <D> <c> <z>	: "ǅ"	U01C5 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
+<Multi_key> <D> <caron> <z>	: "ǅ"	U01C5 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
 <Multi_key> <d> <zcaron>	: "ǆ"	U01C6 # LATIN CAPITAL LETTER DZ WITH CARON
-<Multi_key> <d> <v> <z>	: "ǆ"	U01C6 # LATIN CAPITAL LETTER DZ WITH CARON
-<Multi_key> <d> <c> <z>	: "ǆ"	U01C6 # LATIN CAPITAL LETTER DZ WITH CARON
+<Multi_key> <d> <caron> <z>	: "ǆ"	U01C6 # LATIN CAPITAL LETTER DZ WITH CARON
 <Multi_key> <L> <J>	: "Ǉ"	U01C7 # LATIN CAPITAL LETTER LJ
 <Multi_key> <L> <j>	: "ǈ"	U01C8 # LATIN CAPITAL LETTER L WITH SMALL LETTER J
 <Multi_key> <l> <j>	: "ǉ"	U01C9 # LATIN SMALL LETTER LJ
@@ -168,7 +203,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <minus> <quotedbl> <U>	: "Ǖ"	U01D5 # LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON
 <Multi_key> <minus> <quotedbl> <u>	: "ǖ"	U01D6 # LATIN SMALL LETTER U WITH DIAERESIS AND MACRON
 
+#<Multi_key> <c> <quotedbl> <U>	: "Ǚ"	U01D9 # LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON
 <Multi_key> <v> <quotedbl> <U>	: "Ǚ"	U01D9 # LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON
+#<Multi_key> <c> <quotedbl> <u>	: "ǚ"	U01DA # LATIN SMALL LETTER U WITH DIAERESIS AND CARON
 <Multi_key> <v> <quotedbl> <u>	: "ǚ"	U01DA # LATIN SMALL LETTER U WITH DIAERESIS AND CARON
 
 <Multi_key> <minus> <quotedbl> <A>	: "Ǟ"	U01DE # LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON
@@ -180,13 +217,17 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <minus> <semicolon> <O>	: "Ǭ"	U01EC # LATIN CAPITAL LETTER O WITH OGONEK AND MACRON
 <Multi_key> <minus> <semicolon> <o>	: "ǭ"	U01ED # LATIN SMALL LETTER O WITH OGONEK AND MACRON
-
+<Multi_key> <caron> <Z> <H>	: "Ǯ"	U01EE # LATIN CAPITAL LETTER EZH WITH CARON
+<Multi_key> <caron> <z> <h>	: "ǯ"	U01EF # LATIN SMALL LETTER EZH WITH CARON
 <Multi_key> <c> <J>	: "J̌"	# LATIN CAPITAL LETTER J with COMBINING CARON
 <Multi_key> <v> <J>	: "J̌"	# LATIN CAPITAL LETTER J with COMBINING CARON
-
 <Multi_key> <D> <Z>	: "Ǳ"	U01F1 # LATIN CAPITAL LETTER DZ
 <Multi_key> <D> <z>	: "ǲ"	U01F2 # LATIN CAPITAL LETTER D WITH SMALL LETTER Z
 <Multi_key> <d> <z>	: "ǳ"	U01F3 # LATIN SMALL LETTER DZ
+
+<Multi_key> <H> <V>	: "Ƕ"	U01F6 # LATIN CAPITAL LETTER HWAIR
+<Multi_key> <H> <v>	: "Ƕ"	U01F6 # LATIN CAPITAL LETTER HWAIR
+<Multi_key> <W> <H>	: "Ƿ"	U01F7 # LATIN CAPITAL LETTER WYNN
 
 <Multi_key> <acute> <asterisk> <A>	: "Ǻ"	U01FA # LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
 <Multi_key> <apostrophe> <asterisk> <A>	: "Ǻ"	U01FA # LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
@@ -224,6 +265,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <grave> <grave> <u>	: "ȕ"	U0215 # LATIN SMALL LETTER U WITH DOUBLE GRAVE
 <Multi_key> <parenright> <U>	: "Ȗ"	U0216 # LATIN CAPITAL LETTER U WITH INVERTED BREVE
 <Multi_key> <parenright> <u>	: "ȗ"	U0217 # LATIN SMALL LETTER U WITH INVERTED BREVE
+<Multi_key> <S> <BackSpace> <comma>	"Ș"	U0218 # LATIN CAPITAL LETTER S WITH COMMA BELOW
+<Multi_key> <s> <BackSpace> <comma>	"ș"	U0219 # LATIN SMALL LETTER S WITH COMMA BELOW
+<Multi_key> <T> <BackSpace> <comma>	"Ț"	U021A # LATIN CAPITAL LETTER T WITH COMMA BELOW
+<Multi_key> <t> <BackSpace> <comma>	"ț"	U021B # LATIN SMALL LETTER t WITH COMMA BELOW
+<Multi_key> <G> <H>	: "Ȝ"	U021C # LATIN CAPITAL LETTER YOGH
+<Multi_key> <g> <h>	: "ȝ"	U021D # LATIN SMALL LETTER YOGH
 
 <Multi_key> <comma> <E>	: "Ȩ"	U0228 # LATIN CAPITAL LETTER E WITH CEDILLA
 <Multi_key> <E> <comma>	: "Ȩ"	U0228 # LATIN CAPITAL LETTER E WITH CEDILLA
@@ -246,16 +293,17 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <period> <j>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 <Multi_key> <j> <period>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
 <Multi_key> <j> <j>	: "ȷ"	U0237 # LATIN SMALL LETTER DOTLESS J
-
 <Multi_key> <d> <b>	: "ȸ"	U0238 # LATIN SMALL LETTER DB DIGRAPH
 <Multi_key> <q> <p>	: "ȹ"	U0239 # LATIN SMALL LETTER QP DIGRAPH
-
 <Multi_key> <slash> <A>	: "Ⱥ"	U023A # LATIN CAPITAL LETTER A WITH STROKE
 <Multi_key> <A> <slash>	: "Ⱥ"	U023A # LATIN CAPITAL LETTER A WITH STROKE
 <Multi_key> <slash> <C>	: "Ȼ"	U023B # LATIN CAPITAL LETTER C WITH STROKE
 <Multi_key> <C> <slash>	: "Ȼ"	U023B # LATIN CAPITAL LETTER C WITH STROKE
 <Multi_key> <slash> <c>	: "ȼ"	U023C # LATIN SMALL LETTER C WITH STROKE
 <Multi_key> <c> <slash>	: "ȼ"	U023C # LATIN SMALL LETTER C WITH STROKE
+
+<Multi_key> <minus> <B>	: "Ƀ"	U0243 # LATIN CAPITAL LETTER B WITH STROKE
+<Multi_key> <B> <minus>	: "Ƀ"	U0243 # LATIN CAPITAL LETTER B WITH STROKE
 
 <Multi_key> <slash> <E>	: "Ɇ"	U0246 # LATIN CAPITAL LETTER E WITH STROKE
 <Multi_key> <E> <slash>	: "Ɇ"	U0246 # LATIN CAPITAL LETTER E WITH STROKE
@@ -275,6 +323,15 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <y>	: "ɏ"	U024F # LATIN SMALL LETTER Y WITH STROKE
 <Multi_key> <y> <slash>	: "ɏ"	U024F # LATIN SMALL LETTER Y WITH STROKE
 
+<Multi_key> <macron> <period> <E>	: "Ė̄"	# LATIN CAPITAL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <macron> <Eabovedot>	: "Ė̄"	# LATIN CAPITAL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <minus> <Eabovedot>	: "Ė̄"	# LATIN CAPITAL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <underscore> <Eabovedot>	: "Ė̄"	# LATIN CAPITAL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <macron> <period> <e>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <macron> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <minus> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
+<Multi_key> <underscore> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
+
 
 # IPA Extensions
 
@@ -282,18 +339,31 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <U025C> <U02DE>	: "ɝ"	U025D # LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
 
+<Multi_key> <slash> <period> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
+<Multi_key> <period> <slash> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
+
+<Multi_key> <g> <g>	: "ɡ"	U0261 # LATIN SMALL LETTER SCRIPT G
+
+<Multi_key> <u> <bar>	: "ɥ"	U0265 # LATIN SMALL LETTER TURNED H
+
+<Multi_key> <l> <U0334>	: "ɫ"	U026B # LATIN SMALL LETTER L WITH MIDDLE TILDE
+
 <Multi_key> <l> <U0322>	: "ɭ"	U026D # LATIN SMALL LETTER L WITH RETROFLEX HOOK
+
+<Multi_key> <U26F> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
+<Multi_key> <m> <g>	: "ɱ"	U0271 # LATIN SMALL LETTER M WITH HOOK
 
 <Multi_key> <n> <U0322>	: "ɳ"	U0273 # LATIN SMALL LETTER N WITH RETROFLEX HOOK
 
-<Multi_key> <U0279> <U0322>	: "ɻ"	U027B # LATIN SMALL LETTER TURNED R WITH RETROFLEX HOOK
+<Multi_key> <p> <h>	: "ɸ"	U0278 # LATIN SMALL LETTER PHI
+
+<Multi_key> <y> <r>	: "ʀ"	U0280 # LATIN LETTER SMALL CAPITAL R
+
+<Multi_key> <s> <h>	: "ʃ"	U0283 # LATIN SMALL LETTER ESH
 
 <Multi_key> <t> <U0322>	: "ʈ"	U0288 # LATIN SMALL LETTER T WITH RETROFLEX HOOK
 
 <Multi_key> <z> <U0322>	: "ʐ"	U0290 # LATIN SMALL LETTER Z WITH RETROFLEX HOOK
-
-<Multi_key> <slash> <period> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
-<Multi_key> <period> <slash> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
 
 <Multi_key> <z> <h>	: "ʒ"	U0292 # LATIN SMALL LETTER EZH
 
@@ -410,6 +480,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <Cyrillic_O> <Cyrillic_u>	: "Ѹ"	U0478 # CYRILLIC CAPITAL LETTER UK
 <Multi_key> <Cyrillic_o> <Cyrillic_u>	: "ѹ"	U0479 # CYRILLIC CAPITAL LETTER UK
 
+<Multi_key> <Cyrillic_EN> <Cyrillic_GHE>	: "Ҥ"	U04A4 # CYRILLIC CAPITAL LIGATURE EN GHE
+<Multi_key> <Cyrillic_en> <Cyrillic_ghe>	: "ҥ"	U04A5 # CYRILLIC SMALL LIGATURE EN GHE
+
+<Multi_key> <Cyrillic_TE> <Cyrillic_TSE>	: "Ҵ"	U04B4 # CYRILLIC CAPITAL LIGATURE TE TSE
+<Multi_key> <Cyrillic_te> <Cyrillic_tse>	: "ҵ"	U04B5 # CYRILLIC SMALL LIGATURE TE TSE
 
 # Phonetic Extensions
 
@@ -702,16 +777,28 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <h> <underscore>	: "ẖ"	U1E96 # LATIN SMALL LETTER H WITH LINE BELOW
 <Multi_key> <quotedbl> <T>	: "T̈"	# LATIN CAPITAL LETTER T with COMBINING DIAERESIS
 
+<Multi_key> <degree> <W>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
+<Multi_key> <o> <W>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
 <Multi_key> <asterisk> <W>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
 <Multi_key> <W> <asterisk>	: "W̊"	# LATIN SMALL LETTER W with COMBINING RING ABOVE
+<Multi_key> <degree> <w>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
+#<Multi_key> <o> <w>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
 <Multi_key> <asterisk> <w>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
 <Multi_key> <w> <asterisk>	: "ẘ"	U1E98 # LATIN SMALL LETTER W WITH RING ABOVE
+<Multi_key> <degree> <Y>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
+<Multi_key> <o> <Y>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
 <Multi_key> <asterisk> <Y>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
 <Multi_key> <Y> <asterisk>	: "Y̊"	# LATIN CAPITAL LETTER Y with COMBINING RING ABOVE
+<Multi_key> <degree> <y>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
+#<Multi_key> <o> <y>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <asterisk> <y>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <y> <asterisk>	: "ẙ"	U1E99 # LATIN SMALL LETTER Y WITH RING ABOVE
 <Multi_key> <A> <parenright>	: "A͗"	# LATIN SMALL LETTER A with COMBINING RIGHT HALF RING ABOVE
 <Multi_key> <a> <parenright>	: "ẚ"	U1E9A # LATIN SMALL LETTER A WITH RIGHT HALF RING
+<Multi_key> <abovedot> <f> <s>	: "ẛ"	U1E9B # LATIN SMALL LETTER LONG S WITH DOT ABOVE
+
+<Multi_key> <S> <Z>	: "ẞ"	U1E9E # LATIN CAPITAL LETTER SHARP S
+<Multi_key> <d> <d>	: "ẟ"	U1E9F # LATIN SMALL LETTER DELTA
 
 <Multi_key> <apostrophe> <space> <U> <A>	: "Ắ"	U1EAE # LATIN CAPITAL LETTER A WITH BREVE AND ACUTE
 <Multi_key> <apostrophe> <space> <U> <a>	: "ắ"	U1EAF # LATIN SMALL LETTER A WITH BREVE AND ACUTE
@@ -721,6 +808,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <question> <space> <U> <a>	: "ẳ"	U1EB3 # LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE
 <Multi_key> <asciitilde> <space> <U> <A>	: "Ẵ"	U1EB4 # LATIN CAPITAL LETTER A WITH BREVE AND TILDE
 <Multi_key> <asciitilde> <space> <U> <a>	: "ẵ"	U1EB5 # LATIN SMALL LETTER A WITH BREVE AND TILDE
+
+<Multi_key> <l> <L>	: "Ỻ"	U1EFA # LATIN CAPITAL LETTER MIDDLE-WELSH LL
+<Multi_key> <l> <l>	: "ỻ"	U1EFB # LATIN SMALL LETTER MIDDLE-WELSH LL
+<Multi_key> <V> <V>	: "Ỽ"	U1EFC # LATIN CAPITAL LETTER MIDDLE-WELSH V
+<Multi_key> <v> <v>	: "ỽ"	U1EFD # LATIN SMALL LETTER MIDDLE-WELSH V
 
 
 # Greek Extended
@@ -1121,9 +1213,11 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Letterlike Symbols
 
+<Multi_key> <degree> <C>	: "℃"	U2103 # DEGREE CELSIUS
 <Multi_key> <o> <C>	: "℃"	U2103 # DEGREE CELSIUS
 <Multi_key> <asterisk> <C>	: "℃"	U2103 # DEGREE CELSIUS
 
+<Multi_key> <degree> <F>	: "℉"	U2109 # DEGREE FAHRENHEIT
 <Multi_key> <o> <F>	: "℉"	U2109 # DEGREE FAHRENHEIT
 <Multi_key> <asterisk> <F>	: "℉"	U2109 # DEGREE FAHRENHEIT
 
@@ -1131,7 +1225,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <I> <m>	: "ℑ"	U2111 # BLACK-LETTER CAPITAL I
 
-<Multi_key> <l> <l>	: "ℓ"	U2113 # SCRIPT SMALL L
+<Multi_key> <e> <l> <l>	: "ℓ"	U2113 # SCRIPT SMALL L
 <Multi_key> <l> <b>	: "℔"	U2114 # L B BAR SYMBOL
 
 <Multi_key> <o> <p>	: "℗"	U2117 # SOUND RECORDING COPYRIGHT
@@ -1148,6 +1242,10 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <o> <z>	: "℥"	U2125 # OUNCE SIGN
 <Multi_key> <O> <Z>	: "℥"	U2125 # OUNCE SIGN
+<Multi_key> <o> <h> <m>	: "Ω"	U2126 # OHM SIGN
+<Multi_key> <O> <H> <M>	: "Ω"	U2126 # OHM SIGN
+<Multi_key> <m> <h> <o>	: "℧"	U2127 # INVERTED OHM SIGN
+<Multi_key> <M> <H> <O>	: "℧"	U2127 # INVERTED OHM SIGN
 
 <Multi_key> <Greek_iota> <Greek_iota>	: "℩"	U2129 # TURNED GREEK SMALL LETTER IOTA
 
@@ -1235,13 +1333,6 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <U22B5>	: "⋭"	U22ED # DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
 
 
-# Supplemental Mathematical Operators
-
-<Multi_key> <slash> <U2ADD>	: "⫝̸"	U2ADC # FORKING
-<Multi_key> <backslash> <U2223>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
-<Multi_key> <U2223> <backslash>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
-
-
 # Miscellaneous Technical
 
 <Multi_key> <asciicircum> <bracketleft>	: "⌈"	U2308 # LEFT CEILING
@@ -1255,15 +1346,26 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <parenleft> <bracketleft> <parenright> <bracketright> : "⎄" U2384 # COMPOSITION SYMBOL
 
 
+# Supplemental Mathematical Operators
+
+<Multi_key> <slash> <U2ADD>	: "⫝̸"	U2ADC # FORKING
+<Multi_key> <backslash> <U2223>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+<Multi_key> <U2223> <backslash>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+
+
 # Latin Extended-C
 
+<Multi_key> <L> <U0334>	: "Ɫ"	U2C62 # LATIN CAPITAL LETTER L WITH MIDDLE TILDE
 <Multi_key> <slash> <P>	: "Ᵽ"	U2C63 # LATIN CAPITAL LETTER P WITH STROKE
 <Multi_key> <P> <slash>	: "Ᵽ"	U2C63 # LATIN CAPITAL LETTER P WITH STROKE
 
 <Multi_key> <slash> <a>	: "ⱥ"	U2C65 # LATIN SMALL LETTER A WITH STROKE
 <Multi_key> <a> <slash>	: "ⱥ"	U2C65 # LATIN SMALL LETTER A WITH STROKE
 
+<Multi_key> <M> <G>	: "Ɱ"	U2C6E # LATIN SMALL LETTER M WITH HOOK
+
 <Multi_key> <asciicircum> <underscore> <V>	: "ⱽ"	U2C7D # MODIFIER LETTER CAPITAL V
+
 
 # Supplemental Punctuation
 
@@ -1316,6 +1418,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <thorn>	: "ꝥ"	UA765 # LATIN SMALL LETTER THORN WITH STROKE
 <Multi_key> <thorn> <slash>	: "ꝥ"	UA765 # LATIN SMALL LETTER THORN WITH STROKE
 
+<Multi_key> <U> <bar>	: "Ɥ"	UA78D # LATIN CAPITAL LETTER TURNED H
+<Multi_key> <U026C> <0322>	: "ꞎ"	UA78E # LATIN SMALL LETTER L WITH RETROFLEX HOOK AND BELT
+
 <Multi_key> <c> <U0321>	: "ꞔ"	UA794 # LATIN SMALL LETTER C WITH PALATAL HOOK
 <Multi_key> <h> <U0321>	: "ꞕ"	UA795 # LATIN SMALL LETTER H WITH PALATAL HOOK
 
@@ -1323,6 +1428,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <F> <slash>	: "Ꞙ"	UA798 # LATIN CAPITAL LETTER F WITH STROKE
 <Multi_key> <slash> <f>	: "ꞙ"	UA799 # LATIN SMALL LETTER F WITH STROKE
 <Multi_key> <f> <slash>	: "ꞙ"	UA799 # LATIN SMALL LETTER F WITH STROKE
+
+<Multi_key> <G> <G>	: "Ɡ"	UA7AC # LATIN CAPITAL LETTER SCRIPT G
+
+<Multi_key> <K> <H>	: "Ꭓ"	UA7B3 # LATIN CAPITAL LETTER CHI
+<Multi_key> <B> <H>	: "Ꞵ"	UA7B4 # LATIN CAPITAL LETTER BETA
+<Multi_key> <b> <h>	: "ꞵ"	UA7B5 # LATIN SMALL LETTER BETA
 
 <Multi_key> <slash> <U>	: "Ꞹ"	UA7B8 # LATIN CAPITAL LETTER U WITH STROKE
 <Multi_key> <U> <slash>	: "Ꞹ"	UA7B8 # LATIN CAPITAL LETTER U WITH STROKE
@@ -1353,6 +1464,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <r> <r>	: "ꭈ"	UAB48 # LATIN SMALL LETTER DOUBLE R
 
+<Multi_key> <k> <h>	: "ꭓ"	UAB53 # LATIN SMALL LETTER CHI
+
 <Multi_key> <parenleft> <parenright> <space>	: "꭛"	UAB5B # MODIFIER BREVE WITH INVERTED BREVE
 <Multi_key> <asciicircum> <underscore> <UA727>	: "ꭜ"	UAB5C # MODIFIER LETTER SMALL HENG
 <Multi_key> <asciicircum> <underscore> <UAB37>	: "ꭝ"	UAB5D # MODIFIER LETTER SMALL L WITH INVERTED LAZY S
@@ -1365,9 +1478,13 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Alphabetic Presentation Forms
 
-<Multi_key> <f> <t>	: "ﬅ"	Ufb05 # LATIN SMALL LIGATURE LONG S T
-<Multi_key> <U017F> <t>	: "ﬅ"	Ufb05 # LATIN SMALL LIGATURE LONG S T
-<Multi_key> <s> <t>	: "ﬆ"	Ufb06 # LATIN SMALL LIGATURE ST
+<Multi_key> <UFB00> <i>	: "ﬃ"	UFB03 # LATIN SMALL LIGATURE FFI
+<Multi_key> <Multi_key> <f> <f> <i>	: "ﬃ"	UFB03 # LATIN SMALL LIGATURE FFI
+<Multi_key> <UFB00> <l>	: "ﬄ"	UFB04 # LATIN SMALL LIGATURE FFL
+<Multi_key> <Multi_key> <f> <f> <l>	: "ﬄ"	UFB04 # LATIN SMALL LIGATURE FFL
+<Multi_key> <U017F> <t>	: "ﬅ"	UFB05 # LATIN SMALL LIGATURE LONG S T
+<Multi_key> <Multi_key> <f> <s> <t>	: "ﬅ"	UFB05 # LATIN SMALL LIGATURE LONG S T
+<Multi_key> <s> <t>	: "ﬆ"	UFB06 # LATIN SMALL LIGATURE ST
 
 
 # Latin Extended-F
