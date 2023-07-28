@@ -149,6 +149,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <h> <U>	: "Ű"	U0170 # LATIN CAPITAL LETTER U WITH DOUBLE ACUTE
 <Multi_key> <h> <u>	: "ű"	U0171 # LATIN SMALL LETTER U WITH DOUBLE ACUTE
 
+
 # Latin Extended-B
 
 <Multi_key> <minus> <b>	: "ƀ"	U0180 # LATIN SMALL LETTER B WITH STROKE
@@ -349,6 +350,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <l> <U0334>	: "ɫ"	U026B # LATIN SMALL LETTER L WITH MIDDLE TILDE
 
 <Multi_key> <l> <U0322>	: "ɭ"	U026D # LATIN SMALL LETTER L WITH RETROFLEX HOOK
+<Multi_key> <l> <h>	: "ɮ"	U026E # LATIN SMALL LETTER LEZH
 
 <Multi_key> <U26F> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
 <Multi_key> <m> <g>	: "ɱ"	U0271 # LATIN SMALL LETTER M WITH HOOK
@@ -485,6 +487,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <Cyrillic_TE> <Cyrillic_TSE>	: "Ҵ"	U04B4 # CYRILLIC CAPITAL LIGATURE TE TSE
 <Multi_key> <Cyrillic_te> <Cyrillic_tse>	: "ҵ"	U04B5 # CYRILLIC SMALL LIGATURE TE TSE
+
 
 # Phonetic Extensions
 
@@ -635,6 +638,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asciicircum> <underscore> <U0291>	: "ᶽ"	U1DBD # MODIFIER LETTER SMALL Z WITH CURL
 <Multi_key> <asciicircum> <underscore> <ezh>	: "ᶾ"	U1DBE # MODIFIER LETTER SMALL EZH
 <Multi_key> <asciicircum> <underscore> <Greek_theta>	: "ᶿ"	U1DBF # MODIFIER LETTER SMALL THETA
+
 
 # Latin Extended Additional
 
@@ -1129,6 +1133,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <space> <comma>	: " "	U2009 # THIN SPACE
 
+<Multi_key> <bar> <bar> <space>	: "‖"	U2016 # DOUBLE VERTICAL LINE
+<Multi_key> <underscore> <underscore>	: "‗"	U2017 # DOUBLE LOW LINE
+
 <Multi_key> <plus> <bar>	: "†"	U2020 # DAGGER
 <Multi_key> <plus> <plus>	: "‡"	U2021 # DOUBLE DAGGER
 
@@ -1148,67 +1155,107 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # currency
 
-<Multi_key> <C> <bar>	: "₵"	U20B5 # CEDI SIGN
-<Multi_key> <bar> <C>	: "₵"	U20B5 # CEDI SIGN
+<Multi_key> <bar> <bar> <C>	: "₡"	U20A1 # COLON SIGN
 
+<Multi_key> <underscore> <dstroke>	: "₫"	U20AB # DONG SIGN
+<Multi_key> <dstroke> <underscore>	: "₫"	U20AB # DONG SIGN
+<Multi_key> <underscore> <slash> <d>	: "₫"	U20AB # DONG SIGN
+
+<Multi_key> <equal> <T>	: "₮"	U20AE # TUGRIK SIGN
+<Multi_key> <T> <equal>	: "₮"	U20AE # TUGRIK SIGN
+<Multi_key> <D> <r>	: "₯"	U20AF # DRACHMA SIGN
+<Multi_key> <Greek_DELTA> <Greek_rho>	: "₯"	U20AF # DRACHMA SIGN
+<Multi_key> <p> <f>	: "₰"	U20B0 # GERMAN PENNY SIGN
+<Multi_key> <equal> <P>	: "₧"	U20A7 # PESETA SIGN
+<Multi_key> <P> <equal>	: "₧"	U20A7 # PESETA SIGN
+<Multi_key> <bar> <G>	: "₲"	U20B2 # GUARANI SIGN
+<Multi_key> <G> <bar>	: "₲"	U20B2 # GUARANI SIGN
+<Multi_key> <equal> <A>	: "₳"	U20B3 # AUSTRAL SIGN
+<Multi_key> <A> <equal>	: "₳"	U20B3 # AUSTRAL SIGN
+<Multi_key> <equal> <Cyrillic_GHE>	: "₴"	U20B4 # HRYVNIA SIGN
+<Multi_key> <Cyrillic_GHE> <equal>	: "₴"	U20B4 # HRYVNIA SIGN
+<Multi_key> <bar> <C>	: "₵"	U20B5 # CEDI SIGN
+<Multi_key> <C> <bar>	: "₵"	U20B5 # CEDI SIGN
+<Multi_key> <l> <t>	: "₶"	U20B6 # LIVRE TOURNOIS SIGN
 <Multi_key> <S> <m>	: "₷"	U20B7 # SPESMILO SIGN
 
-<Multi_key> <currency> <A>	: "₳"	U20B3	# AUSTRAL SIGN
-<Multi_key> <currency> <a>	: "؋"	U060B	# AFGHANI SIGN
-<Multi_key> <currency> <B>	: "฿"	U0E3F	# THAI CURRENCY SYMBOL BAHT
-<Multi_key> <currency> <b>	: "₿"	U20BF	# BITCOIN SIGN
-<Multi_key> <currency> <C>	: "₵"	U20B5	# CEDI SIGN
-<Multi_key> <currency> <c>	: "¢"	cent	# CENT SIGN
-<Multi_key> <currency> <Ccedilla>	: "₡"	U20A1	# COLON SIGN
-<Multi_key> <currency> <comma> <C>	: "₡"	U20A1	# COLON SIGN
-<Multi_key> <currency> <cedilla> <C>	: "₡"	U20A1	# COLON SIGN
-<Multi_key> <currency> <ccedilla>	: "₢"	U20A2	# CRUZEIRO SIGN
-<Multi_key> <currency> <comma> <c>	: "₢"	U20A2	# CRUZEIRO SIGN
-<Multi_key> <currency> <cedilla> <c>	: "₢"	U20A2	# CRUZEIRO SIGN
-<Multi_key> <currency> <D>	: "₯"	U20AF	# DRACHMA SIGN
-<Multi_key> <currency> <d>	: "₫"	U20AB	# DONG SIGN
-<Multi_key> <currency> <E>	: "€"	U20AC	# EURO SIGN
-<Multi_key> <currency> <e>	: "₠"	U20A0	# EURO-CURRENCY SIGN
-<Multi_key> <currency> <F>	: "₣"	U20A3	# FRENCH FRANC SIGN
-<Multi_key> <currency> <f>	: "ƒ"	U0192	# LATIN SMALL LETTER F WITH HOOK
-<Multi_key> <currency> <G>	: "₲"	U20B2	# GUARANI SIGN
-<Multi_key> <currency> <g>	: "₲"	U20B2	# GUARANI SIGN
-<Multi_key> <currency> <H>	: "₴"	U20B4	# HRYVNIA SIGN
-<Multi_key> <currency> <h>	: "₴"	U20B4	# HRYVNIA SIGN
-<Multi_key> <currency> <I>	: "៛"	U17DB	# KHMER CURRENCY SYMBOL RIEL
-<Multi_key> <currency> <i>	: "﷼"	UFDFC	# RIAL SIGN
-<Multi_key> <currency> <K>	: "₭"	U20AD	# KIP SIGN
-<Multi_key> <currency> <k>	: "₭"	U20AD	# KIP SIGN
-<Multi_key> <currency> <L>	: "₤"	U20A4	# LIRA SIGN
-<Multi_key> <currency> <l>	: "₺"	U20BA	# TURKISH LIRA SIGN
-<Multi_key> <currency> <Oslash>	: "₶"	U20B6	# LIVRE TOURNOIS SIGN
-<Multi_key> <currency> <oslash>	: "₾"	U20BE	# LARI SIGN
-<Multi_key> <currency> <M>	: "ℳ"	U2133	# SCRIPT CAPITAL M
-<Multi_key> <currency> <m>	: "₥"	U20A5	# MILL SIGN
-<Multi_key> <currency> <mu>	: "₼"	U20BC	# MANAT SIGN
-<Multi_key> <currency> <N>	: "₻"	U20BB	# NORDIC MARK SIGN
-<Multi_key> <currency> <n>	: "₦"	U20A6	# NAIRA SIGN
-<Multi_key> <currency> <O>	: "૱"	U0AF1	# GUJARATI RUPEE SIGN
-<Multi_key> <currency> <o>	: "௹"	U0BF9	# TAMIL RUPEE SIGN
-<Multi_key> <currency> <P>	: "₧"	U20A7	# PESETA SIGN
-<Multi_key> <currency> <p>	: "₱"	U20B1	# PESO SIGN
-<Multi_key> <currency> <Odiaeresis>	: "₰"	U20B0	# GERMAN PENNY SIGN
-<Multi_key> <currency> <odiaeresis>	: "₰"	U20B0	# GERMAN PENNY SIGN
-<Multi_key> <currency> <R>	: "₹"	U20B9	# INDIAN RUPEE SIGN
-<Multi_key> <currency> <r>	: "₽"	U20BD	# RUBLE SIGN
-<Multi_key> <currency> <registered>	: "₨"	U20A8	# RUPEE SIGN
-<Multi_key> <currency> <S>	: "₷"	U20B7	# SPESMILO SIGN
-<Multi_key> <currency> <s>	: "₪"	U20AA	# NEW SHEQEL SIGN
-<Multi_key> <currency> <T>	: "₮"	U20AE	# TUGRIK SIGN
-<Multi_key> <currency> <t>	: "₸"	U20B8	# TENGE SIGN
-<Multi_key> <currency> <THORN>	: "৲"	U09F2	# BENGALI RUPEE MARK
-<Multi_key> <currency> <thorn>	: "৳"	U09F3	# BENGALI RUPEE SIGN
-<Multi_key> <currency> <U>	: "圓"	U5713	# YUAN / WEN
-<Multi_key> <currency> <u>	: "元"	U5143	# YUAN / WEN
-<Multi_key> <currency> <W>	: "₩"	U20A9	# WON SIGN
-<Multi_key> <currency> <w>	: "₩"	U20A9	# WON SIGN
-<Multi_key> <currency> <Y>	: "円"	U5186	# YEN
-<Multi_key> <currency> <y>	: "¥"	yen	# YEN SIGN
+<Multi_key> <T> <L>	: "₺"	U20BA # TURKISH LIRA SIGN
+
+<Multi_key> <minus> <P>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <P> <minus>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <minus> <p>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <p> <minus>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <minus> <Cyrillic_ZE>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <Cyrillic_ZE> <minus>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <minus> <Cyrillic_ze>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <Cyrillic_ze> <minus>	: "₽"	U20BD # RUBLE SIGN
+
+<Multi_key> <bar> <bar> <B>	: "₿"	U20BF # BITCOIN SIGN
+<Multi_key> <underscore> <C>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <C> <underscore>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <underscore> <c>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <c> <underscore>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <underscore> <Cyrillic_ES>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <Cyrillic_ES> <underscore>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <underscore> <Cyrillic_es>	: "⃀"	U20C0 # SOM SIGN
+<Multi_key> <Cyrillic_es> <underscore>	: "⃀"	U20C0 # SOM SIGN
+
+<Multi_key> <currency> <A>	: "₳"	U20B3 # AUSTRAL SIGN
+<Multi_key> <currency> <a>	: "؋"	U060B # AFGHANI SIGN
+<Multi_key> <currency> <B>	: "฿"	U0E3F # THAI CURRENCY SYMBOL BAHT
+<Multi_key> <currency> <b>	: "₿"	U20BF # BITCOIN SIGN
+<Multi_key> <currency> <C>	: "₵"	U20B5 # CEDI SIGN
+<Multi_key> <currency> <c>	: "¢"	cent # CENT SIGN
+<Multi_key> <currency> <Ccedilla>	: "₡"	U20A1 # COLON SIGN
+<Multi_key> <currency> <comma> <C>	: "₡"	U20A1 # COLON SIGN
+<Multi_key> <currency> <cedilla> <C>	: "₡"	U20A1 # COLON SIGN
+<Multi_key> <currency> <ccedilla>	: "₢"	U20A2 # CRUZEIRO SIGN
+<Multi_key> <currency> <comma> <c>	: "₢"	U20A2 # CRUZEIRO SIGN
+<Multi_key> <currency> <cedilla> <c>	: "₢"	U20A2 # CRUZEIRO SIGN
+<Multi_key> <currency> <D>	: "₯"	U20AF # DRACHMA SIGN
+<Multi_key> <currency> <d>	: "₫"	U20AB # DONG SIGN
+<Multi_key> <currency> <E>	: "€"	U20AC # EURO SIGN
+<Multi_key> <currency> <e>	: "₠"	U20A0 # EURO-CURRENCY SIGN
+<Multi_key> <currency> <F>	: "₣"	U20A3 # FRENCH FRANC SIGN
+<Multi_key> <currency> <f>	: "ƒ"	U0192 # LATIN SMALL LETTER F WITH HOOK
+<Multi_key> <currency> <G>	: "₲"	U20B2 # GUARANI SIGN
+<Multi_key> <currency> <g>	: "₲"	U20B2 # GUARANI SIGN
+<Multi_key> <currency> <H>	: "₴"	U20B4 # HRYVNIA SIGN
+<Multi_key> <currency> <h>	: "₴"	U20B4 # HRYVNIA SIGN
+<Multi_key> <currency> <I>	: "៛"	U17DB # KHMER CURRENCY SYMBOL RIEL
+<Multi_key> <currency> <i>	: "﷼"	UFDFC # RIAL SIGN
+<Multi_key> <currency> <K>	: "₭"	U20AD # KIP SIGN
+<Multi_key> <currency> <k>	: "₭"	U20AD # KIP SIGN
+<Multi_key> <currency> <L>	: "₤"	U20A4 # LIRA SIGN
+<Multi_key> <currency> <l>	: "₺"	U20BA # TURKISH LIRA SIGN
+<Multi_key> <currency> <Oslash>	: "₶"	U20B6 # LIVRE TOURNOIS SIGN
+<Multi_key> <currency> <oslash>	: "₾"	U20BE # LARI SIGN
+<Multi_key> <currency> <M>	: "ℳ"	U2133 # SCRIPT CAPITAL M
+<Multi_key> <currency> <m>	: "₥"	U20A5 # MILL SIGN
+<Multi_key> <currency> <mu>	: "₼"	U20BC # MANAT SIGN
+<Multi_key> <currency> <N>	: "₻"	U20BB # NORDIC MARK SIGN
+<Multi_key> <currency> <n>	: "₦"	U20A6 # NAIRA SIGN
+<Multi_key> <currency> <O>	: "૱"	U0AF1 # GUJARATI RUPEE SIGN
+<Multi_key> <currency> <o>	: "௹"	U0BF9 # TAMIL RUPEE SIGN
+<Multi_key> <currency> <P>	: "₧"	U20A7 # PESETA SIGN
+<Multi_key> <currency> <p>	: "₱"	U20B1 # PESO SIGN
+<Multi_key> <currency> <Odiaeresis>	: "₰"	U20B0 # GERMAN PENNY SIGN
+<Multi_key> <currency> <odiaeresis>	: "₰"	U20B0 # GERMAN PENNY SIGN
+<Multi_key> <currency> <R>	: "₹"	U20B9 # INDIAN RUPEE SIGN
+<Multi_key> <currency> <r>	: "₽"	U20BD # RUBLE SIGN
+<Multi_key> <currency> <registered>	: "₨"	U20A8 # RUPEE SIGN
+<Multi_key> <currency> <S>	: "₷"	U20B7 # SPESMILO SIGN
+<Multi_key> <currency> <s>	: "₪"	U20AA # NEW SHEQEL SIGN
+<Multi_key> <currency> <T>	: "₮"	U20AE # TUGRIK SIGN
+<Multi_key> <currency> <t>	: "₸"	U20B8 # TENGE SIGN
+<Multi_key> <currency> <THORN>	: "৲"	U09F2 # BENGALI RUPEE MARK
+<Multi_key> <currency> <thorn>	: "৳"	U09F3 # BENGALI RUPEE SIGN
+<Multi_key> <currency> <U>	: "圓"	U5713 # YUAN / WEN
+<Multi_key> <currency> <u>	: "元"	U5143 # YUAN / WEN
+<Multi_key> <currency> <W>	: "₩"	U20A9 # WON SIGN
+<Multi_key> <currency> <w>	: "₩"	U20A9 # WON SIGN
+<Multi_key> <currency> <Y>	: "円"	U5186 # YEN
+<Multi_key> <currency> <y>	: "¥"	yen # YEN SIGN
 
 
 # Letterlike Symbols
@@ -1222,6 +1269,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <asterisk> <F>	: "℉"	U2109 # DEGREE FAHRENHEIT
 
 <Multi_key> <H> <H>	: "ℍ"	U210D # DOUBLE-STRUCK CAPITAL H
+
+<Multi_key> <eth> <i> <hstroke>	: "ℏ"	U210F # PLANCK CONSTANT OVER TWO PI
+<Multi_key> <eth> <i> <slash> <h>	: "ℏ"	U210F # PLANCK CONSTANT OVER TWO PI
 
 <Multi_key> <I> <m>	: "ℑ"	U2111 # BLACK-LETTER CAPITAL I
 
@@ -1249,6 +1299,8 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <Greek_iota> <Greek_iota>	: "℩"	U2129 # TURNED GREEK SMALL LETTER IOTA
 
+<Multi_key> <D> <M>	: "ℳ"	U2133 # SCRIPT CAPITAL M
+
 <Multi_key> <F> <A> <X>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <f> <a> <x>	: "℻"	U213B # FACSIMILE SIGN
 <Multi_key> <Greek_pi> <Greek_pi>	: "ℼ"	U213C # DOUBLE-STRUCK SMALL PI
@@ -1263,6 +1315,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <eth> <B> <mu> <S> : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
 
 <Multi_key> <ampersand> <ampersand>	: "⅋"	U214B # TURNED AMPERSAND
+
 
 # Number Forms
 
@@ -1289,6 +1342,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <3> <3>	: "↋"	U218B # TURNED DIGIT THREE
 
 
+# Arrows
+
+<Multi_key> <bar> <bar> <asciicircum>	: "⇑"	U21D1 # UPWARDS DOUBLE ARROW
+<Multi_key> <bar> <bar> <v>	: "⇑"	U21D1 # UPWARDS DOUBLE ARROW
+
+
 # Mathematical Operators
 
 <Multi_key> <mu> <eth>	: "∂"	U2202 # PARTIAL DIFFERENTIAL
@@ -1297,22 +1356,47 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <U2208>	: "∉"	U2209 # NOT AN ELEMENT OF
 <Multi_key> <slash> <U220B>	: "∌"	U220C # DOES NOT CONTAIN AS MEMBER
 <Multi_key> <minus> <plus>	: "∓"	U2213 # MINUS-OR-PLUS SIGN
+<Multi_key> <s> <q>	: "√"	U221A # SQUARE ROOT
+<Multi_key> <c> <b>	: "∛"	U221B # CUBE ROOT
+<Multi_key> <q> <d>	: "∜"	U221C # FOURTH ROOT
+<Multi_key> <9> <9>	: "∝"	U221D # PROPORTIONAL TO
+<Multi_key> <8> <8>	: "∞"	U221E # INFINITY
 <Multi_key> <slash> <U2223>	: "∤"	U2224 # DOES NOT DIVIDE
 <Multi_key> <slash> <U2225>	: "∦"	U2226 # NOT PARALLEL TO
+<Multi_key> <period> <colon>	: "∴"	U2234 # THEREFORE
+<Multi_key> <colon> <period>	: "∵"	U2235 # BECAUSE
+<Multi_key> <colon> <space>	: "∶"	U2236 # RATIO
+<Multi_key> <colon> <colon>	: "∷"	U2237 # PROPORTION
+<Multi_key> <colon> <asciitilde>	: "∻"	U223B # HOMOTHETIC
+<Multi_key> <asciitilde> <colon>	: "∻"	U223B # HOMOTHETIC
 <Multi_key> <slash> <U223C>	: "≁"	U2241 # NOT TILDE
+<Multi_key> <slash> <asciitilde>	: "≁"	U2241 # NOT TILDE
+<Multi_key> <asciitilde> <slash>	: "≁"	U2241 # NOT TILDE
 <Multi_key> <slash> <U2243>	: "≄"	U2244 # NOT ASYMPTOTICALLY EQUAL TO
+<Multi_key> <asciitilde> <equal>	: "≅"	U2245 # APPROXIMATELY EQUAL TO
+<Multi_key> <asciitilde> <notequal>	: "≆"	U2246 # APPROXIMATELY BUT NOT ACTUALLY EQUAL TO
 <Multi_key> <slash> <U2245>	: "≇"	U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
+<Multi_key> <asciitilde> <asciitilde>	: "≈"	U2248 # ALMOST EQUAL TO
 <Multi_key> <slash> <U2248>	: "≉"	U2249 # NOT ALMOST EQUAL TO
+<Multi_key> <colon> <equal>	: "≔"	U2254 # COLON EQUALS
+<Multi_key> <equal> <colon>	: "≕"	U2255 # EQUALS COLON
 <Multi_key> <slash> <U2261>	: "≢"	U2262 # NOT IDENTICAL TO
+<Multi_key> <L> <t>	: "≪"	U226A # MUCH LESS-THAN
+<Multi_key> <G> <t>	: "≫"	U226B # MUCH GREATER-THAN
+<Multi_key> <parenright> <parenleft>	: "≬"	U226C # BETWEEN
 <Multi_key> <slash> <U224D>	: "≭"	U226D # NOT EQUIVALENT TO
 <Multi_key> <slash> <less>	: "≮"	U226E # NOT LESS-THAN
 <Multi_key> <slash> <greater>	: "≯"	U226F # NOT GREATER-THAN
 <Multi_key> <slash> <U2264>	: "≰"	U2270 # NEITHER LESS-THAN NOR EQUAL TO
 <Multi_key> <slash> <U2265>	: "≱"	U2271 # NEITHER GREATER-THAN NOR EQUAL TO
+<Multi_key> <less> <asciitilde>	: "≲"	U2272 # LESS-THAN OR EQUIVLENT TO
+<Multi_key> <greater> <asciitilde>	: "≳"	U2273 # GREATER-THAN OR EQUIVLENT TO
 <Multi_key> <slash> <U2272>	: "≴"	U2274 # NEITHER LESS-THAN NOR EQUIVALENT TO
 <Multi_key> <slash> <U2273>	: "≵"	U2275 # NEITHER GREATER-THAN NOR EQUIVALENT TO
 <Multi_key> <slash> <U2276>	: "≸"	U2278 # NEITHER LESS-THAN NOR GREATER-THAN
 <Multi_key> <slash> <U2277>	: "≹"	U2279 # NEITHER GREATER-THAN NOR LESS-THAN
+<Multi_key> <P> <R>	: "≺"	U227A # PRECEDES
+<Multi_key> <S> <C>	: "≻"	U227B # SUCCEEDS
 <Multi_key> <slash> <U227A>	: "⊀"	U2280 # DOES NOT PRECEDE
 <Multi_key> <slash> <U227B>	: "⊁"	U2281 # DOES NOT SUCCEED
 <Multi_key> <slash> <U2282>	: "⊄"	U2284 # NOT A SUBSET OF
@@ -1323,6 +1407,16 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <slash> <U22A8>	: "⊭"	U22AD # NOT TRUE
 <Multi_key> <slash> <U22A9>	: "⊮"	U22AE # DOES NOT FORCE
 <Multi_key> <slash> <U22AB>	: "⊯"	U22AF # NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE
+<Multi_key> <division> <multiply>	: "⋇"	U22C7 # DIVISION TIMES
+<Multi_key> <multiply> <division>	: "⋇"	U22C7 # DIVISION TIMES
+<Multi_key> <equal> <U2225>	: "⋕"	U22D5 # EQUAL AND PARALLEL TO
+<Multi_key> <U2225> <equal>	: "⋕"	U22D5 # EQUAL AND PARALLEL TO
+<Multi_key> <L> <l>	: "⋘"	U22D8 # VERY MUCH LESS-THAN
+<Multi_key> <G> <g>	: "⋙"	U22D9 # VERY MUCH GREATER-THAN
+<Multi_key> <macron> <less>	: "⋜"	U22DC # EQUAL TO OR LESS-THAN
+<Multi_key> <less> <macron>	: "⋜"	U22DC # EQUAL TO OR LESS-THAN
+<Multi_key> <macron> <greater>	: "⋝"	U22DD # EQUAL TO OR GREATER-THAN
+<Multi_key> <greater> <macron>	: "⋝"	U22DD # EQUAL TO OR GREATER-THAN
 <Multi_key> <slash> <U227C>	: "⋠"	U22E0 # DOES NOT PRECEDE OR EQUAL
 <Multi_key> <slash> <U227D>	: "⋡"	U22E1 # DOES NOT SUCCEED OR EQUAL
 <Multi_key> <slash> <U2291>	: "⋢"	U22E2 # NOT SQUARE IMAGE OF OR EQUAL TO
@@ -1346,11 +1440,53 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <parenleft> <bracketleft> <parenright> <bracketright> : "⎄" U2384 # COMPOSITION SYMBOL
 
 
+# Miscellaneous Symbols
+
+#<Multi_key> <numbersign> <b>	: "♭"	U266d # MUSIC FLAT SIGN
+<Multi_key> <b> <b>	: "♭"	U266d # MUSIC FLAT SIGN
+<Multi_key> <numbersign> <h>	: "♮"	U266e # MUSIC NATURAL SIGN
+<Multi_key> <h> <h>	: "♮"	U266e # MUSIC NATURAL SIGN
+#<Multi_key> <numbersign> <numbersign>	: "♯"	U266f # MUSIC SHARP SIGN
+
+
+# Supplemental Arrows-A
+
+<Multi_key> <bar> <bar> <bar> <bar> <asciicircum>	: "⟰"	U27F0 # UPWARDS QUADRUPLE ARROW
+<Multi_key> <bar> <bar> <bar> <bar> <v>	: "⟱"	U27F1 # DOWNWARDS QUADRUPLE ARROW
+
+<Multi_key> <minus> <minus> <less>	: "⟵"	U27F5 # LONG LEFTWARDS ARROW
+<Multi_key> <minus> <minus> <greater>	: "⟶"	U27F6 # LONG RIGHTWARDS ARROW
+
+<Multi_key> <equal> <equal> <less>	: "⟸"	U27F8 # LONG LEFTWARDS DOUBLE ARROW
+<Multi_key> <equal> <equal> <greater>	: "⟹"	U27F9 # LONG RIGHTWARDS DOUBLE ARROW
+
+
+# Supplemental Arrows-B
+
+<Multi_key> <bar> <bar> <bar> <asciicircum>	: "⤊"	U2790A # UPWARDS TRIPLE ARROW
+<Multi_key> <bar> <bar> <bar> <v>	: "⤋"	U290B # DOWNWARDS TRIPLE ARROW
+
+
 # Supplemental Mathematical Operators
 
+<Multi_key> <equal> <plus>	: "⩱"	U2A71 # EQUALS SIGN ABOVE PLUS SIGN
+<Multi_key> <plus> <equal>	: "⩲"	U2A72 # PLUS SIGN ABOVE EQUALS SIGN
+<Multi_key> <equal> <asciitilde>	: "⩳"	U2A73 # EQUALS SIGN ABOVE TILDE OPERATOR
+
+<Multi_key> <asciitilde> <less>	: "⪝"	U2A9D # SIMILAR OR LESS-THAN
+<Multi_key> <asciitilde> <greater>	: "⪞"	U2A9E # SIMILAR OR GREATER-THAN
+
+<Multi_key> <P> <r>	: "⪻"	U2ABB # DOUBLE PRECEDES
+<Multi_key> <S> <c>	: "⪼"	U2ABC # DOUBLE SUCCEEDS
+
 <Multi_key> <slash> <U2ADD>	: "⫝̸"	U2ADC # FORKING
-<Multi_key> <backslash> <U2223>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
-<Multi_key> <U2223> <backslash>	: "⫮"	U2AFE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+
+<Multi_key> <equal> <comma>	: "⫬"	U2AEC # DOUBLE STROKE NOT SIGN
+<Multi_key> <comma> <equal>	: "⫭"	U2AED # REVERSED DOUBLE STROKE NOT SIGN
+<Multi_key> <backslash> <U2223>	: "⫮"	U2AEE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+<Multi_key> <U2223> <backslash>	: "⫮"	U2AEE # DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+
+<Multi_key> <slash> <slash>	: "⫽"	U2AFD # DOUBLE SOLIDUS OPERATOR
 
 
 # Latin Extended-C
@@ -1371,6 +1507,9 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 <Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18 # INVERTED INTERROBANG
 <Multi_key> <exclamdown> <questiondown>	: "⸘"	U2E18 # INVERTED INTERROBANG
+
+<Multi_key> <diaeresis> <minus>	: "⸚"	U2E1A # HYPHEN WITH DIAERESIS
+<Multi_key> <minus> <diaeresis>	: "⸚"	U2E1A # HYPHEN WITH DIAERESIS
 
 <Multi_key> <bar> <plus>	: "⸸"	U2E38 # TURNED DAGGER
 
@@ -1487,6 +1626,105 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <s> <t>	: "ﬆ"	UFB06 # LATIN SMALL LIGATURE ST
 
 
+# Halfwidth and Fullwidth Forms
+
+<Multi_key> <grave> <grave> <grave> <space>	: "　"	U3000 # IDEOGRAPHIC SPACE
+<Multi_key> <grave> <grave> <grave> <exclam>	: "！"	UFF01 # FULLWIDTH EXCLAMATION MARK
+<Multi_key> <grave> <grave> <grave> <quotedbl>	: "＂"	UFF02 # FULLWIDTH QUOTATION MARK
+<Multi_key> <grave> <grave> <grave> <numbersign>	: "＃"	UFF03 # FULLWIDTH NUMBER SIGN
+<Multi_key> <grave> <grave> <grave> <dollar>	: "＄"	UFF04 # FULLWIDTH DOLLAR SIGN
+<Multi_key> <grave> <grave> <grave> <percent>	: "％"	UFF05 # FULLWIDTH PERCENT SIGN
+<Multi_key> <grave> <grave> <grave> <ampersand>	: "＆"	UFF06 # FULLWIDTH AMPERSAND
+<Multi_key> <grave> <grave> <grave> <apostrophe>	: "＇"	UFF07 # FULLWIDTH APOSTROPHE
+<Multi_key> <grave> <grave> <grave> <parenleft>	: "（"	UFF08 # FULLWIDTH LEFT PARENTHESIS
+<Multi_key> <grave> <grave> <grave> <parenright>	: "）"	UFF09 # FULLWIDTH RIGHT PARENTHESIS
+<Multi_key> <grave> <grave> <grave> <asterisk>	: "＊"	UFF0A # FULLWIDTH ASTERISK
+<Multi_key> <grave> <grave> <grave> <plus>	: "＋"	UFF0B # FULLWIDTH PLUS
+<Multi_key> <grave> <grave> <grave> <comma>	: "，"	UFF0C # FULLWIDTH COMMA
+<Multi_key> <grave> <grave> <grave> <minus>	: "－"	UFF0D # FULLWIDTH HYPHEN-MINUS
+<Multi_key> <grave> <grave> <grave> <period>	: "．"	UFF0E # FULLWIDTH FULL STOP
+<Multi_key> <grave> <grave> <grave> <slash>	: "／"	UFF0F # FULLWIDTH SOLIDUS
+<Multi_key> <grave> <grave> <grave> <0>	: "０"	UFF10 # FULLWIDTH DIGIT 0
+<Multi_key> <grave> <grave> <grave> <1>	: "１"	UFF11 # FULLWIDTH DIGIT 1
+<Multi_key> <grave> <grave> <grave> <2>	: "２"	UFF12 # FULLWIDTH DIGIT 2
+<Multi_key> <grave> <grave> <grave> <3>	: "３"	UFF13 # FULLWIDTH DIGIT 3
+<Multi_key> <grave> <grave> <grave> <4>	: "４"	UFF14 # FULLWIDTH DIGIT 4
+<Multi_key> <grave> <grave> <grave> <5>	: "５"	UFF15 # FULLWIDTH DIGIT 5
+<Multi_key> <grave> <grave> <grave> <6>	: "６"	UFF16 # FULLWIDTH DIGIT 6
+<Multi_key> <grave> <grave> <grave> <7>	: "７"	UFF17 # FULLWIDTH DIGIT 7
+<Multi_key> <grave> <grave> <grave> <8>	: "８"	UFF18 # FULLWIDTH DIGIT 8
+<Multi_key> <grave> <grave> <grave> <9>	: "９"	UFF19 # FULLWIDTH DIGIT 9
+<Multi_key> <grave> <grave> <grave> <colon>	: "："	UFF1A # FULLWIDTH COLON
+<Multi_key> <grave> <grave> <grave> <semicolon>	: "；"	UFF1B # FULLWIDTH SEMICOLON
+<Multi_key> <grave> <grave> <grave> <less>	: "＜"	UFF1C # FULLWIDTH LESS-THAN SIGN
+<Multi_key> <grave> <grave> <grave> <equal>	: "＝"	UFF1D # FULLWIDTH EQUALS SIGN
+<Multi_key> <grave> <grave> <grave> <greater>	: "＞"	UFF1E # FULLWIDTH GREATER-THAN SIGN
+<Multi_key> <grave> <grave> <grave> <question>	: "？"	UFF1F # FULLWIDTH QUESTION MARK
+<Multi_key> <grave> <grave> <grave> <at>	: "＠"	UFF20 # FULLWIDTH COMMERCIAL AT
+<Multi_key> <grave> <grave> <grave> <A>	: "Ａ"	UFF21 # FULLWIDTH LATIN CAPITAL LETTER A
+<Multi_key> <grave> <grave> <grave> <B>	: "Ｂ"	UFF22 # FULLWIDTH LATIN CAPITAL LETTER B
+<Multi_key> <grave> <grave> <grave> <C>	: "Ｃ"	UFF23 # FULLWIDTH LATIN CAPITAL LETTER C
+<Multi_key> <grave> <grave> <grave> <D>	: "Ｄ"	UFF24 # FULLWIDTH LATIN CAPITAL LETTER D
+<Multi_key> <grave> <grave> <grave> <E>	: "Ｅ"	UFF25 # FULLWIDTH LATIN CAPITAL LETTER E
+<Multi_key> <grave> <grave> <grave> <F>	: "Ｆ"	UFF26 # FULLWIDTH LATIN CAPITAL LETTER F
+<Multi_key> <grave> <grave> <grave> <G>	: "Ｇ"	UFF27 # FULLWIDTH LATIN CAPITAL LETTER G
+<Multi_key> <grave> <grave> <grave> <H>	: "Ｈ"	UFF28 # FULLWIDTH LATIN CAPITAL LETTER H
+<Multi_key> <grave> <grave> <grave> <I>	: "Ｉ"	UFF29 # FULLWIDTH LATIN CAPITAL LETTER I
+<Multi_key> <grave> <grave> <grave> <J>	: "Ｊ"	UFF2A # FULLWIDTH LATIN CAPITAL LETTER J
+<Multi_key> <grave> <grave> <grave> <K>	: "Ｋ"	UFF2B # FULLWIDTH LATIN CAPITAL LETTER K
+<Multi_key> <grave> <grave> <grave> <L>	: "Ｌ"	UFF2C # FULLWIDTH LATIN CAPITAL LETTER L
+<Multi_key> <grave> <grave> <grave> <M>	: "Ｍ"	UFF2D # FULLWIDTH LATIN CAPITAL LETTER M
+<Multi_key> <grave> <grave> <grave> <N>	: "Ｎ"	UFF2E # FULLWIDTH LATIN CAPITAL LETTER N
+<Multi_key> <grave> <grave> <grave> <O>	: "Ｏ"	UFF2F # FULLWIDTH LATIN CAPITAL LETTER O
+<Multi_key> <grave> <grave> <grave> <P>	: "Ｐ"	UFF30 # FULLWIDTH LATIN CAPITAL LETTER P
+<Multi_key> <grave> <grave> <grave> <Q>	: "Ｑ"	UFF31 # FULLWIDTH LATIN CAPITAL LETTER Q
+<Multi_key> <grave> <grave> <grave> <R>	: "Ｒ"	UFF32 # FULLWIDTH LATIN CAPITAL LETTER R
+<Multi_key> <grave> <grave> <grave> <S>	: "Ｓ"	UFF33 # FULLWIDTH LATIN CAPITAL LETTER S
+<Multi_key> <grave> <grave> <grave> <T>	: "Ｔ"	UFF34 # FULLWIDTH LATIN CAPITAL LETTER T
+<Multi_key> <grave> <grave> <grave> <U>	: "Ｕ"	UFF35 # FULLWIDTH LATIN CAPITAL LETTER U
+<Multi_key> <grave> <grave> <grave> <V>	: "Ｖ"	UFF36 # FULLWIDTH LATIN CAPITAL LETTER V
+<Multi_key> <grave> <grave> <grave> <W>	: "Ｗ"	UFF37 # FULLWIDTH LATIN CAPITAL LETTER W
+<Multi_key> <grave> <grave> <grave> <X>	: "Ｘ"	UFF38 # FULLWIDTH LATIN CAPITAL LETTER X
+<Multi_key> <grave> <grave> <grave> <Y>	: "Ｙ"	UFF39 # FULLWIDTH LATIN CAPITAL LETTER Y
+<Multi_key> <grave> <grave> <grave> <Z>	: "Ｚ"	UFF3A # FULLWIDTH LATIN CAPITAL LETTER Z
+<Multi_key> <grave> <grave> <grave> <bracketleft>	: "［"	UFF3B # FULLWIDTH LEFT SQUARE BRACKET
+<Multi_key> <grave> <grave> <grave> <backslash>	: "＼"	UFF3C # FULLWIDTH REVERSE SOLIDUS
+<Multi_key> <grave> <grave> <grave> <bracketright>	: "］"	UFF3D # FULLWIDTH RIGHT SQUARE BRACKET
+<Multi_key> <grave> <grave> <grave> <asciicircum>	: "＾"	UFF3E # FULLWIDTH CIRCUMFLEX ACCENT
+<Multi_key> <grave> <grave> <grave> <underscore>	: "＿"	UFF3F # FULLWIDTH LOW LINE
+<Multi_key> <grave> <grave> <grave> <grave>	: "｀"	UFF40 # FULLWIDTH GRAVE ACCENT
+<Multi_key> <grave> <grave> <grave> <a>	: "ａ"	UFF41 # FULLWIDTH LATIN SMALL LETTER A
+<Multi_key> <grave> <grave> <grave> <b>	: "ｂ"	UFF42 # FULLWIDTH LATIN SMALL LETTER B
+<Multi_key> <grave> <grave> <grave> <c>	: "ｃ"	UFF43 # FULLWIDTH LATIN SMALL LETTER C
+<Multi_key> <grave> <grave> <grave> <d>	: "ｄ"	UFF44 # FULLWIDTH LATIN SMALL LETTER D
+<Multi_key> <grave> <grave> <grave> <e>	: "ｅ"	UFF45 # FULLWIDTH LATIN SMALL LETTER E
+<Multi_key> <grave> <grave> <grave> <f>	: "ｆ"	UFF46 # FULLWIDTH LATIN SMALL LETTER F
+<Multi_key> <grave> <grave> <grave> <g>	: "ｇ"	UFF47 # FULLWIDTH LATIN SMALL LETTER G
+<Multi_key> <grave> <grave> <grave> <h>	: "ｈ"	UFF48 # FULLWIDTH LATIN SMALL LETTER H
+<Multi_key> <grave> <grave> <grave> <i>	: "ｉ"	UFF49 # FULLWIDTH LATIN SMALL LETTER I
+<Multi_key> <grave> <grave> <grave> <j>	: "ｊ"	UFF4A # FULLWIDTH LATIN SMALL LETTER J
+<Multi_key> <grave> <grave> <grave> <k>	: "ｋ"	UFF4B # FULLWIDTH LATIN SMALL LETTER K
+<Multi_key> <grave> <grave> <grave> <l>	: "ｌ"	UFF4C # FULLWIDTH LATIN SMALL LETTER L
+<Multi_key> <grave> <grave> <grave> <m>	: "ｍ"	UFF4D # FULLWIDTH LATIN SMALL LETTER M
+<Multi_key> <grave> <grave> <grave> <n>	: "ｎ"	UFF4E # FULLWIDTH LATIN SMALL LETTER N
+<Multi_key> <grave> <grave> <grave> <o>	: "ｏ"	UFF4F # FULLWIDTH LATIN SMALL LETTER O
+<Multi_key> <grave> <grave> <grave> <p>	: "ｐ"	UFF50 # FULLWIDTH LATIN SMALL LETTER P
+<Multi_key> <grave> <grave> <grave> <q>	: "ｑ"	UFF51 # FULLWIDTH LATIN SMALL LETTER Q
+<Multi_key> <grave> <grave> <grave> <r>	: "ｒ"	UFF52 # FULLWIDTH LATIN SMALL LETTER R
+<Multi_key> <grave> <grave> <grave> <s>	: "ｓ"	UFF53 # FULLWIDTH LATIN SMALL LETTER S
+<Multi_key> <grave> <grave> <grave> <t>	: "ｔ"	UFF54 # FULLWIDTH LATIN SMALL LETTER T
+<Multi_key> <grave> <grave> <grave> <u>	: "ｕ"	UFF55 # FULLWIDTH LATIN SMALL LETTER U
+<Multi_key> <grave> <grave> <grave> <v>	: "ｖ"	UFF56 # FULLWIDTH LATIN SMALL LETTER V
+<Multi_key> <grave> <grave> <grave> <w>	: "ｗ"	UFF57 # FULLWIDTH LATIN SMALL LETTER W
+<Multi_key> <grave> <grave> <grave> <x>	: "ｘ"	UFF58 # FULLWIDTH LATIN SMALL LETTER X
+<Multi_key> <grave> <grave> <grave> <y>	: "ｙ"	UFF59 # FULLWIDTH LATIN SMALL LETTER Y
+<Multi_key> <grave> <grave> <grave> <z>	: "ｚ"	UFF5A # FULLWIDTH LATIN SMALL LETTER Z
+<Multi_key> <grave> <grave> <grave> <braceleft>	: "｛"	UFF5B # FULLWIDTH LEFT CURLY BRACKET
+<Multi_key> <grave> <grave> <grave> <bar>	: "｜"	UFF5C # FULLWIDTH VERTICAL LINE
+<Multi_key> <grave> <grave> <grave> <braceright>	: "｝"	UFF5D # FULLWIDTH RIGHT CURLY BRACKET
+<Multi_key> <grave> <grave> <grave> <asciitilde>	: "～"	UFF5E # FULLWIDTH TILDE
+
+
 # Latin Extended-F
 
 <Multi_key> <asciicircum> <underscore> <U02D0>	: "𐞁"	U10781 # MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON
@@ -1549,18 +1787,16 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Musical Symbols
 
-#<Multi_key> <numbersign> <q>		: "♩"	U2669 # QUARTER NOTE
-#<Multi_key> <numbersign> <e>		: "♪"	U266a # EIGHTH NOTE
-#<Multi_key> <numbersign> <E>		: "♫"	U266b # BEAMED EIGHTH NOTES
-#<Multi_key> <numbersign> <S>		: "♬"	U266c # BEAMED SIXTEENTH NOTES
-#<Multi_key> <numbersign> <b>		: "♭"	U266d # MUSIC FLAT SIGN
-#<Multi_key> <numbersign> <f>		: "♮"	U266e # MUSIC NATURAL SIGN
-#<Multi_key> <numbersign> <numbersign>	: "♯"	U266f # MUSIC SHARP SIGN
-
-<Multi_key> <numbersign> <x>		: "𝄪"	U1D12A # MUSICAL SYMBOL DOUBLE SHARP
-<Multi_key> <numbersign> <B>		: "𝄫"	U1D12B # MUSICAL SYMBOL DOUBLE FLAT
-<Multi_key> <numbersign> <t>		: "𝄲"	U1D132 # MUSICAL SYMBOL QUARTER TONE SHARP
-<Multi_key> <numbersign> <d>		: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
+<Multi_key> <numbersign> <x>	: "𝄪"	U1D12A # MUSICAL SYMBOL DOUBLE SHARP
+<Multi_key> <numbersign> <B>	: "𝄫"	U1D12B # MUSICAL SYMBOL DOUBLE FLAT
+<Multi_key> <asciicircum> <numbersign> <b>	: "𝄬"	U1D12C # MUSICAL SYMBOL FLAT UP
+<Multi_key> <v> <numbersign> <b>	: "𝄭"	U1D12D # MUSICAL SYMBOL FLAT DOWN
+<Multi_key> <asciicircum> <numbersign> <h>	: "𝄮"	U1D12E # MUSICAL SYMBOL NATURAL UP
+<Multi_key> <v> <numbersign> <h>	: "𝄯"	U1D12F # MUSICAL SYMBOL NATURAL DOWN
+<Multi_key> <asciicircum> <numbersign> <numbersign>	: "𝄰"	U1D130 # MUSICAL SYMBOL SHARP UP
+<Multi_key> <v> <numbersign> <numbersign>	: "𝄱"	U1D131 # MUSICAL SYMBOL SHARP DOWN
+<Multi_key> <numbersign> <t>	: "𝄲"	U1D132 # MUSICAL SYMBOL QUARTER TONE SHARP
+<Multi_key> <numbersign> <d>	: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
 
 
 # Mathematical Alphanumeric Symbols
@@ -1989,6 +2225,59 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <eth> <F> <y> : "𝖞" U1D59E
 <Multi_key> <eth> <F> <z> : "𝖟" U1D59F
 
+<Multi_key> <eth> <t> <A> : "𝙰" U1D670
+<Multi_key> <eth> <t> <B> : "𝙱" U1D671
+<Multi_key> <eth> <t> <C> : "𝙲" U1D672
+<Multi_key> <eth> <t> <D> : "𝙳" U1D673
+<Multi_key> <eth> <t> <E> : "𝙴" U1D674
+<Multi_key> <eth> <t> <F> : "𝙵" U1D675
+<Multi_key> <eth> <t> <G> : "𝙶" U1D676
+<Multi_key> <eth> <t> <H> : "𝙷" U1D677
+<Multi_key> <eth> <t> <I> : "𝙸" U1D678
+<Multi_key> <eth> <t> <J> : "𝙹" U1D679
+<Multi_key> <eth> <t> <K> : "𝙺" U1D67A
+<Multi_key> <eth> <t> <L> : "𝙻" U1D67B
+<Multi_key> <eth> <t> <M> : "𝙼" U1D67C
+<Multi_key> <eth> <t> <N> : "𝙽" U1D67D
+<Multi_key> <eth> <t> <O> : "𝙾" U1D67E
+<Multi_key> <eth> <t> <P> : "𝙿" U1D67F
+<Multi_key> <eth> <t> <Q> : "𝚀" U1D680
+<Multi_key> <eth> <t> <R> : "𝚁" U1D681
+<Multi_key> <eth> <t> <S> : "𝚂" U1D682
+<Multi_key> <eth> <t> <T> : "𝚃" U1D683
+<Multi_key> <eth> <t> <U> : "𝚄" U1D684
+<Multi_key> <eth> <t> <V> : "𝚅" U1D685
+<Multi_key> <eth> <t> <W> : "𝚆" U1D686
+<Multi_key> <eth> <t> <X> : "𝚇" U1D687
+<Multi_key> <eth> <t> <Y> : "𝚈" U1D688
+<Multi_key> <eth> <t> <Z> : "𝚉" U1D689
+<Multi_key> <eth> <t> <a> : "𝚊" U1D68A
+<Multi_key> <eth> <t> <b> : "𝚋" U1D68B
+<Multi_key> <eth> <t> <c> : "𝚌" U1D68C
+<Multi_key> <eth> <t> <d> : "𝚍" U1D68D
+<Multi_key> <eth> <t> <e> : "𝚎" U1D68E
+<Multi_key> <eth> <t> <f> : "𝚏" U1D68F
+<Multi_key> <eth> <t> <g> : "𝚐" U1D690
+<Multi_key> <eth> <t> <h> : "𝚑" U1D691
+<Multi_key> <eth> <t> <i> : "𝚒" U1D692
+<Multi_key> <eth> <t> <j> : "𝚓" U1D693
+<Multi_key> <eth> <t> <k> : "𝚔" U1D694
+<Multi_key> <eth> <t> <l> : "𝚕" U1D695
+<Multi_key> <eth> <t> <m> : "𝚖" U1D696
+<Multi_key> <eth> <t> <n> : "𝚗" U1D697
+<Multi_key> <eth> <t> <o> : "𝚘" U1D698
+<Multi_key> <eth> <t> <p> : "𝚙" U1D699
+<Multi_key> <eth> <t> <q> : "𝚚" U1D69A
+<Multi_key> <eth> <t> <r> : "𝚛" U1D69B
+<Multi_key> <eth> <t> <s> : "𝚜" U1D69C
+<Multi_key> <eth> <t> <t> : "𝚝" U1D69D
+<Multi_key> <eth> <t> <u> : "𝚞" U1D69E
+<Multi_key> <eth> <t> <v> : "𝚟" U1D69F
+<Multi_key> <eth> <t> <w> : "𝚠" U1D6A0
+<Multi_key> <eth> <t> <x> : "𝚡" U1D6A1
+<Multi_key> <eth> <t> <y> : "𝚢" U1D6A2
+<Multi_key> <eth> <t> <z> : "𝚣" U1D6A3
+
 <Multi_key> <eth> <i> <period> <i> : "𝚤" U1D6A4
 <Multi_key> <eth> <i> <period> <j> : "𝚥" U1D6A5
 
@@ -2197,6 +2486,17 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <eth> <B> <8> : "𝟠" U1D7E0
 <Multi_key> <eth> <B> <9> : "𝟡" U1D7E1
 
+<Multi_key> <eth> <t> <0> : "𝟶" U1D7F6
+<Multi_key> <eth> <t> <1> : "𝟷" U1D7F7
+<Multi_key> <eth> <t> <2> : "𝟸" U1D7F8
+<Multi_key> <eth> <t> <3> : "𝟹" U1D7F9
+<Multi_key> <eth> <t> <4> : "𝟺" U1D7FA
+<Multi_key> <eth> <t> <5> : "𝟻" U1D7FB
+<Multi_key> <eth> <t> <6> : "𝟼" U1D7FC
+<Multi_key> <eth> <t> <7> : "𝟽" U1D7FD
+<Multi_key> <eth> <t> <8> : "𝟾" U1D7FE
+<Multi_key> <eth> <t> <9> : "𝟿" U1D7FF
+
 
 # Latin Extended-G
 
@@ -2206,8 +2506,10 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 
 # Enclosed Alphanumeric Supplement
+
 <Multi_key> <parenleft> <C> <D> <parenright>	: "🄭"	U1F12D # CIRCLED CD
 <Multi_key> <parenleft> <c> <d> <parenright>	: "🄭"	U1F12D # CIRCLED CD
+<Multi_key> <parenleft> <W> <Z> <parenright>	: "🄮"	U1F12E # CIRCLED WZ
 <Multi_key> <parenleft> <W> <z> <parenright>	: "🄮"	U1F12E # CIRCLED WZ
 <Multi_key> <o> <parenright>	: "🄯"	U1F12F # COPYLEFT SYMBOL
 <Multi_key> <O> <parenright>	: "🄯"	U1F12F # COPYLEFT SYMBOL
@@ -2237,6 +2539,12 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <bracketleft> <X> <bracketright>	: "🅇"	U1F147 # SQUARED LATIN CAPITAL LETTER X
 <Multi_key> <bracketleft> <Y> <bracketright>	: "🅈"	U1F148 # SQUARED LATIN CAPITAL LETTER Y
 <Multi_key> <bracketleft> <Z> <bracketright>	: "🅉"	U1F149 # SQUARED LATIN CAPITAL LETTER Z
+<Multi_key> <bracketleft> <H> <V> <bracketright>	: "🅊"	U1F14A # SQUARED HV
+<Multi_key> <bracketleft> <M> <V> <bracketright>	: "🅋"	U1F14B # SQUARED MV
+<Multi_key> <bracketleft> <S> <D> <bracketright>	: "🅌"	U1F14C # SQUARED SD
+<Multi_key> <bracketleft> <S> <S> <bracketright>	: "🅍"	U1F14D # SQUARED SS
+<Multi_key> <bracketleft> <P> <P> <V> <bracketright>	: "🅎"	U1F14E # SQUARED PPV
+<Multi_key> <bracketleft> <W> <C> <bracketright>	: "🅏"	U1F14F # SQUARED WC
 <Multi_key> <M> <C>	: "🅪"	U1F16A # RAISED MC SIGN
 <Multi_key> <m> <c>	: "🅪"	U1F16A # RAISED MC SIGN
 <Multi_key> <M> <D>	: "🅫"	U1F16B # RAISED MD SIGN
