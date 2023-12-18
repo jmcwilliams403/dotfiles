@@ -1,4 +1,4 @@
-include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
+﻿include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Basic Latin
 
@@ -332,7 +332,16 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <macron> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
 <Multi_key> <minus> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
 <Multi_key> <underscore> <eabovedot>	: "ė̄"	# LATIN SMALL LETTER E WITH DOT ABOVE with COMBINING MACRON
-
+<Multi_key> <period> <U>	: "U̇"	# LATIN CAPITAL LETTER U with COMBINING DOT ABOVE
+<Multi_key> <U> <period>	: "U̇"	# LATIN CAPITAL LETTER U with COMBINING DOT ABOVE
+<Multi_key> <period> <u>	: "u̇"	# LATIN SMALL LETTER U with COMBINING DOT ABOVE
+<Multi_key> <u> <period>	: "u̇"	# LATIN SMALL LETTER U with COMBINING DOT ABOVE
+<Multi_key> <macron> <period> <U>	: "U̇̄"	# LATIN CAPITAL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
+<Multi_key> <minus> <period> <U>	: "U̇̄"	# LATIN CAPITAL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
+<Multi_key> <underscore> <period> <U>	: "U̇̄"	# LATIN CAPITAL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
+<Multi_key> <macron> <period> <u>	: "u̇̄"	# LATIN SMALL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
+<Multi_key> <minus> <period> <u>	: "u̇̄"	# LATIN SMALL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
+<Multi_key> <underscore> <period> <u>	: "u̇̄"	# LATIN SMALL LETTER U with COMBINING DOT ABOVE and COMBINING MACRON
 
 # IPA Extensions
 
@@ -358,6 +367,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <n> <U0322>	: "ɳ"	U0273 # LATIN SMALL LETTER N WITH RETROFLEX HOOK
 
 <Multi_key> <p> <h>	: "ɸ"	U0278 # LATIN SMALL LETTER PHI
+<Multi_key> <r> <r>	: "ɹ"	U0279 # LATIN SMALL LETTER TURNED R
 
 <Multi_key> <y> <r>	: "ʀ"	U0280 # LATIN LETTER SMALL CAPITAL R
 
@@ -603,6 +613,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <ezh> <U0322>	: "ᶚ"	U1D9A # LATIN SMALL LETTER EZH WITH RETROFLEX HOOK
 <Multi_key> <asciicircum> <underscore> <U0252>	: "ᶛ"	U1D9B # MODIFIER LETTER SMALL TURNED ALPHA
 <Multi_key> <asciicircum> <underscore> <c>	: "ᶜ"	U1D9C # MODIFIER LETTER SMALL C
+<Multi_key> <asciicircum> <underscore> <ccedilla>	: "ᶜ̧"	# MODIFIER LETTER SMALL C with COMBINING CEDILLA
 <Multi_key> <asciicircum> <underscore> <U0255>	: "ᶝ"	U1D9D # MODIFIER LETTER SMALL C WITH CURL
 <Multi_key> <asciicircum> <underscore> <eth>	: "ᶞ"	U1D9E # MODIFIER LETTER SMALL ETH
 <Multi_key> <asciicircum> <underscore> <U025C>	: "ᶟ"	U1D9F # MODIFIER LETTER SMALL REVERSED OPEN E
@@ -1161,21 +1172,16 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 <Multi_key> <dstroke> <underscore>	: "₫"	U20AB # DONG SIGN
 <Multi_key> <underscore> <slash> <d>	: "₫"	U20AB # DONG SIGN
 
-<Multi_key> <equal> <T>	: "₮"	U20AE # TUGRIK SIGN
-<Multi_key> <T> <equal>	: "₮"	U20AE # TUGRIK SIGN
 <Multi_key> <D> <r>	: "₯"	U20AF # DRACHMA SIGN
 <Multi_key> <Greek_DELTA> <Greek_rho>	: "₯"	U20AF # DRACHMA SIGN
 <Multi_key> <p> <f>	: "₰"	U20B0 # GERMAN PENNY SIGN
-<Multi_key> <equal> <P>	: "₧"	U20A7 # PESETA SIGN
-<Multi_key> <P> <equal>	: "₧"	U20A7 # PESETA SIGN
-<Multi_key> <bar> <G>	: "₲"	U20B2 # GUARANI SIGN
-<Multi_key> <G> <bar>	: "₲"	U20B2 # GUARANI SIGN
+<Multi_key> <equal> <P>	: "₱"	U20B1 # PESO SIGN
+<Multi_key> <P> <equal>	: "₱"	U20B1 # PESO SIGN
+
 <Multi_key> <equal> <A>	: "₳"	U20B3 # AUSTRAL SIGN
 <Multi_key> <A> <equal>	: "₳"	U20B3 # AUSTRAL SIGN
 <Multi_key> <equal> <Cyrillic_GHE>	: "₴"	U20B4 # HRYVNIA SIGN
 <Multi_key> <Cyrillic_GHE> <equal>	: "₴"	U20B4 # HRYVNIA SIGN
-<Multi_key> <bar> <C>	: "₵"	U20B5 # CEDI SIGN
-<Multi_key> <C> <bar>	: "₵"	U20B5 # CEDI SIGN
 <Multi_key> <l> <t>	: "₶"	U20B6 # LIVRE TOURNOIS SIGN
 <Multi_key> <S> <m>	: "₷"	U20B7 # SPESMILO SIGN
 
@@ -1345,7 +1351,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 # Arrows
 
 <Multi_key> <bar> <bar> <asciicircum>	: "⇑"	U21D1 # UPWARDS DOUBLE ARROW
-<Multi_key> <bar> <bar> <v>	: "⇑"	U21D1 # UPWARDS DOUBLE ARROW
+<Multi_key> <bar> <bar> <v>	: "⇓"	U21D3 # DOWNWARDS DOUBLE ARROW
 
 
 # Mathematical Operators
@@ -1600,8 +1606,6 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 # Latin Extended-E
 
 <Multi_key> <slash> <U0254>	: "ꬿ"	UAB3F # LATIN SMALL LETTER OPEN O WITH STROKE
-
-<Multi_key> <r> <r>	: "ꭈ"	UAB48 # LATIN SMALL LETTER DOUBLE R
 
 <Multi_key> <k> <h>	: "ꭓ"	UAB53 # LATIN SMALL LETTER CHI
 
@@ -2500,6 +2504,7 @@ include "%H/dotfiles/libX11/nls/en_US.UTF-8/Compose.pre"
 
 # Latin Extended-G
 
+<Multi_key> <U026E> <U0322>	: "𝼅"	U1DF05 # LATIN SMALL LETTER LEZH WITH RETROFLEX HOOK
 <Multi_key> <U027A> <U0322>	: "𝼈"	U1DF08 # LATIN SMALL LETTER TURNED R WITH LONG LEG AND RETROFLEX HOOK
 <Multi_key> <U01AD> <U0322>	: "𝼉"	U1DF09 # LATIN SMALL LETTER TURNED T WITH HOOK AND RETROFLEX HOOK
 <Multi_key> <U01C3> <U0322>	: "𝼊"	U1DF0A # LATIN SMALL LETTER RETROFLEX CLICK WITH RETROFLEX HOOK
