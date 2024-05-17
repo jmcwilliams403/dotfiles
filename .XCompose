@@ -150,9 +150,13 @@
 <Multi_key> <U> <parenleft>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
 <Multi_key> <U> <x>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
 <Multi_key> <U> <X>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
+<Multi_key> <u> <space> <U>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
+<Multi_key> <U> <space> <U>	: "Ŭ"	U016C # LATIN CAPITAL LETTER U WITH BREVE
 <Multi_key> <u> <parenleft>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
 <Multi_key> <u> <x>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
 <Multi_key> <u> <X>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
+<Multi_key> <u> <space> <u>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
+<Multi_key> <U> <space> <u>	: "ŭ"	U016D # LATIN SMALL LETTER U WITH BREVE
 <Multi_key> <degree> <U>	: "Ů"	U016E # LATIN CAPITAL LETTER U WITH RING
 <Multi_key> <degree> <u>	: "ů"	U016F # LATIN SMALL LETTER U WITH RING
 <Multi_key> <h> <U>	: "Ű"	U0170 # LATIN CAPITAL LETTER U WITH DOUBLE ACUTE
@@ -170,6 +174,7 @@
 
 <Multi_key> <N> <D>	: "Ƌ"	U018B # LATIN CAPITAL LETTER D WITH TOPBAR
 <Multi_key> <n> <d>	: "ƌ"	U018C # LATIN SMALL LETTER D WITH TOPBAR
+<Multi_key> <z> <z>	: "ƍ"	U018D # LATIN SMALL LETTER TURNED DELTA
 
 <Multi_key> <F> <O>	: "Ƒ"	U0191 # LATIN CAPITAL LETTER F WITH HOOK
 <Multi_key> <O> <F>	: "Ƒ"	U0191 # LATIN CAPITAL LETTER F WITH HOOK
@@ -178,7 +183,8 @@
 
 <Multi_key> <h> <v>	: "ƕ"	U0195 # LATIN SMALL LETTER HV
 
-<Multi_key> <W> <U>	: "Ɯ"	U019C # LATIN CAPITAL LETTER TURNED M
+<Multi_key> <U> <U>	: "Ɯ"	U019C # LATIN CAPITAL LETTER TURNED M
+<Multi_key> <G> <N>	: "Ɲ"	U019D # LATIN CAPITAL LETTER N WITH LEFT HOOK
 
 <Multi_key> <Q> <H>	: "Ƣ"	U01A2 # LATIN CAPITAL LETTER GHA
 <Multi_key> <q> <h>	: "ƣ"	U01A3 # LATIN SMALL LETTER GHA
@@ -375,6 +381,7 @@
 <Multi_key> <e> <r>	: "ɚ"	U025A # LATIN SMALL LETTER SCHWA WITH HOOK
 
 <Multi_key> <U025C> <U02DE>	: "ɝ"	U025D # LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
+<Multi_key> <3> <r>	: "ɝ"	U025D # LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
 
 <Multi_key> <slash> <period> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
 <Multi_key> <period> <slash> <j>	: "ɟ"	U025F # LATIN SMALL LETTER DOTLESS J WITH STROKE
@@ -391,15 +398,15 @@
 <Multi_key> <l> <U0322>	: "ɭ"	U026D # LATIN SMALL LETTER L WITH RETROFLEX HOOK
 <Multi_key> <l> <h>	: "ɮ"	U026E # LATIN SMALL LETTER LEZH
 
-<Multi_key> <w> <u>	: "ɯ"	U026F # LATIN SMALL LETTER TURNED M
-<Multi_key> <U26F> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
-<Multi_key> <Multi_key> <w> <u> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
+<Multi_key> <u> <u>	: "ɯ"	U026F # LATIN SMALL LETTER TURNED M
+<Multi_key> <U026F> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
+<Multi_key> <Multi_key> <u> <u> <bar>	: "ɰ"	U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
 <Multi_key> <m> <g>	: "ɱ"	U0271 # LATIN SMALL LETTER M WITH HOOK
-
+<Multi_key> <g> <n>	: "ɲ"	U0272 # LATIN SMALL LETTER N WITH LEFT HOOK
 <Multi_key> <n> <U0322>	: "ɳ"	U0273 # LATIN SMALL LETTER N WITH RETROFLEX HOOK
 
 <Multi_key> <p> <h>	: "ɸ"	U0278 # LATIN SMALL LETTER PHI
-<Multi_key> <r> <h>	: "ɹ"	U0279 # LATIN SMALL LETTER TURNED R
+<Multi_key> <r> <backslash>	: "ɹ"	U0279 # LATIN SMALL LETTER TURNED R
 
 <Multi_key> <y> <r>	: "ʀ"	U0280 # LATIN LETTER SMALL CAPITAL R
 
@@ -915,6 +922,7 @@
 <Multi_key> <abovedot> <f> <s>	: "ẛ"	U1E9B # LATIN SMALL LETTER LONG S WITH DOT ABOVE
 
 <Multi_key> <S> <Z>	: "ẞ"	U1E9E # LATIN CAPITAL LETTER SHARP S
+<Multi_key> <d> <d>	: "ẟ"	U1E9F # LATIN SMALL LETTER DELTA
 
 <Multi_key> <apostrophe> <space> <U> <A>	: "Ắ"	U1EAE # LATIN CAPITAL LETTER A WITH BREVE AND ACUTE
 <Multi_key> <apostrophe> <space> <U> <a>	: "ắ"	U1EAF # LATIN SMALL LETTER A WITH BREVE AND ACUTE
@@ -1557,6 +1565,8 @@
 
 <Multi_key> <comma> <minus>	: "⌐"	U2310 # REVERSED NOT SIGN
 
+<Multi_key> <k> <b>	: "⌨"	U2328 # KEYBOARD
+
 <Multi_key> <bracketleft> <parenleft> <bracketright> <parenright> : "⎄" U2384 # COMPOSITION SYMBOL
 <Multi_key> <parenleft> <bracketleft> <parenright> <bracketright> : "⎄" U2384 # COMPOSITION SYMBOL
 
@@ -1942,7 +1952,7 @@
 <Multi_key> <numbersign> <t>	: "𝄲"	U1D132 # MUSICAL SYMBOL QUARTER TONE SHARP
 <Multi_key> <t> <t>	: "𝄲"	U1D132 # MUSICAL SYMBOL QUARTER TONE SHARP
 <Multi_key> <numbersign> <d>	: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
-<Multi_key> <d> <d>	: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
+<Multi_key> <D> <D>	: "𝄳"	U1D133 # MUSICAL SYMBOL QUARTER TONE FLAT
 
 
 
